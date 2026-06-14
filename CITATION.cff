@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code, data, or the FEH-79 benchmark, please cite the paper below."
+type: software
+title: "Free Energy Heuristics: Fast-and-Frugal Cognition as Active Inference Under Uncertain Precision"
+authors:
+  - family-names: Bogdan
+    given-names: Alex
+    affiliation: "EvolutionAIry AI Inc., Toronto, Canada"
+repository-code: "https://github.com/Evolutionairy-AI/Free-Energy-Heuristics"
+url: "https://github.com/Evolutionairy-AI/Free-Energy-Heuristics"
+date-released: "2026-06-14"
+keywords:
+  - active inference
+  - free energy principle
+  - fast-and-frugal heuristics
+  - large language models
+  - chain-of-thought
+  - test-time compute
+  - Knightian uncertainty
+  - pre-registered study
+preferred-citation:
+  type: article
+  title: "Free Energy Heuristics: Fast-and-Frugal Cognition as Active Inference Under Uncertain Precision"
+  authors:
+    - family-names: Bogdan
+      given-names: Alex
+      affiliation: "EvolutionAIry AI Inc., Toronto, Canada"
+  year: 2026
+  # ARXIV: replace the placeholder identifier (and the url) once the arXiv ID is assigned,
+  #        e.g. value "arXiv:2506.01234" and url "https://arxiv.org/abs/2506.01234"
+  identifiers:
+    - type: other
+      value: "arXiv:XXXX.XXXXX"
+      description: "arXiv preprint ID (placeholder — to be assigned)"
+  url: "https://arxiv.org/abs/XXXX.XXXXX"

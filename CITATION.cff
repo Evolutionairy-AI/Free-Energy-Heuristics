@@ -9,6 +9,7 @@ authors:
 repository-code: "https://github.com/Evolutionairy-AI/Free-Energy-Heuristics"
 url: "https://github.com/Evolutionairy-AI/Free-Energy-Heuristics"
 date-released: "2026-06-14"
+license: Apache-2.0
 keywords:
   - active inference
   - free energy principle

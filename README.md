@@ -118,3 +118,10 @@ Python deps: `numpy`, `pymc`, `arviz`, `matplotlib`, `pyyaml` (analysis);
 - **API keys** (`Experiments/API_KEYS/`) — credentials, excluded by `.gitignore`.
 - Superseded chapter drafts, round-trip artifacts, and personal review copies —
   the paper is published here only as the final assembled `FEH_Manuscript_v0.2`.
+
+## License
+
+Copyright 2026 Alex Bogdan / EvolutionAIry AI Inc. Released under the
+[Apache License 2.0](LICENSE) — free use, modification, and redistribution
+with attribution and an explicit patent grant. See [`LICENSE`](LICENSE) for
+the full terms.

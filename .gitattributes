@@ -1,0 +1,10 @@
+# Binary assets — never apply EOL (CRLF/LF) conversion.
+# Without this, core.autocrlf=true corrupts PDFs/PNGs/DOCX on checkout & clone.
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.docx binary
+*.zip  binary
+*.gz   binary

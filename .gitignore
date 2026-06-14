@@ -65,3 +65,7 @@ FEH_TheoreticalFoundation_Draft_*.docx
 # planning / working notes
 AUDIT_v0.3_math_chapter.md
 REWRITE_section_2_2_and_2_4.md
+
+# ── Overleaf build artifacts (reproducible from FEH_Overleaf/) ────────
+/Free_Energy_Heuristics__*.zip
+/Free_Energy_Heuristics__*.pdf

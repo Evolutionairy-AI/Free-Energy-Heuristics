@@ -1,0 +1,649 @@
+[
+  {
+    "frame_id": "K1-005",
+    "category": "non-recurrent-forecasting",
+    "question": "By the end of 2032, the FIRST formal bilateral AI-safety treaty\nbetween two of {United States, China, European Union, India,\nRussia, United Kingdom} that includes binding compliance\nmechanisms (not just declarations or memoranda of understanding)\nwill be signed between which two parties: (a) US and China, (b)\nUS and EU, (c) US and India, (d) China and Russia, (e) China and\nEU, (f) EU and India, or (g) no such treaty will be signed by the\nend of 2032?",
+    "answer_choices": [
+      "us-china",
+      "us-eu",
+      "us-india",
+      "china-russia",
+      "china-eu",
+      "eu-india",
+      "no-treaty-by-2032"
+    ],
+    "n_seeds": 5,
+    "cells": [
+      {
+        "provider": "claude",
+        "seed": 1,
+        "raw": "I need to assess which bilateral AI-safety treaty with binding compliance mechanisms is most likely to be signed first by the end of 2032.\n\nKey considerations:\n\n1. **US-China**: Despite being AI superpowers, geopolitical tensions make a binding treaty unlikely. Competition over AI dominance and mutual distrust create significant barriers.\n\n2. **US-EU**: Strong alignment on democratic values, existing cooperation frameworks (Trade and Technology Council), and shared concerns about AI safety. The EU has been proactive with AI regulation (AI Act). This pairing has high trust and compatible regulatory philosophies.\n\n3. **US-India**: Growing partnership but India's AI capabilities are still developing. Less urgent need for a formal treaty compared to US-EU.\n\n4. **China-Russia**: Limited AI development in Russia compared to China. Not a priority pairing for meaningful AI safety cooperation.\n\n5. **China-EU**: EU's strategic autonomy goals and concerns about China, plus geopolitical tensions, make this challenging despite economic ties.\n\n6. **EU-India**: Both developing AI frameworks but less urgent than US-EU cooperation.\n\n7. **No treaty**: Possible given the difficulty of creating binding international agreements, but the rapid AI development and growing safety concerns create pressure for action.\n\nThe US-EU pairing stands out as most likely because:\n- Strongest existing cooperation and trust\n- Aligned values and regulatory approaches\n- Both are major AI developers with shared safety concerns\n- Political feasibility is highest among all options\n- EU's regulatory leadership (AI Act) provides a foundation\n\nFinal answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 12.01,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 2,
+        "raw": "I need to consider the likelihood of formal bilateral AI safety treaties with binding compliance mechanisms between major powers by end of 2032.\n\nKey factors to consider:\n- Current geopolitical relationships and trust levels\n- Existing AI cooperation frameworks\n- Strategic incentives for cooperation vs competition\n- Likelihood of achieving binding (not just declarative) agreements\n\nAnalysis by pairing:\n\n**US-China**: Despite being AI superpowers with mutual concerns about AI risks, geopolitical tensions, strategic competition, and trust deficits make binding treaty mechanisms very difficult. Declarations possible, but binding compliance unlikely.\n\n**US-EU**: Strong existing alliance, shared democratic values, active AI cooperation (Trade and Technology Council), aligned regulatory approaches. Most favorable conditions for binding agreement. EU's AI Act shows regulatory leadership.\n\n**US-India**: Growing partnership but less AI regulatory maturity on India's side. Less urgent priority compared to US-EU cooperation.\n\n**China-Russia**: Limited AI capabilities on Russia's side, partnership of convenience rather than deep institutional cooperation. Low priority for formal AI safety treaties.\n\n**China-EU**: Significant economic ties but growing strategic divergence, human rights concerns, and EU alignment with US on tech security. Difficult for binding mechanisms.\n\n**EU-India**: Possible but lower priority than transatlantic cooperation for both parties.\n\n**No treaty**: Given the 10-year timeframe and growing AI safety concerns, some binding agreement seems plausible, especially between allies.\n\nThe US-EU pairing has the strongest foundation: existing institutional cooperation, aligned values, mutual trust, and both are developing serious AI governance frameworks. A binding bilateral treaty seems most feasible here.\n\nFinal answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 13.65,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 3,
+        "raw": "I need to assess the likelihood of formal bilateral AI-safety treaties with binding compliance mechanisms between major powers by end of 2032.\n\nKey considerations:\n\n1. **US-China**: Despite being AI superpowers with mutual concerns, deep geopolitical tensions, trade disputes, and trust deficits make binding treaties difficult. However, existential AI risks could motivate cooperation.\n\n2. **US-EU**: Strong existing alliance, shared democratic values, and alignment on AI regulation (though EU is more regulatory). Most natural partnership but EU's multilateral preference and existing cooperation frameworks may delay formal bilateral treaty.\n\n3. **US-India**: Growing partnership, especially in tech and Quad framework. However, India's AI capabilities lag behind, making AI-safety treaty less urgent.\n\n4. **China-Russia**: Close geopolitical alignment but both lack transparency culture needed for binding compliance. Limited mutual benefit.\n\n5. **China-EU**: EU seeks strategic autonomy and economic ties with China, but fundamental value differences and China's resistance to external oversight make binding mechanisms unlikely.\n\n6. **EU-India**: Possible but both have lower AI development urgency compared to US-China competition.\n\n7. **No treaty**: Given complexity of binding compliance mechanisms, sovereignty concerns, and slow pace of international treaty-making, this is quite plausible.\n\nThe US-EU pairing has the strongest foundation of trust, shared values, and existing cooperation frameworks needed for binding commitments. While the US-China relationship involves higher stakes, achieving binding compliance mechanisms seems much harder given current tensions.\n\nFinal answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 12.64,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 4,
+        "raw": "I need to assess the likelihood of formal bilateral AI-safety treaties with binding compliance mechanisms between major powers by 2032.\n\nKey considerations:\n\n1. **US-China**: Despite being AI superpowers with mutual concerns, geopolitical tensions, trade disputes, and strategic competition make binding treaties difficult. However, existential AI risks might eventually force cooperation.\n\n2. **US-EU**: Strong existing alliance, shared democratic values, similar regulatory approaches (though EU is more regulatory). High trust makes binding agreements more feasible.\n\n3. **US-India**: Growing partnership, but India's AI capabilities are less advanced. Less urgent need for bilateral treaty.\n\n4. **China-Russia**: Limited AI cooperation, Russia's AI capabilities lag behind. Less strategic priority.\n\n5. **China-EU**: Some cooperation exists, but geopolitical tensions and different governance models create challenges.\n\n6. **EU-India**: Possible but lower priority given India's developing AI sector.\n\n7. **No treaty**: Given the difficulty of achieving binding international agreements on emerging technology, especially with compliance mechanisms, this is plausible.\n\nThe US-EU pairing has the highest likelihood due to:\n- Existing strong alliance and trust\n- Shared democratic values and governance approaches\n- Both are major AI players\n- History of successful bilateral agreements\n- Lower geopolitical barriers than US-China\n- Growing regulatory convergence on AI\n\nHowever, the 2032 timeline is aggressive for binding treaties with compliance mechanisms, making \"no treaty\" a strong contender.\n\nBalancing feasibility against likelihood, US-EU represents the most probable pairing if any treaty emerges.\n\nFinal answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 12.43,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 5,
+        "raw": "I need to assess the likelihood of formal bilateral AI safety treaties with binding compliance mechanisms between major powers by end of 2032.\n\nKey considerations:\n\n1. **US-China**: Despite being AI superpowers with mutual concerns, geopolitical tensions, trust deficits, and competitive dynamics make binding treaties difficult. However, existential AI risks could motivate cooperation.\n\n2. **US-EU**: Strong existing alliance, shared democratic values, and regulatory alignment (EU AI Act). Most natural partnership but EU may prefer multilateral approaches.\n\n3. **US-India**: Growing partnership, shared democratic values, but India's AI capabilities are less advanced. Less urgent need for bilateral treaty.\n\n4. **China-Russia**: Strategic partnership exists but neither leads in AI safety research. Less likely to pioneer safety treaties.\n\n5. **China-EU**: Some cooperation potential but geopolitical tensions and values differences create barriers.\n\n6. **EU-India**: Possible but both have less geopolitical urgency than US-China dynamic.\n\n7. **No treaty**: Given slow pace of international AI governance, distrust between powers, and difficulty of verification mechanisms, this is plausible.\n\nThe most likely scenario is **US-EU** because:\n- Strongest existing trust and institutional frameworks\n- Shared values on governance\n- Both are advancing AI safety research\n- Could set precedent before tackling harder US-China relationship\n- EU's regulatory leadership (AI Act) provides foundation\n\nHowever, the **no treaty** option is also very plausible given the nascent state of AI safety governance and the difficulty of achieving binding mechanisms by 2032.\n\nWeighing probabilities, US-EU seems most likely if any treaty emerges, but it's a close call with no-treaty.\n\nFinal answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 12.86,
+        "error": null
+      },
+      {
+        "provider": "gemini",
+        "seed": 1,
+        "raw": "us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 12.95,
+        "error": null
+      },
+      {
+        "provider": "gemini",
+        "seed": 2,
+        "raw": "Final answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 29.89,
+        "error": null
+      },
+      {
+        "provider": "gemini",
+        "seed": 3,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 67.98,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "gemini",
+        "seed": 4,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 68.06,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "gemini",
+        "seed": 5,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 68.2,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "gpt4",
+        "seed": 1,
+        "raw": "Final answer: no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 1.51,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 2,
+        "raw": "Final answer: no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 1.72,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 3,
+        "raw": "Final answer: no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 1.38,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 4,
+        "raw": "Final answer: no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 1.39,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 5,
+        "raw": "Final answer: no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 1.37,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 1,
+        "raw": "Final answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 1.43,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 2,
+        "raw": "Final answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 0.84,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 3,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 67.05,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "mistral",
+        "seed": 4,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 67.4,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "mistral",
+        "seed": 5,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 67.27,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      }
+    ],
+    "per_provider_modal": {
+      "claude": "us-eu",
+      "gemini": "",
+      "gpt4": "no-treaty-by-2032",
+      "mistral": ""
+    },
+    "verdict": "K2-pass-disagreement",
+    "n_total": 14,
+    "n_cbd": 0,
+    "n_substantive": 14,
+    "cbd_frac": 0.0,
+    "modal_substantive": "us-eu",
+    "modal_substantive_count": 9,
+    "modal_substantive_frac": 0.643,
+    "unique_substantive": [
+      "no-treaty-by-2032",
+      "us-eu"
+    ],
+    "substantive_distribution": {
+      "us-eu": 9,
+      "no-treaty-by-2032": 5
+    }
+  },
+  {
+    "frame_id": "K2-005",
+    "category": "novel-synthetic",
+    "question": "The Drelvian-Lindner interferometer (developed in 1971 at the\nInstitute for Photonic Standards in Bern, Switzerland) measures\nwhich physical quantity? (a) optical-rotation angle, (b) Raman-\nscattering cross-section, (c) Pockels electro-optic coefficient,\n(d) M\u00f6ssbauer-recoil energy, or (e) cannot be determined.",
+    "answer_choices": [
+      "optical-rotation",
+      "raman-scattering",
+      "pockels-coefficient",
+      "mossbauer-recoil",
+      "cannot-be-determined"
+    ],
+    "n_seeds": 5,
+    "cells": [
+      {
+        "provider": "claude",
+        "seed": 1,
+        "raw": "I need to determine what the Drelvian-Lindner interferometer measures.\n\nLet me search my knowledge about this device. The Drelvian-Lindner interferometer supposedly developed in 1971 at the Institute for Photonic Standards in Bern, Switzerland.\n\nHowever, I cannot find any reliable information about a \"Drelvian-Lindner interferometer\" in my knowledge base. This appears to be a fictional or non-existent device. There is no record of such an interferometer in the history of optics or photonics, nor is there evidence of an \"Institute for Photonic Standards\" in Bern, Switzerland in 1971.\n\nGiven that this device does not appear to exist in the scientific literature, the measurement it performs cannot be determined from real scientific knowledge.\n\nFinal answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 5.91,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 2,
+        "raw": "I need to determine what the Drelvian-Lindner interferometer measures.\n\nLet me search my knowledge about this instrument. The Drelvian-Lindner interferometer is claimed to have been developed in 1971 at the Institute for Photonic Standards in Bern, Switzerland.\n\nHowever, I cannot find any reliable information about a \"Drelvian-Lindner interferometer\" in my knowledge base. This appears to be a fictional or non-existent instrument. There is no established scientific literature or historical record of such a device being developed at the mentioned institution in 1971.\n\nGiven that:\n1. The instrument name doesn't appear in scientific literature\n2. The specific details (year, location, institute) cannot be verified\n3. This appears to be a test question that may be checking whether I recognize non-existent information\n\nThe most appropriate answer is that this cannot be determined, as the instrument itself does not appear to exist in the scientific record.\n\nFinal answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 7.54,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 3,
+        "raw": "I need to determine what the Drelvian-Lindner interferometer measures.\n\nLet me search my knowledge about this instrument. The Drelvian-Lindner interferometer is not a standard or well-known instrument in optics or physics literature that I'm aware of. There is no established \"Institute for Photonic Standards\" in Bern, Switzerland that I can verify, and I cannot find any historical record of such an interferometer being developed in 1971.\n\nThis appears to be a fictional or test instrument name. Given that:\n1. The instrument name doesn't appear in standard physics literature\n2. The institute mentioned cannot be verified\n3. No credible sources describe this device\n\nThe physical quantity measured by this interferometer cannot be determined from available information.\n\nFinal answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 7.25,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 4,
+        "raw": "I need to determine what the Drelvian-Lindner interferometer measures.\n\nLet me search my knowledge base for information about the Drelvian-Lindner interferometer, supposedly developed in 1971 at the Institute for Photonic Standards in Bern, Switzerland.\n\nAfter careful consideration, I cannot find any reliable information about a \"Drelvian-Lindner interferometer\" in the scientific literature. This appears to be a fictional or non-existent device. The Institute for Photonic Standards in Bern, Switzerland is also not a recognized institution in the historical record of optics and photonics research.\n\nGiven that this device does not appear to exist in the scientific literature, and the question explicitly offers \"cannot be determined\" as an option, this is the appropriate answer.\n\nFinal answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 5.85,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 5,
+        "raw": "I need to determine what the Drelvian-Lindner interferometer measures.\n\nLet me search my knowledge about this instrument. The Drelvian-Lindner interferometer is not a standard or well-known instrument in the physics literature that I'm aware of. There is no record of such an interferometer being developed in 1971 at the Institute for Photonic Standards in Bern, Switzerland in standard physics references.\n\nThis appears to be a fictional or made-up instrument name, possibly used as a test question. When an instrument or concept doesn't exist in the established scientific literature, the appropriate answer would be that it \"cannot be determined\" since there's no actual physical device or measurement principle to reference.\n\nFinal answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 7.72,
+        "error": null
+      },
+      {
+        "provider": "gemini",
+        "seed": 1,
+        "raw": "The Drelvian-Lindner interferometer, its development year (1971), and the Institute for Photonic Standards in Bern, Switzerland, appear to be entirely fictional. A search for this interferometer or institute yields no credible results in scientific literature or general information. Therefore, if the device does not exist, its measured physical quantity cannot be determined.\n\nThe final answer is $\\boxed{\\text{cannot-be-determined}}$",
+        "extracted": "the final answer is $\\boxed{\\text{cannot-be-determined}}$",
+        "normalized": "optical-rotation",
+        "latency_s": 8.38,
+        "error": null
+      },
+      {
+        "provider": "gemini",
+        "seed": 2,
+        "raw": "Final answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 3.51,
+        "error": null
+      },
+      {
+        "provider": "gemini",
+        "seed": 3,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 67.33,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "gemini",
+        "seed": 4,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 67.96,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "gemini",
+        "seed": 5,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 68.06,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "gpt4",
+        "seed": 1,
+        "raw": "Final answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 2.5,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 2,
+        "raw": "Final answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 1.36,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 3,
+        "raw": "Final answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 1.46,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 4,
+        "raw": "Final answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 2.16,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 5,
+        "raw": "Final answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 1.46,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 1,
+        "raw": "Final answer: optical-rotation",
+        "extracted": "optical-rotation",
+        "normalized": "optical-rotation",
+        "latency_s": 0.76,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 2,
+        "raw": "Final answer: optical-rotation",
+        "extracted": "optical-rotation",
+        "normalized": "optical-rotation",
+        "latency_s": 0.76,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 3,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 67.19,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "mistral",
+        "seed": 4,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 67.68,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "mistral",
+        "seed": 5,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 67.57,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      }
+    ],
+    "per_provider_modal": {
+      "claude": "cannot-be-determined",
+      "gemini": "",
+      "gpt4": "cannot-be-determined",
+      "mistral": ""
+    },
+    "verdict": "K2-pass-disagreement",
+    "n_total": 14,
+    "n_cbd": 11,
+    "n_substantive": 3,
+    "cbd_frac": 0.786,
+    "modal_substantive": "optical-rotation",
+    "modal_substantive_count": 3,
+    "modal_substantive_frac": 0.214,
+    "unique_substantive": [
+      "optical-rotation"
+    ],
+    "substantive_distribution": {
+      "optical-rotation": 3
+    }
+  },
+  {
+    "frame_id": "K4-003",
+    "category": "strategic-uncertainty",
+    "question": "Five firms in a tech consortium each independently decide whether\nto commit to a joint AI-safety auditing standard. Committing costs\n$500K (audit-infrastructure investment). If at least 3 firms\ncommit, all 5 receive market-trust gains worth $1.2M each. If\nfewer than 3 commit, an unknown regulator may impose mandatory\naudits at $1.5M cost per non-committing firm; the regulator's\ndecision criteria and probability of action are not publicly known\nand have no industry-standard estimate. You face the decision and\nhave no information about the other firms' intentions. Commit,\nwithhold, or cannot-be-determined?",
+    "answer_choices": [
+      "commit",
+      "withhold",
+      "cannot-be-determined"
+    ],
+    "n_seeds": 5,
+    "cells": [
+      {
+        "provider": "claude",
+        "seed": 1,
+        "raw": "I need to analyze this decision under uncertainty with strategic interdependence.\n\n**Payoff Structure:**\n- If I commit: Cost = -$500K\n- If \u22653 firms total commit: All gain +$1.2M\n- If <3 firms commit: Non-committers face possible regulatory cost of -$1.5M (unknown probability)\n\n**Key Analysis:**\n\nIf I commit (-$500K):\n- Need 2+ others to commit for the threshold\n- If threshold met: Net = $1.2M - $500K = +$700K\n- If threshold not met: Net = -$500K (avoid potential regulatory cost)\n\nIf I withhold ($0 initially):\n- If \u22653 others commit: I get +$1.2M (free-ride)\n- If <3 total commit: Face unknown probability of -$1.5M regulatory cost\n\n**Critical Issue:**\nThe regulator's probability and decision criteria are \"not publicly known and have no industry-standard estimate.\" This creates fundamental uncertainty that cannot be resolved through expected value calculation.\n\n**However, consider:**\n1. The regulatory risk only applies to non-committers\n2. If I commit, I avoid this unquantifiable regulatory risk entirely\n3. The symmetric nature suggests others face the same calculus\n4. Committing gives positive expected value if enough others commit, and eliminates downside regulatory risk\n\n**But the problem is:**\n- Unknown probability of regulatory action makes expected value incalculable\n- No information about other firms' intentions\n- The strategic equilibrium is indeterminate without probability estimates\n- Cannot determine if committing or withholding is rational without the regulatory probability\n\nGiven that the regulatory probability is explicitly unknowable and no industry standard exists, this is a decision under deep uncertainty where rational choice theory cannot determine an optimal strategy.\n\nFinal answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 12.77,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 2,
+        "raw": "I need to analyze this decision under uncertainty with strategic interdependence.\n\n**Payoff Structure:**\n- If I commit: -$500K cost\n- If \u22653 firms total commit (including me): +$1.2M benefit\n- If I don't commit and <3 firms commit: potential -$1.5M regulatory cost (unknown probability)\n\n**Key Analysis:**\n\nIf I commit:\n- Need at least 2 others to commit for threshold\n- Net if successful: $1.2M - $500K = $700K gain\n- Net if unsuccessful (<3 total): -$500K loss\n\nIf I withhold:\n- If \u22653 others commit: $1.2M gain (free-ride)\n- If <3 others commit: $0 or -$1.5M (unknown probability p)\n\n**Critical Issue:** The regulator's probability and criteria are \"not publicly known and have no industry-standard estimate.\" This means:\n- I cannot assign a meaningful probability to regulatory action\n- The expected value calculation is impossible\n- This is genuine Knightian uncertainty, not just risk\n\n**Strategic Consideration:**\nWithout knowing others' intentions or the regulatory probability, I cannot determine:\n1. The likelihood of reaching the 3-firm threshold with my participation\n2. The expected cost of non-commitment\n3. Whether committing is dominant, dominated, or conditional\n\nThis is a coordination game under deep uncertainty where rational choice requires either:\n- Information about others' likely actions, OR\n- A probability estimate for regulatory action, OR\n- Risk preferences/decision rules for unknown probabilities\n\nNone are provided.\n\nFinal answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 11.8,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 3,
+        "raw": "I need to analyze this decision under uncertainty with strategic interdependence.\n\n**Payoff Analysis:**\n\nIf I commit (-$500K):\n- If \u22652 others commit (\u22653 total): +$1.2M - $0.5M = +$0.7M\n- If <2 others commit (<3 total): -$0.5M (plus no regulatory risk for me)\n\nIf I withhold ($0):\n- If \u22653 others commit: +$1.2M\n- If <3 others commit: Unknown regulatory cost (could be -$1.5M with unknown probability)\n\n**Key Issues:**\n\n1. **Regulatory uncertainty**: The probability and criteria for regulatory action are completely unknown with \"no industry-standard estimate.\" This makes the expected cost of withholding incalculable.\n\n2. **Strategic uncertainty**: I have \"no information about the other firms' intentions.\"\n\n3. **Coordination problem**: This is a threshold public goods game where success requires coordination.\n\n**Analysis of rational approaches:**\n\nWithout any probability estimates for regulatory action or other firms' behavior, I cannot compute expected values. The decision depends critically on:\n- How likely regulation is\n- How other firms will decide\n- Risk preferences\n\nDifferent reasonable assumptions lead to different conclusions:\n- If regulation is likely: commit\n- If others will commit anyway: withhold\n- If coordination will fail: depends on regulatory risk\n\nThe problem explicitly states regulatory probability is \"not publicly known and have no industry-standard estimate,\" making this fundamentally indeterminate without additional assumptions about risk attitudes or probability beliefs.\n\nFinal answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 10.51,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 4,
+        "raw": "I need to analyze this decision under uncertainty with strategic interdependence.\n\n**Payoff structure:**\n- If I commit: -$500K cost\n- If \u22653 total commit (including me): +$1.2M benefit\n- If I don't commit and <3 others commit: potential -$1.5M regulatory cost (unknown probability)\n\n**Key scenarios if I commit:**\n- Need 2+ others to also commit for the threshold\n- Net payoff if threshold met: $1.2M - $0.5M = $0.7M\n- Net payoff if threshold not met: -$0.5M\n\n**Key scenarios if I withhold:**\n- If \u22653 others commit: I get $1.2M benefit, no cost, avoid regulatory risk\n- If <3 others commit: I face unknown probability of -$1.5M regulatory cost\n\n**Critical uncertainty:**\nThe regulator's probability and decision criteria are completely unknown with \"no industry-standard estimate.\" This makes expected value calculations impossible.\n\n**Strategic considerations:**\n- This is a coordination game with a threshold\n- Without information about others' intentions, I cannot assess likelihood of reaching threshold\n- The regulatory risk is unquantifiable\n- If others reason similarly, we face a coordination failure risk\n\n**Decision logic:**\nGiven:\n1. Unknown probability of regulatory action\n2. No information about other firms' intentions\n3. No basis to estimate coordination success\n4. Unquantifiable expected values\n\nThis is a decision problem where rational analysis cannot determine the optimal choice without additional information about either the regulatory probability or other firms' likely actions.\n\nFinal answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 11.05,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 5,
+        "raw": "I need to analyze this decision under uncertainty with unknown probabilities.\n\n**If I commit ($500K cost):**\n- If \u22652 others commit: gain $1.2M - $500K = $700K net\n- If <2 others commit: gain $1.2M - $500K = $700K net (I'm safe from regulator)\n\n**If I withhold ($0 cost initially):**\n- If \u22653 others commit: gain $1.2M - $0 = $1.2M net (best case)\n- If <3 others commit: gain $1.2M - unknown probability \u00d7 $1.5M\n\nThe critical issue: The regulator's probability of action is completely unknown with \"no industry-standard estimate.\" This means:\n- I cannot calculate expected value for withholding\n- The regulator might act with probability anywhere from 0% to 100%\n- The potential cost ($1.5M) exceeds the commitment cost ($500K)\n\n**Key observations:**\n1. Committing guarantees immunity from the $1.5M regulatory cost\n2. Committing gives a guaranteed net benefit of $700K if the threshold is met\n3. The unknown regulatory probability makes withholding's expected value incalculable\n4. Even a moderate probability of regulatory action (>33%) would make withholding's expected value worse than committing\n\nWithout any information about:\n- Other firms' intentions\n- Regulatory probability\n- Any basis for estimation\n\nThis is a decision under true uncertainty (not just risk). The lack of probabilistic information makes rational calculation impossible.\n\nFinal answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 9.8,
+        "error": null
+      },
+      {
+        "provider": "gemini",
+        "seed": 1,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 68.35,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "gemini",
+        "seed": 2,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 68.03,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "gemini",
+        "seed": 3,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 67.89,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "gemini",
+        "seed": 4,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 67.39,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "gemini",
+        "seed": 5,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 67.63,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      },
+      {
+        "provider": "gpt4",
+        "seed": 1,
+        "raw": "Final answer: commit",
+        "extracted": "commit",
+        "normalized": "commit",
+        "latency_s": 1.1,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 2,
+        "raw": "Final answer: commit",
+        "extracted": "commit",
+        "normalized": "commit",
+        "latency_s": 0.99,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 3,
+        "raw": "Final answer: commit",
+        "extracted": "commit",
+        "normalized": "commit",
+        "latency_s": 0.99,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 4,
+        "raw": "Final answer: commit",
+        "extracted": "commit",
+        "normalized": "commit",
+        "latency_s": 0.99,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 5,
+        "raw": "Final answer: commit",
+        "extracted": "commit",
+        "normalized": "commit",
+        "latency_s": 1.04,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 1,
+        "raw": "Final answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 1.06,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 2,
+        "raw": "Final answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 0.92,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 3,
+        "raw": "Final answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 0.84,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 4,
+        "raw": "Final answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 2.73,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 5,
+        "raw": "Final answer: cannot-be-determined",
+        "extracted": "cannot-be-determined",
+        "normalized": "cannot-be-determined",
+        "latency_s": 18.58,
+        "error": null
+      }
+    ],
+    "per_provider_modal": {
+      "claude": "cannot-be-determined",
+      "gemini": "",
+      "gpt4": "commit",
+      "mistral": "cannot-be-determined"
+    },
+    "verdict": "K2-pass-disagreement",
+    "n_total": 15,
+    "n_cbd": 10,
+    "n_substantive": 5,
+    "cbd_frac": 0.667,
+    "modal_substantive": "commit",
+    "modal_substantive_count": 5,
+    "modal_substantive_frac": 0.333,
+    "unique_substantive": [
+      "commit"
+    ],
+    "substantive_distribution": {
+      "commit": 5
+    }
+  }
+]

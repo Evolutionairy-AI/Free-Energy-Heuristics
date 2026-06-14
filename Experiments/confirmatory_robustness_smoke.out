@@ -1,0 +1,107 @@
+[data] 7875 scored cells, 7 models, 45 items. sampler=FAST-DEV
+
+=== EXPORT primary draws ===
+g++ not available, if using conda: `conda install gxx`
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 65 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[EXPORT] primary reproduces verdict (b3=-0.699, Pr<0=1.0000, ppd=17.37).
+
+=== EXPORT R7 draws ===
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 64 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[EXPORT] R7 b3=+0.414 (locked +0.416) OK
+
+=== IV-R7 ===
+[IV-R7] first stage ds_hi=+1.243, ds_lo=+1.041; IV interaction (per realized step-z) median=-0.531 [-0.857,-0.198] Pr<0=0.998
+
+=== R5 per-model ===
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_u, z_u]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 7 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[R5] claude-sonnet-4-5-20250929     b3=-0.808 [-2.011,+0.378] Pr<0=0.891 ppd=+6.3
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_u, z_u]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 6 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[R5] gpt-4o-2024-11-20              b3=-0.852 [-2.136,+0.356] Pr<0=0.930 ppd=+21.7
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_u, z_u]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[R5] mistral:7b-instruct            b3=+0.479 [-0.324,+1.391] Pr<0=0.119 ppd=+1.1
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_u, z_u]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[R5] phi3.5                         b3=+0.981 [+0.251,+1.785] Pr<0=0.007 ppd=+6.3
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_u, z_u]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 6 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[R5] qwen2.5:14b                    b3=-2.202 [-3.245,-1.207] Pr<0=1.000 ppd=+53.2
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_u, z_u]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[R5] qwen2.5:32b                    b3=-2.873 [-4.037,-1.891] Pr<0=1.000 ppd=+22.7
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_u, z_u]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[R5] qwen2.5:7b                     b3=-2.834 [-3.768,-1.959] Pr<0=1.000 ppd=+30.3
+
+=== R6 item slope ===
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u, sigma_v, z_v]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 95 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+[R6] item-slope b3=-0.467 [-1.015,+0.159] Pr<0=0.941
+
+=== R1 paragraph steps ===
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 63 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[R1] paragraph-steps b3=-0.389 [-0.539,-0.254] Pr<0=1.000
+
+=== BOOT F7.1 CIs ===
+[BOOT] per-condition cluster-bootstrap CIs computed (both regimes).
+
+[done] confirmatory_robustness.json + confirmatory_robustness.md + confirmatory_posterior_draws.json

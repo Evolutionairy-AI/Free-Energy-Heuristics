@@ -1,0 +1,39 @@
+{
+  "sampler": {
+    "draws": 4000,
+    "tune": 4000,
+    "chains": 4,
+    "target_accept": 0.99
+  },
+  "verdict": "confirmed",
+  "p_b3_neg": 1.0,
+  "b3_median": -0.6917139959276499,
+  "b3_rhat": 1.0,
+  "b3_ess_bulk": 7699.0,
+  "robust_pp_drop_median": 17.30019507761844,
+  "robust_pp_drop_ci": [
+    7.6821999090684905,
+    25.547539744805654
+  ],
+  "rhat_max": 1.01,
+  "ess_min": 1692.0,
+  "converged": false,
+  "per_param_rhat": {
+    "b0": 1.0,
+    "b1": 1.0,
+    "b2": 1.01,
+    "b3": 1.0,
+    "sigma_a": 1.0,
+    "sigma_g": 1.0,
+    "sigma_u": 1.0
+  },
+  "per_param_ess_bulk": {
+    "b0": 2379.0,
+    "b1": 3572.0,
+    "b2": 1692.0,
+    "b3": 7699.0,
+    "sigma_a": 4336.0,
+    "sigma_g": 4006.0,
+    "sigma_u": 1999.0
+  }
+}

@@ -1,0 +1,27 @@
+[start] judging 539 sentences with claude-sonnet-4-5-20250929
+    25/539  errs=0  rate=0.4/s  eta=1271s
+    50/539  errs=0  rate=0.4/s  eta=1202s
+    75/539  errs=0  rate=0.4/s  eta=1127s
+   100/539  errs=0  rate=0.4/s  eta=1060s
+   125/539  errs=0  rate=0.4/s  eta=992s
+   150/539  errs=0  rate=0.4/s  eta=941s
+   175/539  errs=0  rate=0.4/s  eta=884s
+   200/539  errs=0  rate=0.4/s  eta=831s
+   225/539  errs=0  rate=0.4/s  eta=766s
+   250/539  errs=0  rate=0.4/s  eta=702s
+   275/539  errs=0  rate=0.4/s  eta=641s
+   300/539  errs=0  rate=0.4/s  eta=584s
+   325/539  errs=0  rate=0.4/s  eta=522s
+   350/539  errs=0  rate=0.4/s  eta=463s
+   375/539  errs=0  rate=0.4/s  eta=407s
+   400/539  errs=0  rate=0.4/s  eta=349s
+   425/539  errs=0  rate=0.4/s  eta=285s
+   450/539  errs=0  rate=0.4/s  eta=222s
+   475/539  errs=0  rate=0.4/s  eta=160s
+   500/539  errs=0  rate=0.4/s  eta=97s
+   525/539  errs=0  rate=0.4/s  eta=35s
+   539/539  errs=0  rate=0.4/s  eta=0s
+
+[done] kappa = +0.802  (target >= 0.7)
+       accuracy = 0.915  n = 539  errors = 0
+[write] kappa_validation.json  kappa_validation.md

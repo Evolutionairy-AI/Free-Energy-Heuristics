@@ -1,0 +1,41 @@
+32BTEST START 02:18:26
+[plan] pool=v0.4  models=['qwen2.5:32b']
+[plan] items=31 (31 high cbd + 0 low control)  conditions=['C1']  reps=1
+[plan] => 31 cells total
+[resume] 4500 cells in output, 4500 completed OK; 31 of 31 cells remain to collect
+  qwen2.5:32b        K1-001   C1 r1  steps=  0 ans=cannot-be-determined           ( 26.5s)
+  qwen2.5:32b        K1-002   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K1-003   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K1-004   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K1-005   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.4s)
+  qwen2.5:32b        K1-006   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K1-007   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K1-008   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.1s)
+  qwen2.5:32b        K1-009   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K1-010   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+    [ckpt] 10/31 new (0 err)  ~0.1h remaining
+  qwen2.5:32b        K1-011   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.1s)
+  qwen2.5:32b        K1-012   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.1s)
+  qwen2.5:32b        K1-013   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K1-014   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.1s)
+  qwen2.5:32b        K1-015   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.1s)
+  qwen2.5:32b        K1-016   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K1-017   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K1-018   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K1-019   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.1s)
+  qwen2.5:32b        K1-020   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.1s)
+    [ckpt] 20/31 new (0 err)  ~0.0h remaining
+  qwen2.5:32b        K2-003   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K2-005   C1 r1  steps=  0 ans=optical-rotation               ( 10.0s)
+  qwen2.5:32b        K2-006   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K2-007   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K2-008   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K2-012   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K2-015   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K2-016   C1 r1  steps=  0 ans=depends-on-rebalance           ( 10.3s)
+  qwen2.5:32b        K2-018   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+  qwen2.5:32b        K4-002   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.2s)
+    [ckpt] 30/31 new (0 err)  ~0.0h remaining
+  qwen2.5:32b        K4-003   C1 r1  steps=  0 ans=cannot-be-determined           ( 10.3s)
+[done] +31 new cells (0 errors); 4531 total in confirmatory_responses.json (332s)
+32BTEST DONE 02:23:59

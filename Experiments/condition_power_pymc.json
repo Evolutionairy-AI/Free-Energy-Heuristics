@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "reps": 5,
+    "sims": 40,
+    "draws": 500,
+    "tune": 500,
+    "chains": 4,
+    "n_models": 5,
+    "n_high": 31,
+    "n_low": 12,
+    "n_obs": 5375,
+    "short_conds": 1,
+    "long_conds": 4,
+    "p_short_mean": 0.6810645161290323,
+    "p_short_floored": 1,
+    "p_short_ceiled": 4
+  },
+  "cells": [
+    {
+      "target_pp": 0.0,
+      "beta_len": 0.0,
+      "n_sims": 40,
+      "power_pymc": 0.05,
+      "power_irls": 0.05,
+      "agree_both": 0.05,
+      "agree_neither": 0.95,
+      "n_nonconverged": 40,
+      "median_pymc_pdir": 0.60675,
+      "median_pymc_ppd": 0.9137353079182203,
+      "median_pymc_b3": -0.043137130444361876,
+      "secs": 4174.44620347023
+    },
+    {
+      "target_pp": 7.0,
+      "beta_len": 0.462890625,
+      "n_sims": 40,
+      "power_pymc": 0.825,
+      "power_irls": 0.825,
+      "agree_both": 0.825,
+      "agree_neither": 0.175,
+      "n_nonconverged": 40,
+      "median_pymc_pdir": 0.99475,
+      "median_pymc_ppd": 9.835470313746253,
+      "median_pymc_b3": -0.426162254647692,
+      "secs": 3942.1840817928314
+    },
+    {
+      "target_pp": 10.0,
+      "beta_len": 0.650390625,
+      "n_sims": 40,
+      "power_pymc": 1.0,
+      "power_irls": 1.0,
+      "agree_both": 1.0,
+      "agree_neither": 0.0,
+      "n_nonconverged": 40,
+      "median_pymc_pdir": 1.0,
+      "median_pymc_ppd": 15.945834604806414,
+      "median_pymc_b3": -0.6761194367048646,
+      "secs": 3962.6221086978912
+    }
+  ]
+}

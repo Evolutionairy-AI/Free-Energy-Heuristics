@@ -1,0 +1,21 @@
+==========================================================================
+A. POOLED b3 under three step scalings (H1 predicts b3 < 0)
+==========================================================================
+  raw steps                             b1=-0.0223  b3=-0.0127  <-- H1
+  global z-score                        b1=-0.1646  b3=-0.0936  <-- H1
+  within-MODEL z-score (REGISTERED)     b1=-0.2295  b3=+0.1738  <-- ANTI-H1
+
+==========================================================================
+B. PER-MODEL raw within-regime slope (assumption-light H1 test)
+   H1 = high-regime slope MORE NEGATIVE than low-regime (per-model b3<0)
+==========================================================================
+  llama3.1:8b            low=-0.0228  high=-0.0148  per-model b3(high-low)=+0.0080  anti
+  mistral:7b-instruct    low=-0.0972  high=+0.0025  per-model b3(high-low)=+0.0997  anti
+  qwen2.5:7b             low=+0.0647  high=-0.0137  per-model b3(high-low)=-0.0784  H1
+  POOLED (all models)    low=-0.0223  high=-0.0349  b3=-0.0127
+
+==========================================================================
+C. CONDITION-based dissociation, excluding broken C5 (steps monotone C1->C4)
+==========================================================================
+  high(K) cbd-correct    {'C1': 0.71, 'C2': 0.583, 'C3': 0.583, 'C4': 0.639, 'C5': 0.583}  C1->C4 delta=-0.071
+  low(R/A) accuracy      {'C1': 0.659, 'C2': 0.706, 'C3': 0.69, 'C4': 0.667, 'C5': 0.69}  C1->C4 delta=+0.008

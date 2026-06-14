@@ -1,0 +1,685 @@
+[
+  {
+    "frame_id": "K2-001",
+    "category": "novel-synthetic",
+    "question_excerpt": "In the Quogard people's social structure, a custom called *sintering*\nis performed before any major communal decision. A",
+    "must_contain": [
+      "Quogard"
+    ],
+    "queries": [
+      {
+        "query": "\"Quogard\" sintering",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      },
+      {
+        "query": "\"Quogard people\"",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 0,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-002",
+    "category": "novel-synthetic",
+    "question_excerpt": "The Vasrenian people perform an annual ritual called *threadcounting*\nin which household members verbalize the names of ",
+    "must_contain": [
+      "Vasrenian"
+    ],
+    "queries": [
+      {
+        "query": "\"Vasrenian\" threadcounting",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      },
+      {
+        "query": "\"Vasrenian people\"",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 0,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-003",
+    "category": "novel-synthetic",
+    "question_excerpt": "A philosophical school called *anticipative formalism* (Kerrigan,\n2031) holds that ethical obligations exist only when o",
+    "must_contain": [
+      "anticipative formalism"
+    ],
+    "queries": [
+      {
+        "query": "\"anticipative formalism\"",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": [
+          "tvcnews.tv/peter-obi-umehnwoyeabaribe-others-defect-to-adc",
+          "Reconciliation &#8211; Grace Presbyterian Church",
+          "Unity &#8211; Grace Presbyterian Church",
+          "Tag: manchester united news &laquo; Vital Football",
+          "Emile Smith Rowe Archives - Arsenal Central | Your Unofficial",
+          "Arsenal Archives - Page 3 of 68 - Arsenal Central | Your",
+          "Highly Anticipated Formal Styling Class Features Hair",
+          "Man allegedly set deadly house fire after being rejected",
+          "More Pizzazz Part of Seaport Village Plans - San Diego Business",
+          "ffcadmin.com/service"
+        ]
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 10,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-004",
+    "category": "novel-synthetic",
+    "question_excerpt": "The hypothetical mineral *zorinite* has a crystal structure such that\nit conducts heat in one direction but not the othe",
+    "must_contain": [
+      "zorinite"
+    ],
+    "queries": [
+      {
+        "query": "\"zorinite\"",
+        "error": null,
+        "n_raw": 2,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": [
+          "albeu.com/lajme/akuzohet-per-spinuazh-shtyhet-seanca-per-shtetasin-rus-kerkoi-ndryshim-te-mases-se-sigurise/498111",
+          "Elbasan: Lirohen nga paraburgimi \u201cspiun\u00ebt\u201d rus\u00eb - Infokus"
+        ]
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 2,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-005",
+    "category": "novel-synthetic",
+    "question_excerpt": "In the Marlovian school of mathematics, a *near-prime* is defined as\nan integer n such that n = p + 2k where p is prime ",
+    "must_contain": [
+      "Drelvian-Lindner",
+      "Drelvian Lindner"
+    ],
+    "queries": [
+      {
+        "query": "\"Drelvian-Lindner\"",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      },
+      {
+        "query": "\"Drelvian-Lindner interferometer\"",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      },
+      {
+        "query": "\"Institute for Photonic Standards\" Bern",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": [
+          "Postdoc in Photonic Semiconductor Nanostructures - KTH - Royal",
+          "arxiv.org/html/2504.13827v1",
+          "Improved Standard-Model predictions for",
+          "Photonics",
+          "Laser, Optics And Photonics WSELOP-2024 | October 17-19, 2024 |",
+          "EP3815613A1 - System and method for local three dimensional",
+          "Design and Engineering Services | Suppliers | Photonics Buyers'",
+          "Analytical Chemistry - top-institutions | exaly.com",
+          "CLEO Conference",
+          "Scintillation light in SBND: simulation, reconstruction, and"
+        ]
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 10,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-006",
+    "category": "novel-synthetic",
+    "question_excerpt": "In the field of mathematical drandology, a *fnobel* of order n is a\nsequence whose successive terms are constrained by t",
+    "must_contain": [
+      "drandology",
+      "fnobel"
+    ],
+    "queries": [
+      {
+        "query": "\"drandology\"",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      },
+      {
+        "query": "\"fnobel\"",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 2,
+        "titles": [
+          "Fnobele",
+          "Naam betekenis Fnobella"
+        ],
+        "all_titles": [
+          "Fnobele",
+          "Naam betekenis Fnobella",
+          "Francesca Nobel | Green People Recruitment",
+          "Ons team | Green People Recruitment",
+          "BOARD OF DIRECTORS | Solera at Anthem",
+          "Italiaanse jongensnamen &amp; betekenis - Ikenmama.nl",
+          "Italienske navn",
+          "Italiaanse jongensnamen - 1732 Italiaanse namen voor mannen",
+          "CIEP",
+          "ONYX"
+        ]
+      }
+    ],
+    "max_filtered": 2,
+    "max_raw": 10,
+    "verdict": "K3-pass-marginal"
+  },
+  {
+    "frame_id": "K2-008",
+    "category": "novel-synthetic",
+    "question_excerpt": "In the game of *Vermex*, two players alternate placing tokens on a\n7\u00d77 grid with the constraint that no token may be adj",
+    "must_contain": [
+      "Vermex"
+    ],
+    "queries": [
+      {
+        "query": "\"Vermex\" game",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": [
+          "More issues facing beleaguered Vernon motel | Vernon Morning",
+          "Sabong Guide &ndash; Tagged &quot;gamefowl supplies&quot;",
+          "WorkSafe BC issues more fines for former Vernon motel |",
+          "Kashrut.com - Kosher News and Announcements",
+          "Find UK Pest Control Services | Compare &amp; Get Free Quotes |",
+          "Time to get riding and rolling for milestone GoByBike Week |",
+          "ASTIG 100tablets &#8211; Productos para gallos",
+          "Anarchy Is Hyperbole: December 2015",
+          "Fight Cancer &amp; Disease Through the Gut \u2013 Nutrition, Fleas",
+          "What Mites, Lice and Parasites are common in chickens?"
+        ]
+      },
+      {
+        "query": "\"game of Vermex\"",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": [
+          "House of the Dragon: 1.10 - The Black Queen | Science Fiction",
+          "Greg Norman strips Myrtle Beach golf academy of his name |",
+          "Sabong Guide &ndash; Tagged &quot;gamefowl supplies&quot;",
+          "The Gamefowl Blog &ndash; Tagged &quot;gamefowl",
+          "More issues facing beleaguered Vernon motel | Vernon Morning",
+          "WorkSafe BC issues more fines for former Vernon motel |",
+          "Kashrut.com - Kosher News and Announcements",
+          "Author: Jennifer Smith | Revelstoke Review",
+          "Find UK Pest Control Services | Compare &amp; Get Free Quotes |",
+          "Fight Cancer &amp; Disease Through the Gut \u2013 Nutrition, Fleas"
+        ]
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 10,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-009",
+    "category": "novel-synthetic",
+    "question_excerpt": "On the planet Karsk, sentient beings are born with predetermined\nlifespans that all individuals can perceive directly. A",
+    "must_contain": [
+      "planet Karsk",
+      "Karskian"
+    ],
+    "queries": [
+      {
+        "query": "\"planet Karsk\"",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": [
+          "USU presents WO FAT and KARSK / Concerts / Program",
+          "Aresor_Group on Planet Minecraft",
+          "List of all TV series starting with V",
+          "Category:Industrial Worlds - Warhammer 40k - Lexicanum",
+          "Angel of Fire - Warhammer 40k - Lexicanum",
+          "Lessons of Terra (RWBY/ISEKAI) | Page 43 | Sufficient Velocity",
+          "Fishing Vacation on Norway&#8217;s Lofoten Islands",
+          "konS Archives - Projekt Atol",
+          "Education - Projekt Atol",
+          "Biggs Darklighter \u2013 Jedipedia.net \u2013 Entdecke Star Wars"
+        ]
+      },
+      {
+        "query": "\"Karskian\"",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 10,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-010",
+    "category": "novel-synthetic",
+    "question_excerpt": "The Federation of Lassic Mathematicians requires that all peer-\nreviewed proofs be checked by at least three independent",
+    "must_contain": [
+      "Lassic"
+    ],
+    "queries": [
+      {
+        "query": "\"Lassic Mathematicians\"",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": [
+          "Geometry.Net - Scientists: Dandelin Germinal",
+          "Sam Thomas | ANTICHRIST Magazine",
+          "Review: Alter Bridge &quot;World Inferno&quot; (Live at the O2",
+          "reference request - Is intuitionistic mathematics situated in",
+          "Moshe Carmeli (1933 - 2007) - Biography - MacTutor History of",
+          "Mechanical Advantage and Simple Machines",
+          "167+ Roman Numerals Puns (2026)",
+          "Independent 11844 / Eccles &#8211; Fifteensquared",
+          "&raquo; The Books Most Enjoyed by MillersTime Readers in 2014",
+          "Snr. Academic Subjects at Tormead - Independent Girls&#039;"
+        ]
+      },
+      {
+        "query": "\"Federation of Lassic\"",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 4,
+        "titles": [
+          "PROFORM \u0421lassic Night of Champions 2013 | BODYBUILDING AND",
+          "\u200eLassic - Apple Music",
+          "\u200eBoondocks - Single - Album by Lassic - Apple Music",
+          "SharePro - by Lassic Beats"
+        ],
+        "all_titles": [
+          "PROFORM \u0421lassic Night of Champions 2013 | BODYBUILDING AND",
+          "\u200eLassic - Apple Music",
+          "\u200eBoondocks - Single - Album by Lassic - Apple Music",
+          "Juniors G23 | IDF | International Draughts Federation",
+          "Russian Championship | IDF | International Draughts Federation",
+          "Meets RSNOPFKR",
+          "Tsarev Ivan - video",
+          "Veni, Vidi, Dixi - Claremont Review of Books",
+          "List of crossovers in video games | Ultimate Pop Culture Wiki |",
+          "SharePro - by Lassic Beats"
+        ]
+      }
+    ],
+    "max_filtered": 4,
+    "max_raw": 10,
+    "verdict": "K3-pass-marginal"
+  },
+  {
+    "frame_id": "K2-011",
+    "category": "novel-synthetic",
+    "question_excerpt": "Among the Yethra people, adults adopt *reverse-names* upon turning\nforty \u2014 names spelled backward relative to their chil",
+    "must_contain": [
+      "Yethra"
+    ],
+    "queries": [
+      {
+        "query": "\"Yethra people\"",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 1,
+        "titles": [
+          "Yethra Karchung - Bhutan Movie Actress"
+        ],
+        "all_titles": [
+          "Yethra Karchung - Bhutan Movie Actress",
+          "Shh... Galuya Malap (2010) - Bhutanese Movie",
+          "Festival - Chakkulathukavu Sree Bhagavathy Temple",
+          "Contact - Chakkulathukavu Sree Bhagavathy Temple",
+          "Shopping in Bhutan - 11 Top Places & Things to Buy in 2024",
+          "Romana I - Tardis Wiki",
+          "Jakar - Wikitravel",
+          "Bhakti is Her Name! &#8211; Ashram Diary",
+          "Merak Sakten Trek - Bhutan Travel Adventures",
+          "Jakar - Wikipedia"
+        ]
+      },
+      {
+        "query": "\"Yethra\"",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 1,
+        "titles": [
+          "Yethra Karchung - Bhutan Movie Actress"
+        ],
+        "all_titles": [
+          "Yethra Karchung - Bhutan Movie Actress",
+          "Shh... Galuya Malap (2010) - Bhutanese Movie",
+          "Central West Combine: Results",
+          "Central West Combine: Results",
+          "Girl begins cockriding scene without hesitation hq porn",
+          "Vandanam Yeshupara Ninakennum - Chords",
+          "Play Thrissur Jayan on Amazon Music Unlimited",
+          "Play Syro Malabar Ordination by Cristo Gigi &amp; Syro on",
+          "J hope hope world MP3 Download",
+          "Festival - Chakkulathukavu Sree Bhagavathy Temple"
+        ]
+      }
+    ],
+    "max_filtered": 1,
+    "max_raw": 10,
+    "verdict": "K3-pass-marginal"
+  },
+  {
+    "frame_id": "K2-012",
+    "category": "novel-synthetic",
+    "question_excerpt": "The hypothetical material *tirstent* has the property that its\nrefractive index varies with the temperature gradient (no",
+    "must_contain": [
+      "tirstent"
+    ],
+    "queries": [
+      {
+        "query": "\"tirstent\"",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 0,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-013",
+    "category": "novel-synthetic",
+    "question_excerpt": "The Prendic philosophical school holds the doctrine of *anticipatory\nautonomy*: an action is autonomous only if the agen",
+    "must_contain": [
+      "Prendic"
+    ],
+    "queries": [
+      {
+        "query": "\"Prendic\" anticipatory autonomy",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      },
+      {
+        "query": "\"anticipatory autonomy\" Prendic",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 0,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-014",
+    "category": "novel-synthetic",
+    "question_excerpt": "A novel species of slime mold, *Physarum consilium*, exhibits group-\nlevel decision-making in which individual plasmodia",
+    "must_contain": [
+      "Physarum consilium"
+    ],
+    "queries": [
+      {
+        "query": "\"Physarum consilium\"",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 0,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-015",
+    "category": "novel-synthetic",
+    "question_excerpt": "*Frobenian field theory* (in sociology, not physics) models social\ndensity as a scalar field with sources at institution",
+    "must_contain": [
+      "Frobenian"
+    ],
+    "queries": [
+      {
+        "query": "\"Frobenian field theory\"",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 2,
+        "titles": [
+          "[2407.14341] Abelian number fields with frobenian conditions",
+          "[1904.12845] Frobenian multiplicative functions and rational"
+        ],
+        "all_titles": [
+          "[2407.14341] Abelian number fields with frobenian conditions",
+          "Asymptotic for Galois group isomorphic to C3",
+          "[1904.12845] Frobenian multiplicative functions and rational",
+          "The Hooley-Huxley contour method for problems in number fields",
+          "Journal de th\u00e9orie des nombres de Bordeaux, Tome 13 (2001) no.",
+          "Julie Tavernier &#8211; Maths PhD Student, University of Bath",
+          "Lilian Matthiesen",
+          "Lilian Matthiesen",
+          "nt.number theory - Primes of the form $x^2+ny^2+mz^2$ and",
+          "Introduction to Analytic and Probabilistic Number Theory |"
+        ]
+      }
+    ],
+    "max_filtered": 2,
+    "max_raw": 10,
+    "verdict": "K3-pass-marginal"
+  },
+  {
+    "frame_id": "K2-016",
+    "category": "novel-synthetic",
+    "question_excerpt": "In the Volnari civic system, each citizen receives a *trust quotient*\nat adulthood, computed by an algorithm that weight",
+    "must_contain": [
+      "Volnari"
+    ],
+    "queries": [
+      {
+        "query": "\"Volnari\" trust quotient",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      },
+      {
+        "query": "\"Volnari civic\"",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 0,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-017",
+    "category": "novel-synthetic",
+    "question_excerpt": "The Larcot legal tradition recognizes the concept of *phantom debt*:\nan obligation that exists between two parties who h",
+    "must_contain": [
+      "Larcot"
+    ],
+    "queries": [
+      {
+        "query": "\"Larcot\" phantom debt",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      },
+      {
+        "query": "\"Larcot legal tradition\"",
+        "error": null,
+        "n_raw": 0,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": []
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 0,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-018",
+    "category": "novel-synthetic",
+    "question_excerpt": "The hypothetical mineral *tenebrith* releases trace impurities into\nany surrounding fluid until the fluid reaches a spec",
+    "must_contain": [
+      "tenebrith"
+    ],
+    "queries": [
+      {
+        "query": "\"tenebrith\"",
+        "error": null,
+        "n_raw": 4,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": [
+          "MMiller &mdash; Second Chance Lit",
+          "Dawn - Johnisdead Wiki",
+          "Dawn - Johnisdead Wiki",
+          "ReallyZeb's Content - BPAL Madness!"
+        ]
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 4,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-019",
+    "category": "novel-synthetic",
+    "question_excerpt": "Among the Korlin people, adults may undergo *voluntary memory\nremoval* \u2014 a clinical procedure that permanently erases sp",
+    "must_contain": [
+      "Korlin people"
+    ],
+    "queries": [
+      {
+        "query": "\"Korlin people\" memory",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": [
+          "Korlin - The Broken Dagger Wiki",
+          "Sheldon Korlin - AEGIS LAW",
+          "Finding the perfect second home! &#8212; Deborah Korlin&#039;s",
+          "Have You Ever Thought About Owning a Vacation Home? &#8212;",
+          "Our Supporters - Pianos For People",
+          "prettygrlfairy",
+          "Jeffrey Lee Didericksen Obituary April 2, 2023 - Didericksen",
+          "Finding the Right Home is NOT About Money",
+          "Henkenhagen, Kolberg-K\u00f6rlin &#8211; Photos from July 2019 | My",
+          "NKSCA releases All-Star teams - LINK nky"
+        ]
+      },
+      {
+        "query": "\"Korlin people\"",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": [
+          "Sheldon Korlin - AEGIS LAW",
+          "Bio \u2013 Jeana Bondi - AEGIS LAW",
+          "Bio \u2013 Brett Caban - AEGIS LAW",
+          "Bio \u2013 Kellie Carr - AEGIS LAW",
+          "Deborah Korlin",
+          "East Tennessee #1 Destination for People Who Dream of Living in",
+          "Holly Korlin - The United States (221 books)",
+          "Find People with Names Between Emelia Korli to Torkel Korling |",
+          "Deborah Korlin - Smoky Mountain Real Estate Investment Expert",
+          "Derrick Loyd (Crime Investigator) complaint - Legal"
+        ]
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 10,
+    "verdict": "K3-pass-clean"
+  },
+  {
+    "frame_id": "K2-020",
+    "category": "novel-synthetic",
+    "question_excerpt": "The *Iridian Council* is a hypothetical governance institution\ncomposed of seven domain experts, where membership rotate",
+    "must_contain": [
+      "Iridian Council"
+    ],
+    "queries": [
+      {
+        "query": "\"Iridian Council\"",
+        "error": null,
+        "n_raw": 10,
+        "n_filtered": 0,
+        "titles": [],
+        "all_titles": [
+          "Photonics Spectra Raman Spectroscopy Summit 2024 | Photonics",
+          "Hardworking Dubs: Two Students Chosen For APS Student Advisory",
+          "Hudson Common Council Adopts Good Cause Eviction! - For the Many",
+          "College Panhellenic Council Primary Recruitment - UTA Events",
+          "Iridian - 118Wiki",
+          "Speakers Urge Arcata City Council to Seek State Help in Lawson",
+          "Iridian Isles - MicrasWiki",
+          "United Isles - MicrasWiki",
+          "Infrared Imaging: Needs and Challenges",
+          "Iridiane Robles &#8211; The College of Arts and Humanities at"
+        ]
+      }
+    ],
+    "max_filtered": 0,
+    "max_raw": 10,
+    "verdict": "K3-pass-clean"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-05-29 14:45",
+  "mc": 20,
+  "n_reps": 3,
+  "sample_kw": {
+    "draws": 600,
+    "tune": 600,
+    "chains": 2
+  },
+  "kinds": [
+    "quartile",
+    "tercile",
+    "median",
+    "continuous"
+  ],
+  "power": {
+    "quartile": 0.55,
+    "tercile": 0.5,
+    "median": 0.35,
+    "continuous": 0.5
+  },
+  "type1": {
+    "median": 0.0,
+    "continuous": 0.0
+  },
+  "config_info": {
+    "quartile": {
+      "items": "20",
+      "obs": 3000
+    },
+    "tercile": {
+      "items": "26",
+      "obs": 3900
+    },
+    "median": {
+      "items": "39",
+      "obs": 5850
+    },
+    "continuous": {
+      "items": 79,
+      "obs": 5925
+    }
+  },
+  "floor": 8.0,
+  "s_coef": -0.19669551534225022,
+  "elapsed_min": 83.2
+}

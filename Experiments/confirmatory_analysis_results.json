@@ -1,0 +1,106 @@
+{
+  "complete": true,
+  "n_scored": 7875,
+  "expected": 7875,
+  "n_errors": 0,
+  "n_models": 7,
+  "models": [
+    "claude-sonnet-4-5-20250929",
+    "gpt-4o-2024-11-20",
+    "mistral:7b-instruct",
+    "phi3.5",
+    "qwen2.5:14b",
+    "qwen2.5:32b",
+    "qwen2.5:7b"
+  ],
+  "sampler": {
+    "draws": 4000,
+    "tune": 4000,
+    "chains": 4,
+    "target_accept": 0.99
+  },
+  "sampler_note": "Official fit uses 4000x4 @ target_accept=0.99 (post-hoc draw increase from the pre-registered 2000x4 @ 0.95 for convergence only). The 2000x4 fit left b2 (high-regime intercept) at R-hat=1.0128 > 1.01; the longer chain clears R-hat<1.01 for all parameters with an identical verdict. Model, data, regressor, priors, and decision gate are unchanged.",
+  "primary_itt": {
+    "verdict": "confirmed",
+    "p_b3_neg": 1.0,
+    "p_b3_nonneg": 0.0,
+    "b1_median": -0.1834426313381126,
+    "b3_median": -0.6917139959276499,
+    "robust_pp_drop_median": 17.30019507761844,
+    "robust_pp_drop_ci": [
+      7.6821999090684905,
+      25.547539744805654
+    ],
+    "p_full_reversal_descriptive": 0.9054375,
+    "rhat_max": 1.0056357514532512,
+    "ess_min": 1692.3518011078165,
+    "converged": true
+  },
+  "secondary_r7_steps": {
+    "verdict": "falsified",
+    "p_b3_neg": 0.0,
+    "b3_median": 0.41605172089049386,
+    "b3_ci": [
+      0.27109581349247225,
+      0.5601173808879546
+    ],
+    "pp_drop_median": 16.488012500218453,
+    "converged": true
+  },
+  "descriptive": {
+    "high_cbd_by_condition": {
+      "C1": 0.7714,
+      "C2": 0.6654,
+      "C3": 0.647,
+      "C4": 0.6442,
+      "C5": 0.6212
+    },
+    "low_acc_by_condition": {
+      "C1": 0.8367,
+      "C2": 0.8,
+      "C3": 0.8163,
+      "C4": 0.8041,
+      "C5": 0.8571
+    },
+    "high_short_long_drop_pp": 12.7,
+    "low_short_long_drop_pp": 1.73,
+    "DiD_pp": 10.97,
+    "per_model": {
+      "claude-sonnet-4-5-20250929": {
+        "n": 1125,
+        "high_drop_pp": 2.58,
+        "low_drop_pp": 0.0
+      },
+      "gpt-4o-2024-11-20": {
+        "n": 1125,
+        "high_drop_pp": 10.48,
+        "low_drop_pp": 1.07
+      },
+      "mistral:7b-instruct": {
+        "n": 1125,
+        "high_drop_pp": 0.32,
+        "low_drop_pp": 8.93
+      },
+      "phi3.5": {
+        "n": 1125,
+        "high_drop_pp": 3.55,
+        "low_drop_pp": 23.93
+      },
+      "qwen2.5:14b": {
+        "n": 1125,
+        "high_drop_pp": 37.9,
+        "low_drop_pp": 1.43
+      },
+      "qwen2.5:32b": {
+        "n": 1125,
+        "high_drop_pp": 15.48,
+        "low_drop_pp": -8.93
+      },
+      "qwen2.5:7b": {
+        "n": 1125,
+        "high_drop_pp": 18.55,
+        "low_drop_pp": -14.29
+      }
+    }
+  }
+}

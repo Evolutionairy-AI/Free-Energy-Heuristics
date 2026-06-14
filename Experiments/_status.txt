@@ -1,0 +1,4 @@
+CELLS 1430 ERRORS 0
+  mistral:7b-instruct    305
+  phi3.5                 1125
+MTIME 17:20:26 NOW 17:20:40

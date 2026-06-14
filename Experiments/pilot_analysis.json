@@ -1,0 +1,1004 @@
+{
+  "n_cells_total": 150,
+  "extract_ok_total": 150,
+  "extract_ok_frac": 1.0,
+  "k_frames": [
+    "K1-001",
+    "K1-005",
+    "K2-005",
+    "K2-006",
+    "K3-001",
+    "K3-005",
+    "K4-003",
+    "K4-004"
+  ],
+  "k_frames_categorical": [
+    "K1-001",
+    "K1-005",
+    "K2-005",
+    "K2-006",
+    "K4-003",
+    "K4-004"
+  ],
+  "ra_frames": [
+    "A-003",
+    "R-001"
+  ],
+  "k_mean_signal": 0.367,
+  "ra_mean_signal": 0.4,
+  "P1_pass": false,
+  "P3_pass": true,
+  "P4_n_K_non_monotone": 3,
+  "per_frame": {
+    "A-003": {
+      "category": "aleatory",
+      "is_open_ended": true,
+      "n_cells": 15,
+      "extract_ok": 15,
+      "extract_ok_frac": 1.0,
+      "mean_sig_b": 0.333,
+      "mean_cbd_rate": 0.0,
+      "knightian_signal": 0.333,
+      "by_condition": {
+        "C1": {
+          "n_cells": 3,
+          "answers": [
+            "0.1667",
+            "0.1667",
+            "0.1667"
+          ],
+          "raw_answers": [
+            "6/36",
+            "6/36",
+            "6/36"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 1.0,
+          "accuracy": 1.0
+        },
+        "C2": {
+          "n_cells": 3,
+          "answers": [
+            "0.1667",
+            "7",
+            "0.1667"
+          ],
+          "raw_answers": [
+            "the probability is approximately 0.1667",
+            "p(sum=7) = 1/6",
+            "the probability is 1/6"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.0,
+          "mean_steps": 5.3,
+          "accuracy": 1.0
+        },
+        "C3": {
+          "n_cells": 3,
+          "answers": [
+            "7",
+            "0.07",
+            "0.1667"
+          ],
+          "raw_answers": [
+            "the probability that the sum equals 7 is \\(\\boxed{1/6}\\)",
+            "the probability of rolling a sum of 7 with two six-sided dice is approximately 14.30%",
+            "approximately 16.67%"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.0,
+          "mean_steps": 12.0,
+          "accuracy": 0.667
+        },
+        "C4": {
+          "n_cells": 3,
+          "answers": [
+            "0.07",
+            "0.07",
+            "0.1111"
+          ],
+          "raw_answers": [
+            "the probability of rolling two fair six-sided dice and getting a sum equal to 7 is approximately 0.472 (or 47.2%)",
+            "the probability that the sum of two fair six-sided dice equals 7 is approximately 12%. (for mathematical accuracy, the fraction 1/9 or decimal 0.1111 could also be used.)",
+            "probability (as fraction) = 1/9"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.0,
+          "mean_steps": 16.0,
+          "accuracy": 0.0
+        },
+        "C5": {
+          "n_cells": 3,
+          "answers": [
+            "7",
+            "7",
+            "0.07"
+          ],
+          "raw_answers": [
+            "the probability of getting a sum of 7 when rolling two six-sided dice is 6/36 or approximately 0.167 (one sixth)",
+            "the probability of getting a sum of 7 when rolling two fair six-sided dice is 11/36",
+            "the probability that the sum equals 7 when rolling two fair six-sided dice is 6/36 or approximately 0.167 (16.7%)"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.0,
+          "mean_steps": 4.3,
+          "accuracy": 0.667
+        }
+      }
+    },
+    "K1-001": {
+      "category": "non-recurrent-forecasting",
+      "is_open_ended": false,
+      "n_cells": 15,
+      "extract_ok": 15,
+      "extract_ok_frac": 1.0,
+      "mean_sig_b": 0.0,
+      "mean_cbd_rate": 1.0,
+      "knightian_signal": 1.0,
+      "by_condition": {
+        "C1": {
+          "n_cells": 3,
+          "answers": [
+            "cannot-be-determined",
+            "cannot-be-determined",
+            "cannot-be-determined"
+          ],
+          "raw_answers": [
+            "cannot-be-determined",
+            "cannot-be-determined",
+            "cannot-be-determined"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 1.0,
+          "mean_steps": 0.0,
+          "accuracy": null
+        },
+        "C2": {
+          "n_cells": 3,
+          "answers": [
+            "cannot-be-determined",
+            "cannot-be-determined",
+            "cannot-be-determined"
+          ],
+          "raw_answers": [
+            "cannot-be-determined (as of now)",
+            "cannot be determined with the information provided",
+            "cannot be determined at this time. the african continental free trade area (afcfta) was established only in 2018 and it will take several years to fully assess its impact on trade levels within africa, including reaching the target of 30% of total african trade by 2030"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 1.0,
+          "mean_steps": 4.0,
+          "accuracy": null
+        },
+        "C3": {
+          "n_cells": 3,
+          "answers": [
+            "cannot-be-determined",
+            "cannot-be-determined",
+            "cannot-be-determined"
+          ],
+          "raw_answers": [
+            "cannot-be-determined with certainty",
+            "cannot-be-determined",
+            "cannot be determined with certainty at this time. the final outcome depends on various factors, including how effectively the afcfta is implemented and the ability to overcome potential challenges. it's essential to monitor and analyze developments in the coming years for a more accurate prediction"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 1.0,
+          "mean_steps": 10.3,
+          "accuracy": null
+        },
+        "C4": {
+          "n_cells": 3,
+          "answers": [
+            "cannot-be-determined",
+            "cannot-be-determined",
+            "cannot-be-determined"
+          ],
+          "raw_answers": [
+            "cannot-be-determined",
+            "cannot be determined with certainty at this time",
+            "cannot be determined with certainty at this time"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 1.0,
+          "mean_steps": 15.0,
+          "accuracy": null
+        },
+        "C5": {
+          "n_cells": 3,
+          "answers": [
+            "cannot-be-determined",
+            "cannot-be-determined",
+            "cannot-be-determined"
+          ],
+          "raw_answers": [
+            "cannot be determined at this time. the african continental free trade area (afcfta) is still in its early stages, and it will take several years for its full impact on trade patterns to become evident. while there are projections that suggest afcfta could significantly boost intra-african trade, it's impossible to definitively predict that it will exceed 30% of total african trade by 2030 at this current moment",
+            "cannot-be-determined",
+            "cannot be determined at this time due to insufficient data and various uncertainties surrounding factors influencing trade volumes in africa by 2030"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 1.0,
+          "mean_steps": 2.3,
+          "accuracy": null
+        }
+      }
+    },
+    "K1-005": {
+      "category": "non-recurrent-forecasting",
+      "is_open_ended": false,
+      "n_cells": 15,
+      "extract_ok": 15,
+      "extract_ok_frac": 1.0,
+      "mean_sig_b": 0.2,
+      "mean_cbd_rate": 0.2,
+      "knightian_signal": 0.2,
+      "by_condition": {
+        "C1": {
+          "n_cells": 3,
+          "answers": [
+            "cannot-be-determined",
+            "cannot-be-determined",
+            "no-treaty-by-2032"
+          ],
+          "raw_answers": [
+            "no prediction can be made with certainty as it depends on various political and technological factors that are difficult to predict accurately years in advance",
+            "no prediction can be made with certainty as it depends on future geopolitical developments and international cooperation, which are unpredictable at this time",
+            "no-treaty-by-2032"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.667,
+          "mean_steps": 0.7,
+          "accuracy": null
+        },
+        "C2": {
+          "n_cells": 3,
+          "answers": [
+            "us-china",
+            "cannot-be-determined",
+            "us-eu"
+          ],
+          "raw_answers": [
+            "no-treaty-by-2032 (as of now, it is unlikely that any formal bilateral ai-safety treaty will be signed between these nations by 2032 due to ongoing geopolitical tensions and competition in ai technology.)",
+            "no-treaty-by-2032 (as of now, it's uncertain which two parties will be the first to sign such a treaty by 2032.)",
+            "us-eu"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.333,
+          "mean_steps": 7.3,
+          "accuracy": null
+        },
+        "C3": {
+          "n_cells": 3,
+          "answers": [
+            "us-china",
+            "us-china",
+            "us-china"
+          ],
+          "raw_answers": [
+            "china-eu (china-eu)",
+            "us-china",
+            "based on the current circumstances, it's hard to predict with certainty which specific treaty will be signed first. however, considering the leading roles of china and the us in ai development, a formal bilateral ai-safety treaty between them (us-china) is a plausible outcome. yet, there's a possibility that the eu could act as a mediator or partner in this process (e.g., us-eu, china-eu). without crystal ball predictions, it's best to wait and see how things unfold over time"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 11.0,
+          "accuracy": null
+        },
+        "C4": {
+          "n_cells": 3,
+          "answers": [
+            "us-china",
+            "us-china",
+            "us-china"
+          ],
+          "raw_answers": [
+            "given the current state of international relations and ai development among these nations, it is most likely that a us-china ai-safety treaty will be signed by 2032 (us-china). however, there are significant obstacles to reaching an agreement between these two nations, and other potential treaties cannot be ruled out",
+            "no-treaty-by-2032 (as of current analysis)",
+            "us-eu (united states and european union)"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 18.7,
+          "accuracy": null
+        },
+        "C5": {
+          "n_cells": 3,
+          "answers": [
+            "us-china",
+            "us-china",
+            "us-china"
+          ],
+          "raw_answers": [
+            "it is difficult to predict with certainty which two countries will sign the first formal bilateral ai-safety treaty by 2032 due to the complex interplay of technological advancement, political relations, and shared concerns about ai safety among the given nations. however, based on current developments, it seems plausible that either the us and china or the eu and us could potentially reach an agreement in this area, with the us being a common factor in both scenarios. therefore, the answer could be either 'us-china' or 'us-eu'",
+            "us-china'. however, this is speculative and dependent on future changes in global politics and technological development",
+            "us-china (with lower confidence due to geopolitical issues)"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 11.3,
+          "accuracy": null
+        }
+      }
+    },
+    "K2-005": {
+      "category": "novel-synthetic",
+      "is_open_ended": false,
+      "n_cells": 15,
+      "extract_ok": 15,
+      "extract_ok_frac": 1.0,
+      "mean_sig_b": 0.067,
+      "mean_cbd_rate": 0.067,
+      "knightian_signal": 0.067,
+      "by_condition": {
+        "C1": {
+          "n_cells": 3,
+          "answers": [
+            "optical-rotation",
+            "optical-rotation",
+            "optical-rotation"
+          ],
+          "raw_answers": [
+            "optical-rotation",
+            "optical-rotation",
+            "optical-rotation"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 0.0,
+          "accuracy": null
+        },
+        "C2": {
+          "n_cells": 3,
+          "answers": [
+            "optical-rotation",
+            "optical-rotation",
+            "optical-rotation"
+          ],
+          "raw_answers": [
+            "optical-rotation",
+            "optical-rotation",
+            "optical-rotation"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 1.3,
+          "accuracy": null
+        },
+        "C3": {
+          "n_cells": 3,
+          "answers": [
+            "optical-rotation",
+            "optical-rotation",
+            "optical-rotation"
+          ],
+          "raw_answers": [
+            "the drelvian-lindner interferometer measures optical-rotation angle (a)",
+            "optical-rotation",
+            "optical-rotation"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 8.0,
+          "accuracy": null
+        },
+        "C4": {
+          "n_cells": 3,
+          "answers": [
+            "optical-rotation",
+            "optical-rotation",
+            "cannot-be-determined"
+          ],
+          "raw_answers": [
+            "final answer: optical rotation angle",
+            "optical-rotation",
+            "cannot be determined (e)"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.333,
+          "mean_steps": 10.7,
+          "accuracy": null
+        },
+        "C5": {
+          "n_cells": 3,
+          "answers": [
+            "optical-rotation",
+            "optical-rotation",
+            "optical-rotation"
+          ],
+          "raw_answers": [
+            "the drelvian-lindner interferometer was developed to measure optical-rotation angles. so, the final answer is: optical-rotation",
+            "optical-rotation",
+            "optical-rotation"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 1.7,
+          "accuracy": null
+        }
+      }
+    },
+    "K2-006": {
+      "category": "novel-synthetic",
+      "is_open_ended": false,
+      "n_cells": 15,
+      "extract_ok": 15,
+      "extract_ok_frac": 1.0,
+      "mean_sig_b": 0.2,
+      "mean_cbd_rate": 0.4,
+      "knightian_signal": 0.4,
+      "by_condition": {
+        "C1": {
+          "n_cells": 3,
+          "answers": [
+            "false",
+            "false",
+            "false"
+          ],
+          "raw_answers": [
+            "false",
+            "false",
+            "false"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 0.0,
+          "accuracy": null
+        },
+        "C2": {
+          "n_cells": 3,
+          "answers": [
+            "false",
+            "false",
+            "false"
+          ],
+          "raw_answers": [
+            "false. the given sequence does not satisfy the condition for a fnobel of order 1 as $a_{k+1} > a_k \\cdot (1 + 1/k)$ for all terms in the sequence",
+            "false",
+            "false"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 2.0,
+          "accuracy": null
+        },
+        "C3": {
+          "n_cells": 3,
+          "answers": [
+            "cannot-be-determined",
+            "false",
+            "cannot-be-determined"
+          ],
+          "raw_answers": [
+            "cannot-be-determined",
+            "false",
+            "cannot-be-determined"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.667,
+          "mean_steps": 9.7,
+          "accuracy": null
+        },
+        "C4": {
+          "n_cells": 3,
+          "answers": [
+            "cannot-be-determined",
+            "cannot-be-determined",
+            "true"
+          ],
+          "raw_answers": [
+            "cannot-be-determined (as the third term breaks the inequality)",
+            "cannot be determined",
+            "true"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.667,
+          "mean_steps": 7.0,
+          "accuracy": null
+        },
+        "C5": {
+          "n_cells": 3,
+          "answers": [
+            "cannot-be-determined",
+            "false",
+            "cannot-be-determined"
+          ],
+          "raw_answers": [
+            "cannot-be-determined",
+            "false",
+            "cannot be determined (the given sequence does not strictly follow the inequality for a fnobel of order 1)"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.667,
+          "mean_steps": 5.3,
+          "accuracy": null
+        }
+      }
+    },
+    "K3-001": {
+      "category": "open-ended-dilemma",
+      "is_open_ended": true,
+      "n_cells": 15,
+      "extract_ok": 15,
+      "extract_ok_frac": 1.0,
+      "mean_sig_b": 0.667,
+      "mean_cbd_rate": 0.0,
+      "knightian_signal": 0.667,
+      "by_condition": {
+        "C1": {
+          "n_cells": 3,
+          "answers": [
+            "the most ethically defensible decision procedure would be to randomly allocate the ventilator, as it ensures fairness and impartiality without favoring one patient over another based on factors unrelated to their medical condition",
+            "the decision should be made randomly, without bias based on age or profession",
+            "the decision should be made based on clinical need, regardless of patient's age or profession"
+          ],
+          "raw_answers": [
+            "the most ethically defensible decision procedure would be to randomly allocate the ventilator, as it ensures fairness and impartiality without favoring one patient over another based on factors unrelated to their medical condition",
+            "the decision should be made randomly, without bias based on age or profession",
+            "the decision should be made based on clinical need, regardless of patient's age or profession"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.0,
+          "mean_steps": 1.0,
+          "accuracy": null
+        },
+        "C2": {
+          "n_cells": 3,
+          "answers": [
+            "use a random selection process to determine which patient gets the ventilator first",
+            "the most ethically defensible decision would be to allocate the ventilator to the patient with the more favorable prognosis, considering patient a's role as a single parent, or if both have equally promising chances of survival, then prioritize the one with the better chance of recovery",
+            "the most ethically defensible decision procedure is random selection"
+          ],
+          "raw_answers": [
+            "use a random selection process to determine which patient gets the ventilator first",
+            "the most ethically defensible decision would be to allocate the ventilator to the patient with the more favorable prognosis, considering patient a's role as a single parent, or if both have equally promising chances of survival, then prioritize the one with the better chance of recovery",
+            "the most ethically defensible decision procedure is random selection"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.0,
+          "mean_steps": 4.3,
+          "accuracy": null
+        },
+        "C3": {
+          "n_cells": 3,
+          "answers": [
+            "given the identical clinical profiles of both patients and the ethical principles of fairness and equal treatment, a defensible decision would be to allocate the ventilator based solely on medical need and prognosis, without considering their respective roles or personal circumstances. however, it is crucial to remember that this is a complex issue with no easy solution, and each case may require an individualized approach",
+            "to ensure fairness and impartiality, the most ethically defensible decision procedure would be to randomly select one patient for the ventilator. this method avoids any form of discrimination based on factors such as age or profession",
+            "allocate the ventilator randomly between patient a (35-year-old single parent) and patient b (65-year-old senior physician)"
+          ],
+          "raw_answers": [
+            "given the identical clinical profiles of both patients and the ethical principles of fairness and equal treatment, a defensible decision would be to allocate the ventilator based solely on medical need and prognosis, without considering their respective roles or personal circumstances. however, it is crucial to remember that this is a complex issue with no easy solution, and each case may require an individualized approach",
+            "to ensure fairness and impartiality, the most ethically defensible decision procedure would be to randomly select one patient for the ventilator. this method avoids any form of discrimination based on factors such as age or profession",
+            "allocate the ventilator randomly between patient a (35-year-old single parent) and patient b (65-year-old senior physician)"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.0,
+          "mean_steps": 10.3,
+          "accuracy": null
+        },
+        "C4": {
+          "n_cells": 3,
+          "answers": [
+            "the most ethically defensible decision procedure would involve consultation with an ethics committee or healthcare professionals, ensuring transparency and fairness in a process that prioritizes the patient's quality of life and potential for recovery while minimizing bias",
+            "a defensible decision procedure would prioritize saving the most lives while ensuring fairness through an objective triage system that evaluates each patient's clinical profile and potential long-term impact on society and family members",
+            "the most ethically defensible decision procedure would involve a committee of medical professionals weighing ethical, clinical, and emotional factors to make an informed, impartial, and transparent decision based on evidence and institutional guidelines. this decision should be communicated sensitively and compassionately to both patients and their families"
+          ],
+          "raw_answers": [
+            "the most ethically defensible decision procedure would involve consultation with an ethics committee or healthcare professionals, ensuring transparency and fairness in a process that prioritizes the patient's quality of life and potential for recovery while minimizing bias",
+            "a defensible decision procedure would prioritize saving the most lives while ensuring fairness through an objective triage system that evaluates each patient's clinical profile and potential long-term impact on society and family members",
+            "the most ethically defensible decision procedure would involve a committee of medical professionals weighing ethical, clinical, and emotional factors to make an informed, impartial, and transparent decision based on evidence and institutional guidelines. this decision should be communicated sensitively and compassionately to both patients and their families"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.0,
+          "mean_steps": 15.7,
+          "accuracy": null
+        },
+        "C5": {
+          "n_cells": 3,
+          "answers": [
+            "the most ethically defensible decision procedure would involve a fair and impartial process that takes into account various ethical principles such as equality, utility, and beneficence, possibly through consultation with an ethics committee or use of a predefined triage protocol",
+            "the most ethically defensible decision procedure would involve a comprehensive evaluation by a panel considering various factors",
+            "the most ethically defensible decision procedure would prioritize based on prognosis and likelihood of survival while ensuring transparency and fairness throughout the process"
+          ],
+          "raw_answers": [
+            "the most ethically defensible decision procedure would involve a fair and impartial process that takes into account various ethical principles such as equality, utility, and beneficence, possibly through consultation with an ethics committee or use of a predefined triage protocol",
+            "the most ethically defensible decision procedure would involve a comprehensive evaluation by a panel considering various factors",
+            "the most ethically defensible decision procedure would prioritize based on prognosis and likelihood of survival while ensuring transparency and fairness throughout the process"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.0,
+          "mean_steps": 12.3,
+          "accuracy": null
+        }
+      }
+    },
+    "K3-005": {
+      "category": "open-ended-dilemma",
+      "is_open_ended": true,
+      "n_cells": 15,
+      "extract_ok": 15,
+      "extract_ok_frac": 1.0,
+      "mean_sig_b": 0.667,
+      "mean_cbd_rate": 0.266,
+      "knightian_signal": 0.667,
+      "by_condition": {
+        "C1": {
+          "n_cells": 3,
+          "answers": [
+            "the weight given to unborn populations in cost-benefit analyses is a complex ethical question and may vary depending on various philosophical frameworks, but generally, it should reflect intergenerational equity and future generations' potential rights and interests",
+            "cannot-be-determined",
+            "the weight given to unborn populations in cost-benefit analyses is a complex ethical question and may vary based on different philosophical perspectives, but generally, it should reflect the long-term intergenerational equity and sustainability"
+          ],
+          "raw_answers": [
+            "the weight given to unborn populations in cost-benefit analyses is a complex ethical question and may vary depending on various philosophical frameworks, but generally, it should reflect intergenerational equity and future generations' potential rights and interests",
+            "the ethical consideration dictates that equal weight should be given to both existing and unborn populations, but implementing this in cost-benefit analyses may require complex methodologies due to the uncertainty and long time horizon involved",
+            "the weight given to unborn populations in cost-benefit analyses is a complex ethical question and may vary based on different philosophical perspectives, but generally, it should reflect the long-term intergenerational equity and sustainability"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.333,
+          "mean_steps": 1.0,
+          "accuracy": null
+        },
+        "C2": {
+          "n_cells": 3,
+          "answers": [
+            "cannot-be-determined",
+            "the weight given to unborn populations in cost-benefit analyses should reflect a commitment to intergenerational equity, taking into account the need for precautionary principles and sustainable development practices",
+            "final answer: unborn populations should receive substantial weight in cost-benefit analyses, considering the ethical principles of intergenerational justice and long-term welfare preservation. the specific weight might depend on additional factors such as discount rates for future benefits, but it is crucial to prioritize the wellbeing of those who will come after us"
+          ],
+          "raw_answers": [
+            "unborn populations in cost-benefit analyses should be given significant weight, as their welfare is intrinsically linked to long-term sustainability and intergenerational equity. however, the exact weight assigned can vary depending on various factors such as uncertainty, discount rates, and ethical judgments. it's important for policymakers to engage with experts in ethics, economics, and climate science to establish fair and well-informed decision-making processes that prioritize both current and future generations alike",
+            "the weight given to unborn populations in cost-benefit analyses should reflect a commitment to intergenerational equity, taking into account the need for precautionary principles and sustainable development practices",
+            "final answer: unborn populations should receive substantial weight in cost-benefit analyses, considering the ethical principles of intergenerational justice and long-term welfare preservation. the specific weight might depend on additional factors such as discount rates for future benefits, but it is crucial to prioritize the wellbeing of those who will come after us"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.333,
+          "mean_steps": 4.7,
+          "accuracy": null
+        },
+        "C3": {
+          "n_cells": 3,
+          "answers": [
+            "final answer: the unborn populations should receive equal weight in cost-benefit analyses, considering long-term sustainability, precautionary principles, and common but differentiated responsibilities",
+            "the weight given to unborn populations in cost-benefit analyses should reflect the importance of intergenerational equity and the precautionary principle, implying a significant consideration for their welfare in climate policy decisions made today",
+            "cannot-be-determined"
+          ],
+          "raw_answers": [
+            "final answer: the unborn populations should receive equal weight in cost-benefit analyses, considering long-term sustainability, precautionary principles, and common but differentiated responsibilities",
+            "the weight given to unborn populations in cost-benefit analyses should reflect the importance of intergenerational equity and the precautionary principle, implying a significant consideration for their welfare in climate policy decisions made today",
+            "the weight that unborn populations should receive in cost-benefit analyses relative to existing populations depends on a balanced consideration of various ethical principles, practical challenges, and future projections"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.333,
+          "mean_steps": 8.3,
+          "accuracy": null
+        },
+        "C4": {
+          "n_cells": 3,
+          "answers": [
+            "in cost-benefit analyses for climate policy decisions affecting populations in 2125, the interests of these unborn individuals should receive substantial weight relative to existing populations, given the principles of intergenerational equity, sustainability, trusteeship, precautionary approach, and long-term thinking",
+            "while it's challenging to quantify the exact weight that unborn populations should receive in cost-benefit analyses, ethical principles such as intergenerational equity, the precautionary approach, and equal consideration of interests suggest that their interests should be given significant weight relative to existing populations. this balance should be achieved through careful consideration of costs, benefits, discounting, institutional arrangements, and participatory methods. however, the specific weight assigned may vary depending on the context and particular circumstances",
+            "the weight that unborn populations should receive in cost-benefit analyses relative to existing populations should be significantly high, reflecting the long-term consequences of climate policy choices and the ethical importance of intergenerational equity. however, the exact weight may depend on specific methods and contexts used in the analysis"
+          ],
+          "raw_answers": [
+            "in cost-benefit analyses for climate policy decisions affecting populations in 2125, the interests of these unborn individuals should receive substantial weight relative to existing populations, given the principles of intergenerational equity, sustainability, trusteeship, precautionary approach, and long-term thinking",
+            "while it's challenging to quantify the exact weight that unborn populations should receive in cost-benefit analyses, ethical principles such as intergenerational equity, the precautionary approach, and equal consideration of interests suggest that their interests should be given significant weight relative to existing populations. this balance should be achieved through careful consideration of costs, benefits, discounting, institutional arrangements, and participatory methods. however, the specific weight assigned may vary depending on the context and particular circumstances",
+            "the weight that unborn populations should receive in cost-benefit analyses relative to existing populations should be significantly high, reflecting the long-term consequences of climate policy choices and the ethical importance of intergenerational equity. however, the exact weight may depend on specific methods and contexts used in the analysis"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.0,
+          "mean_steps": 17.3,
+          "accuracy": null
+        },
+        "C5": {
+          "n_cells": 3,
+          "answers": [
+            "in cost-benefit analyses considering climate policy choices in 2025 that affect populations in 2125, unborn populations should receive significant weight relative to existing populations, with a focus on minimizing harm and promoting long-term sustainability while respecting the precautionary principle",
+            "the weight given to unborn populations in cost-benefit analyses should ideally reflect a balance between maintaining equal welfare levels (strong sustainability) and allowing for technological progress compensation (weak sustainability). however, the specific allocation might vary depending on societal values and assumptions about the future",
+            "cannot-be-determined"
+          ],
+          "raw_answers": [
+            "in cost-benefit analyses considering climate policy choices in 2025 that affect populations in 2125, unborn populations should receive significant weight relative to existing populations, with a focus on minimizing harm and promoting long-term sustainability while respecting the precautionary principle",
+            "the weight given to unborn populations in cost-benefit analyses should ideally reflect a balance between maintaining equal welfare levels (strong sustainability) and allowing for technological progress compensation (weak sustainability). however, the specific allocation might vary depending on societal values and assumptions about the future",
+            "the weight given to unborn populations in cost-benefit analyses is a complex issue that requires ethical considerations and societal consensus. however, from a utilitarian standpoint, one might argue that equal consideration should be given to both existing and future generations due to the intergenerational impact of climate policy choices. yet, it's important to note that this perspective may not fully account for factors such as discount rates, uncertainty about future preferences, or the ability to adapt to climate change. ultimately, a balance must be struck between the interests of present and future generations while acknowledging the limitations and uncertainties involved in these types of analyses"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.333,
+          "mean_steps": 6.7,
+          "accuracy": null
+        }
+      }
+    },
+    "K4-003": {
+      "category": "strategic-uncertainty",
+      "is_open_ended": false,
+      "n_cells": 15,
+      "extract_ok": 15,
+      "extract_ok_frac": 1.0,
+      "mean_sig_b": 0.067,
+      "mean_cbd_rate": 0.2,
+      "knightian_signal": 0.2,
+      "by_condition": {
+        "C1": {
+          "n_cells": 3,
+          "answers": [
+            "cannot-be-determined",
+            "cannot-be-determined",
+            "cannot-be-determined"
+          ],
+          "raw_answers": [
+            "cannot-be-determined (without knowing the other firms' intentions)",
+            "cannot-be-determined (without knowing the other firms' intentions or regulator's actions)",
+            "cannot-be-determined"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 1.0,
+          "mean_steps": 0.7,
+          "accuracy": null
+        },
+        "C2": {
+          "n_cells": 3,
+          "answers": [
+            "commit",
+            "commit",
+            "commit"
+          ],
+          "raw_answers": [
+            "commit",
+            "commit",
+            "commit"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 4.7,
+          "accuracy": null
+        },
+        "C3": {
+          "n_cells": 3,
+          "answers": [
+            "commit",
+            "commit",
+            "commit"
+          ],
+          "raw_answers": [
+            "commit",
+            "commit. the decision is based on the assumption that other firms will make rational choices and commit to the standard, leading to a net benefit for each committing firm",
+            "given our assumptions about the independent decision-making process and limited information, it is optimal to commit to the joint ai-safety auditing standard"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 6.3,
+          "accuracy": null
+        },
+        "C4": {
+          "n_cells": 3,
+          "answers": [
+            "commit",
+            "commit",
+            "commit"
+          ],
+          "raw_answers": [
+            "commit",
+            "commit",
+            "commit"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 10.7,
+          "accuracy": null
+        },
+        "C5": {
+          "n_cells": 3,
+          "answers": [
+            "commit",
+            "commit",
+            "withhold"
+          ],
+          "raw_answers": [
+            "commit",
+            "commit",
+            "withhold"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.0,
+          "mean_steps": 6.3,
+          "accuracy": null
+        }
+      }
+    },
+    "K4-004": {
+      "category": "strategic-uncertainty",
+      "is_open_ended": false,
+      "n_cells": 15,
+      "extract_ok": 15,
+      "extract_ok_frac": 1.0,
+      "mean_sig_b": 0.333,
+      "mean_cbd_rate": 0.0,
+      "knightian_signal": 0.333,
+      "by_condition": {
+        "C1": {
+          "n_cells": 3,
+          "answers": [
+            "mid-low",
+            "mid-high",
+            "mid-high"
+          ],
+          "raw_answers": [
+            "mid-low",
+            "mid-high",
+            "mid-high"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.0,
+          "mean_steps": 0.0,
+          "accuracy": null
+        },
+        "C2": {
+          "n_cells": 3,
+          "answers": [
+            "low",
+            "mid-high",
+            "low"
+          ],
+          "raw_answers": [
+            "low",
+            "mid-high",
+            "mid-low (since numbers near the mean are more likely to be closer to the target)"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.0,
+          "mean_steps": 7.0,
+          "accuracy": null
+        },
+        "C3": {
+          "n_cells": 3,
+          "answers": [
+            "low",
+            "low",
+            "mid-low"
+          ],
+          "raw_answers": [
+            "high. the strategy is to pick a number slightly above the upper bound of the strategic players' range, r, which should be close to (2/3 * average)",
+            "mid-low (since the range is between 50 and 67)",
+            "mid-low"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.0,
+          "mean_steps": 12.0,
+          "accuracy": null
+        },
+        "C4": {
+          "n_cells": 3,
+          "answers": [
+            "low",
+            "low",
+            "mid-high"
+          ],
+          "raw_answers": [
+            "your number should fall within the high range. final answer: 'high'",
+            "choose a number from low (around 19)",
+            "mid-high"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.0,
+          "mean_steps": 22.0,
+          "accuracy": null
+        },
+        "C5": {
+          "n_cells": 3,
+          "answers": [
+            "mid-low",
+            "mid-low",
+            "mid-high"
+          ],
+          "raw_answers": [
+            "mid-low",
+            "mid-low",
+            "mid-high"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.0,
+          "mean_steps": 11.7,
+          "accuracy": null
+        }
+      }
+    },
+    "R-001": {
+      "category": "reference",
+      "is_open_ended": true,
+      "n_cells": 15,
+      "extract_ok": 15,
+      "extract_ok_frac": 1.0,
+      "mean_sig_b": 0.467,
+      "mean_cbd_rate": 0.0,
+      "knightian_signal": 0.467,
+      "by_condition": {
+        "C1": {
+          "n_cells": 3,
+          "answers": [
+            "3861",
+            "3861",
+            "3861"
+          ],
+          "raw_answers": [
+            "3861",
+            "3861",
+            "3861"
+          ],
+          "sig_b": 0.0,
+          "cbd_rate": 0.0,
+          "mean_steps": 0.0,
+          "accuracy": 0.0
+        },
+        "C2": {
+          "n_cells": 3,
+          "answers": [
+            "47",
+            "3851",
+            "47"
+          ],
+          "raw_answers": [
+            "47 \u00d7 83 = 3431",
+            "3851",
+            "47 \u00d7 83 = 3221"
+          ],
+          "sig_b": 0.333,
+          "cbd_rate": 0.0,
+          "mean_steps": 2.0,
+          "accuracy": 0.0
+        },
+        "C3": {
+          "n_cells": 3,
+          "answers": [
+            "47",
+            "658",
+            "2"
+          ],
+          "raw_answers": [
+            "47 \u00d7 83 = 3851",
+            "final answer: 658",
+            "- ones place: 2 (from step 2) + 5 (from step 4) + 0 (from step 6) + 0 (from step 7) = 7"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.0,
+          "mean_steps": 12.0,
+          "accuracy": 0.0
+        },
+        "C4": {
+          "n_cells": 3,
+          "answers": [
+            "3901",
+            "8233",
+            "47"
+          ],
+          "raw_answers": [
+            "3901'",
+            "8233",
+            "47 \u00d7 83 = 3861"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.0,
+          "mean_steps": 14.3,
+          "accuracy": 0.333
+        },
+        "C5": {
+          "n_cells": 3,
+          "answers": [
+            "3867",
+            "3861",
+            "47"
+          ],
+          "raw_answers": [
+            "3867 (which can be written as 38 hundred + 6 tens + 7 ones)",
+            "3861",
+            "final answer: 47 \u00d7 83 = 3927"
+          ],
+          "sig_b": 0.667,
+          "cbd_rate": 0.0,
+          "mean_steps": 4.7,
+          "accuracy": 0.0
+        }
+      }
+    }
+  }
+}

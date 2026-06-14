@@ -1,0 +1,36 @@
+============================================================================================
+PER-CONDITION: generation length (tokens_out) vs counted steps
+============================================================================================
+cond |    n |  tok_out |   chars |   sent |  steps | steps/100tok | steps/sent
+--------------------------------------------------------------------------------------------
+C1   |  378 |     36.2 |     154 |   1.66 |   0.89 |         2.45 |      0.534
+C2   |  378 |    110.0 |     455 |   4.26 |   3.53 |         3.21 |      0.829
+C3   |  378 |    354.9 |    1561 |  11.43 |  10.79 |         3.04 |      0.944
+C4   |  378 |    572.3 |    2527 |  22.93 |  17.89 |         3.13 |      0.780
+C5   |  378 |    254.4 |    1139 |   7.14 |   6.62 |         2.60 |      0.927
+
+============================================================================================
+VERDICT LOGIC
+============================================================================================
+  C5/C4 token ratio = 0.44 ; C5/C3 token ratio = 0.72
+  steps/100tok: C2=3.21 C3=3.04 C4=3.13 C5=2.60  (prose band ~ C2-C3; C4 elevated by enumerated lists)
+  steps/sentence: C4=0.780  C5=0.927  (equal => classifier flags C5 sentences at the SAME rate; no count bug)
+  VERDICT: BEHAVIORAL — C5 generates far fewer tokens than C4 (and even fewer than C3); its step DENSITY sits in the normal C2-C3 prose band and its steps/sentence equals C4's, so the counter is not under-segmenting C5. The 'unconstrained' prompt simply yields shorter completions on these 7-8B models.
+
+============================================================================================
+C5 SAMPLES: high tokens_out but low steps (counter-undercount suspects)
+============================================================================================
+
+--- qwen2.5:7b A-008 rep3 | tok_out=535 stored_steps=1 sentences=1 recount=1 ---
+To determine the probability of drawing a flush from a standard deck when 5 cards are drawn, we need to follow these steps:\n \n 1. **Total Possible Hands**: First, calculate the total number of ways to draw 5 cards from a 52-card deck.\n    \[\n    \binom{52}{5} = \frac{52!}{5!(52-5)!} = 2,\,598,\,960\n    \]\n \n 2. **Number of Flushes**: Next, calculate the number of ways to draw a flush (all cards in the same suit).\n    \n    - There are 4 suits.\n    - For each suit, we need to choose 5 cards from the 13 available in that suit.\n    \[\n    \binom{13}{5} = \frac{13!}{5!(13-5)!} = 1,\,287\n    \]\n    \n    - Thus, for each of the 4 suits:\n    \[\n    4 \times 1,\,287 = 5,\,148\n    \]\n \n 3. **Straight Flushes**: Subtract 
+
+--- mistral:7b-instruct K4-003 rep1 | tok_out=460 stored_steps=2 sentences=2 recount=2 ---
+ Final answer: Commit\n \n Step 1: Identify the possible scenarios and their monetary outcomes.\n - Scenario A: All 5 commit (total cost $2.5M, total gain $6M)\n - Scenario B1: 4 commit, 1 does not (total cost $3M, total gain for 4 $4.8M, 1 $0)\n - Scenario B2: 3 commit, 2 do not ($6M cost, total gain for 3 $3.6M, each of the 2 $0 + potential penalty)\n - Scenario C1: 2 commit, 3 do not ($5M cost, total gain for 2 $2.4M, each of the 3 $0 + potential penalties)\n - Scenario C2: 1 commits, 4 do not ($1.5M cost, total gain for 1 $1.2M, each of the 4 $0 + potential penalties)\n \n Step 2: Calculate the expected monetary value (EMV) for each decision in light of these scenarios and their probabilities.\n \n - If you c
+
+--- mistral:7b-instruct R-106 rep1 | tok_out=174 stored_steps=2 sentences=2 recount=2 ---
+ First, we multiply the numbers starting from the right:\n \n 1) Multiply 6 (from 56) by 8 (from 38): 48\n \n 2) Carry over the remaining 5 to the next number. So, now we have 5 + 6 = 11\n \n 3) Now multiply 11 by 3: 33\n \n 4) Add carryover from step 2 (11): 44\n \n 5) Multiply 5 (remaining digits of 56) by 8 (from 38): 40\n \n 6) Finally, add the results from steps 4 and 5: 84 + 44 = 128\n \n Final answer: 128
+
+--------------------------------------------------------------------------------------------
+Typical C4 for contrast:
+--- llama3.1:8b K1-013 rep2 | tok_out=540 steps=4 sentences=6 ---
+I'll break down my reasoning into 15 steps to provide a thorough analysis.\n \n **Step 1:** The World Health Organization (WHO) is responsible for monitoring and responding to global health crises, including outbreaks of infectious diseases.\n \n **Step 2:** A pandemic is declared when a disease spreads across multiple countries or regions, affecting a large number of people.\n \n **Step 3:** The WHO uses various criteria to determine whether to declare a pandemic, including the severity of symptoms, transmission rates, and geographical spread.\n \n **Step 4:** Novel pathogens (disease-X type) can emerge at any time due to factors like animal-human transmission, mutations, or human activities that increase 

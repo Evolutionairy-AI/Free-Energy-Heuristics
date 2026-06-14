@@ -1,0 +1,67 @@
+# ─────────────────────────────────────────────────────────────────────
+#  SECRETS — never publish. API keys live here and are loaded at runtime.
+# ─────────────────────────────────────────────────────────────────────
+Experiments/API_KEYS/
+*.key
+*_Key.txt
+*_key.txt
+*.key.txt
+
+# ── Python caches ────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+
+# ── Local agent / editor working dirs ────────────────────────────────
+.claude/
+
+# ── Personal screenshots / scratch ───────────────────────────────────
+Screenshot*.png
+
+# ─────────────────────────────────────────────────────────────────────
+#  Manuscript: publish only the final assembled paper (FEH_Manuscript_v0.2)
+#  + the standalone appendices + the pre-registration. Everything below is
+#  a superseded draft, round-trip artifact, build-time working copy, or a
+#  personal review copy, and is intentionally excluded.
+# ─────────────────────────────────────────────────────────────────────
+_assembly_v0.2/
+Chapters/
+assemble_manuscript.py
+assemble_manuscript_v2.py
+FEH_Manuscript_v0.1.*
+FEH_Ch2_Q1_tau_regime_inserts.*
+
+# superseded chapter / theory source drafts (folded into FEH_Manuscript_v0.2)
+feh_alex.md
+feh_v0.4.md
+feh_v0.5.md
+feh_v0.6.md
+feh_v0.7.md
+feh_abstract_v0.1.md
+feh_chapter1_introduction_v0.1.md
+feh_chapter3_operationalization_v0.1.md
+feh_chapter4_benchmark_design_v0.1.md
+feh_chapter5_methods_v0.1.md
+feh_chapter6_analysis_plan_v0.1.md
+feh_chapter7_discussion_v0.1.md
+feh_chapter7_results_v0.1.md
+feh_chapter8_discussion_v0.1.md
+feh_figure_specs_v0.1.md
+bibliography.md
+*_roundtrip.md
+
+# intermediate / personal docx (the final paper is FEH_Manuscript_v0.2.docx)
+*_Alex.docx
+FEH_Abstract_v0.1.docx
+FEH_Bibliography.docx
+FEH_Chapter1_Introduction_v0.1.docx
+FEH_Chapter3_Operationalization_v0.1.docx
+FEH_Chapter4_BenchmarkDesign_v0.*.docx
+FEH_Chapter5_Methods_v0.1.docx
+FEH_Chapter6_AnalysisPlan_v0.1.docx
+FEH_Chapter7_Results_v0.1.docx
+FEH_Chapter8_Discussion_v0.1.docx
+FEH_TheoreticalFoundation_Draft_*.docx
+
+# planning / working notes
+AUDIT_v0.3_math_chapter.md
+REWRITE_section_2_2_and_2_4.md

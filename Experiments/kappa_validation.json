@@ -1,0 +1,4871 @@
+{
+  "summary": {
+    "model": "claude-sonnet-4-5-20250929",
+    "n_sentences": 539,
+    "n_errors": 0,
+    "kappa": 0.802,
+    "accuracy": 0.915,
+    "p_step_heuristic": 0.675,
+    "p_step_judge": 0.698,
+    "confusion": {
+      "TP": 347,
+      "FP": 17,
+      "FN": 29,
+      "TN": 146
+    },
+    "elapsed_s": 1351.4
+  },
+  "records": [
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C1",
+      "sent_idx": 0,
+      "sentence": "Final answer: Cannot-be-determined",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C2",
+      "sent_idx": 0,
+      "sentence": "Final answer: Cannot-be-determined (as of now)\n\nStep 1: Understanding the question\nThe question asks whether the intra-Africa trade under the African Continental Free Trade Area (AfCFTA) will exceed 30% of total African trade by 2030.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C2",
+      "sent_idx": 1,
+      "sentence": "Step 2: Analyzing current conditions\nAs of now, the AfCFTA is still a relatively new initiative with many trade agreements yet to be fully implemented.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C2",
+      "sent_idx": 2,
+      "sentence": "It's also important to consider that Africa's trade composition and dynamics are influenced by various factors such as geopolitical issues, infrastructural constraints, and economic disparities among member states.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C2",
+      "sent_idx": 3,
+      "sentence": "Step 3: Predicting future outcomes\nGiven the current state of implementation and the multitude of factors impacting African trade, it is challenging to predict with certainty whether the AfCFTA will cause intra-Africa trade to exceed 30% of total trade by 2030.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C2",
+      "sent_idx": 4,
+      "sentence": "It requires a detailed analysis of how these factors will evolve over time, and the extent to which the AfCFTA can address them effectively.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C2",
+      "sent_idx": 5,
+      "sentence": "Therefore, while it is possible that the AfCFTA could boost intra-African trade significantly, it cannot be definitively stated whether it will exceed 30% of total African trade by 2030.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 0,
+      "sentence": "Step 1: Understanding the context\nThe African Continental Free Trade Area (AfCFTA) aims to create a single market for goods and services among African countries, similar to the European Union.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 1,
+      "sentence": "The goal is to boost intra-African trade.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 2,
+      "sentence": "Step 2: Defining terms\nTotal African trade refers to all trade activities between Africa and other continents or regions, as well as trade within Africa.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 3,
+      "sentence": "Intra-Africa trade specifically refers to trade activities only between African countries.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 4,
+      "sentence": "Step 3: Evaluating current situation\nAs of 2019 (latest available data), intra-African trade accounts for about 18% of total African trade.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 5,
+      "sentence": "This percentage has been relatively low compared to other regional blocs like the European Union, which had an average intra-bloc trade of around 67%.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 6,
+      "sentence": "Step 4: Analyzing progress and goals\nThe AfCFTA aims to increase intra-African trade to at least 50% by 2028.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 7,
+      "sentence": "However, meeting this goal would require a significant acceleration in the growth rate of intra-Africa trade, which has historically grown slower than other regions.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 8,
+      "sentence": "Step 5: Considering challenges and opportunities\nChallenges facing the AfCFTA include infrastructure gaps, non-tariff barriers, political instability, and insufficient implementation of agreements.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 9,
+      "sentence": "On the other hand, potential opportunities include increased economies of scale, improved competitiveness, and enhanced regional integration.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 10,
+      "sentence": "Step 6: Forecasting future trends\nPredicting future trends is complex due to factors such as geopolitical changes, economic fluctuations, and policy decisions.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 11,
+      "sentence": "Given the current rate of progress and obstacles faced by the AfCFTA, it may be challenging for intra-Africa trade to reach 30% of total African trade by 2030.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 12,
+      "sentence": "Step 7: Final answer determination\nBased on the analysis, it is difficult to definitively determine whether intra-African trade will exceed 30% of total African trade by 2030 due to the complexities involved and the challenges faced by the AfCFTA.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 13,
+      "sentence": "However, if significant progress is made in addressing the obstacles, there is a possibility that the goal could be met or surpassed.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 0,
+      "sentence": "Final answer: Cannot-be-determined\n\nStep 1: Define key terms and concepts:\n   - African Continental Free Trade Area (AfCFTA): A free trade area established by the African Union, which aims to create a single market for goods and services across Africa.\n   - Intra-Africa trade: Trade that takes place between countries within Africa.\n   - Total African trade: The sum of all trade (both imports and exports) happening among African countries and with the rest of the world.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 1,
+      "sentence": "Step 2: Identify factors impacting intra-Africa trade:\n   - Tariff barriers, non-tariff barriers, and bureaucratic obstacles within individual countries and between them.\n   - Infrastructure development and logistics efficiency affecting transportation and trade costs.\n   - Political stability and regional cooperation among African nations.\n   - Competitiveness of African industries in both domestic and international markets.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 2,
+      "sentence": "Step 3: Analyze current state of intra-Africa trade:\n   - Intra-Africa trade accounts for less than 20% of total African trade, with many countries heavily dependent on exports to developed economies like Europe and China.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 3,
+      "sentence": "Step 4: Evaluate AfCFTA's potential impact on intra-Africa trade:\n   - The AfCFTA aims to remove tariff barriers among member states and create a more integrated market, potentially boosting intra-African trade.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 4,
+      "sentence": "However, the full extent of its impact remains uncertain.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 5,
+      "sentence": "Step 5: Identify challenges facing AfCFTA's success:\n   - Implementation delays due to political disagreements among member countries.\n   - Inadequate infrastructure and logistics within many African nations, leading to high transportation costs and trade barriers.\n   - Weak enforcement of the agreement's rules, which could lead to continued protectionism and non-compliance by some member states.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 6,
+      "sentence": "Step 6: Assess progress made so far with AfCFTA:\n   - The AfCFTA officially came into effect in January 2021, but implementation has been slow due to challenges mentioned above.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 7,
+      "sentence": "Step 7: Forecast potential growth of intra-Africa trade by 2030:\n   - It is difficult to make precise predictions about the future state of intra-African trade due to various factors involved and the uncertainty surrounding their development.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 8,
+      "sentence": "Step 8: Estimate the impact of AfCFTA on total African trade:\n   - The AfCFTA's ultimate effect on total African trade will depend on its success in increasing intra-Africa trade and reducing reliance on external markets.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 9,
+      "sentence": "Step 9: Evaluate the likelihood of intra-Africa trade reaching 30% by 2030:\n   - Given current levels of intra-African trade, reaching 30% by 2030 would require significant growth, which is uncertain due to the factors discussed earlier.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 10,
+      "sentence": "Step 10: Consider alternative scenarios and potential obstacles:\n   - Scenario A: The AfCFTA succeeds in reducing tariffs, removing non-tariff barriers, and improving infrastructure, leading to increased intra-African trade.\n   - Scenario B: The AfCFTA faces continued delays, protectionism, and implementation challenges, resulting in limited growth of intra-Africa trade.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 11,
+      "sentence": "Step 11: Discuss the implications of each scenario on reaching the 30% target:\n   - In Scenario A, it is possible that intra-African trade could surpass 30%, but this would still depend on various uncertainties like the pace and depth of reforms.\n   - In Scenario B, it seems unlikely that intra-African trade would reach 30% by 2030 due to limited progress toward integration and increased competition with external markets.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 12,
+      "sentence": "Step 12: Evaluate the combined likelihood of each scenario:\n   - The success of the AfCFTA remains uncertain, as it faces various challenges like delays in implementation and insufficient infrastructure development.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 13,
+      "sentence": "Step 13: Acknowledge the limitations of current knowledge:\n   - It is difficult to accurately predict future developments, especially given the complexities and uncertainties surrounding the African economy, political climate, and AfCFTA implementation.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 14,
+      "sentence": "Step 14: Recap the factors influencing the answer:\n   - The success of the AfCFTA in promoting intra-African trade is uncertain due to various challenges like delays in implementation, insufficient infrastructure development, and weak enforcement of rules.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 15,
+      "sentence": "Step 15: Final answer: Cannot-be-determined\n   - Given the current state of knowledge, it is impossible to definitively say whether intra-Africa trade will exceed 30% of total African trade by 2030.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 16,
+      "sentence": "The success of the AfCFTA remains uncertain and depends on numerous factors that are difficult to predict with certainty.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 0,
+      "sentence": "Final answer: Cannot be determined at this time.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 1,
+      "sentence": "The African Continental Free Trade Area (AfCFTA) is still in its early stages, and it will take several years for its full impact on trade patterns to become evident.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-001",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 2,
+      "sentence": "While there are projections that suggest AfCFTA could significantly boost intra-African trade, it's impossible to definitively predict that it will exceed 30% of total African trade by 2030 at this current moment.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C1",
+      "sent_idx": 0,
+      "sentence": "Final answer: No prediction can be made with certainty as it depends on various political and technological factors that are difficult to predict accurately years in advance.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C2",
+      "sent_idx": 0,
+      "sentence": "Step 1: Consider the current political and technological landscape between the given nations regarding AI development and their willingness to cooperate on international treaties.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C2",
+      "sent_idx": 1,
+      "sentence": "Step 2: Analyze the potential for conflict of interest, geopolitical tensions, and competition in AI technology between these nations that might hinder the formation of a formal bilateral AI-safety treaty.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C2",
+      "sent_idx": 2,
+      "sentence": "Step 3: Based on the information gathered, predict which two nations are most likely to cooperate on such a treaty given their shared interests in maintaining global stability and ensuring the safe development of AI technology.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 0,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 1,
+      "sentence": "Analyze current global political climate and economic relationships between the given nations, focusing on their cooperation and conflict areas, particularly regarding AI technology development and safety.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 2,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 3,
+      "sentence": "Identify the nations that are investing heavily in AI development and have shown a willingness to collaborate on international agreements, as well as those with potential conflicts of interest or geopolitical tensions.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 4,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 5,
+      "sentence": "Consider the likelihood of each pair of nations reaching an agreement based on their history of cooperation and shared values, especially in regards to technology governance.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 6,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 7,
+      "sentence": "Assess the level of urgency each nation feels about AI safety and the potential risks associated with unregulated development, which may influence their willingness to negotiate and sign a treaty.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 8,
+      "sentence": "5.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 9,
+      "sentence": "Predict the timeline for negotiations and ratification processes based on past experiences with similar international agreements and any potential obstacles that might delay the process.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 10,
+      "sentence": "6.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 11,
+      "sentence": "Consider external factors such as public opinion, political shifts, and global events that could impact the negotiation process and the signing of a formal treaty by 2032.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 12,
+      "sentence": "7.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C3",
+      "sent_idx": 13,
+      "sentence": "Based on the analysis, make a prediction regarding which two nations are most likely to sign the first formal bilateral AI-safety treaty by the end of 2032.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 0,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 1,
+      "sentence": "Identify key factors that could influence the signing of an AI-safety treaty between these countries: political relationships, economic interests, technological advancements, and shared concerns about AI safety.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 2,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 3,
+      "sentence": "Analyze current political relationships among the six nations to understand potential barriers or incentives for forming such a partnership.\n   - US-China relationship is strained due to trade disputes and geopolitical tensions.\n   - US-EU relationship is strong but has faced challenges on issues like climate change, migration, and trade disputes.\n   - US-India relationship has improved in recent years, with cooperation on defense and counterterrorism efforts.\n   - China-Russia relationship is strong due to shared geopolitical interests and mutual defense agreements.\n   - China-EU relationship is also positive, with close economic ties and collaboration on climate change issues.\n   - EU-India relationship is improving, but cooperation remains limited compared to the other relationships mentioned.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 4,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 5,
+      "sentence": "Consider each nation's technological advancements in AI and their commitment to responsible AI development.\n   - The US has been a leader in AI research and development for several years, with major tech companies like Google, Microsoft, and IBM investing heavily in the field.\n   - China is rapidly catching up to the US in AI development, with significant investment from the government and private sector.\n   - The EU has taken steps towards regulating AI, such as the European Commission's proposed Artificial Intelligence Act.\n   - India lags behind in terms of AI research and development compared to the other nations listed but is making efforts to catch up.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 6,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 7,
+      "sentence": "Assess each nation's shared concerns about AI safety and potential benefits from signing an AI-safety treaty.\n   - All nations have expressed concern about the potential risks posed by uncontrolled AI, such as job displacement, privacy violations, and autonomous weapons.\n   - The US and China may be motivated to collaborate on AI safety due to growing competition in the field, while also managing their strained relationship in other areas.\n   - The EU may seek to collaborate with both the US and China to create global standards for AI safety, leveraging its regulatory expertise.\n   - India might be more likely to cooperate with other nations if offered technological assistance or investment in exchange for agreement on AI safety norms.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 8,
+      "sentence": "5.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 9,
+      "sentence": "Based on the above analysis, it is most likely that the US and China will sign a formal bilateral AI-safety treaty due to their shared concerns about AI development and the potential benefits of collaboration, despite strained political relationships in other areas.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 10,
+      "sentence": "However, there are significant obstacles to reaching an agreement between these two nations.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 11,
+      "sentence": "6.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 12,
+      "sentence": "Analyze potential obstacles to an AI-safety treaty between the US and China:\n   - Differences in regulatory approaches and technological capabilities could make it difficult for the two nations to agree on common standards.\n   - Ongoing trade disputes and geopolitical tensions may prevent cooperation on any issue, including AI safety.\n   - The US government may be hesitant to share sensitive information about its AI technology with China due to concerns about intellectual property theft and national security risks.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 13,
+      "sentence": "7.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 14,
+      "sentence": "Consider the likelihood of other potential treaties between the six nations:\n   - A US-EU AI-safety treaty is possible, as both sides have expressed a desire for cooperation on AI regulation, but it may be less likely due to differences in approach and competing interests.\n   - An EU-India AI-safety treaty is also plausible, given the improving relationship between the two nations, although India might need more incentives to participate.\n   - A China-Russia AI-safety treaty seems likely due to their strong geopolitical alliance and shared concerns about AI safety, but it may focus on collaboration rather than formal binding agreements.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 15,
+      "sentence": "8.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 16,
+      "sentence": "Given the current state of international relations and AI development among these nations, it is difficult to predict with certainty which two parties will sign a formal bilateral AI-safety treaty by the end of 2032.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 17,
+      "sentence": "However, based on the analysis above, a US-China agreement seems most likely, despite significant obstacles that must be overcome for such an agreement to occur.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 18,
+      "sentence": "9.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 19,
+      "sentence": "Identify potential scenarios that could lead to other treaties:\n   - Improved political relationships and increased competition in AI development between the US and EU could push both sides towards collaboration on AI safety standards.\n   - India's growing investment in AI research and development might make it more attractive for cooperation with other nations, especially if offered incentives such as technology transfers or funding.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 20,
+      "sentence": "10.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 21,
+      "sentence": "Consider potential consequences of no treaty being signed by 2032:\n    - The absence of global standards for AI safety could lead to a race to the bottom in terms of regulations, with countries prioritizing their own interests over shared concerns about AI risks.\n    - Differing regulatory approaches among major AI-developing nations may create barriers to international trade and collaboration in the AI sector.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 22,
+      "sentence": "11.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 23,
+      "sentence": "Evaluate the impact of these consequences on global AI development:\n    - A lack of coordination in AI safety regulations could slow down the pace of innovation, as companies may be hesitant to invest in new technologies due to legal uncertainties or potential sanctions.\n    - Competition among nations for dominance in AI development could exacerbate geopolitical tensions and lead to an arms race in autonomous weapons and other advanced AI systems.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 24,
+      "sentence": "12.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 25,
+      "sentence": "Based on the potential consequences of no treaty being signed, it is in the best interest of all nations to work towards forming such an agreement as soon as possible.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 26,
+      "sentence": "13.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 27,
+      "sentence": "Given the current state of international relations and AI development among these nations, it is unlikely that any formal bilateral AI-safety treaties will be signed by 2025 or even 2030.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 28,
+      "sentence": "However, there may be progress towards collaboration on AI safety in the form of informal discussions, joint research projects, or non-binding agreements.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 29,
+      "sentence": "14.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 30,
+      "sentence": "Analyze the factors that could lead to a US-China AI-safety treaty being signed by 2032:\n    - Increased competition between the US and China in AI development, pushing both sides towards collaboration on AI safety standards to maintain their technological edge.\n    - Improved political relationships between the US and China, facilitating cooperation on various issues, including AI safety.\n    - Growing international pressure for global coordination on AI safety, forcing both nations to engage in formal negotiations.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 31,
+      "sentence": "15.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 32,
+      "sentence": "Final answer: Given the current state of international relations and AI development among these nations, it is most likely that a US-China AI-safety treaty will be signed by 2032 (us-china).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C4",
+      "sent_idx": 33,
+      "sentence": "However, there are significant obstacles to reaching an agreement between these two nations, and other potential treaties cannot be ruled out.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 0,
+      "sentence": "To predict which two countries are most likely to sign the first formal bilateral AI-safety treaty by 2032, we need to consider factors such as technological advancement in AI, political relations, global influence, and shared concerns about AI safety.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 1,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 2,
+      "sentence": "United States (US) and China have fierce competition in AI technology, which could lead to conflicts if not regulated.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 3,
+      "sentence": "However, their strained political relationship might pose challenges for reaching agreements.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 4,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 5,
+      "sentence": "The European Union (EU) and US share similar values and concerns about AI ethics but may face challenges due to differences in regulation approaches and the complex nature of multinational treaties.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 6,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 7,
+      "sentence": "The EU and China have been strengthening their partnerships, but there are still significant differences in their AI strategies.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 8,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 9,
+      "sentence": "India's technological progress lags behind that of the US, China, and EU, but they share some concerns with these countries about AI safety.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 10,
+      "sentence": "5.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K1-005",
+      "category": "non-recurrent-forecasting",
+      "condition": "C5",
+      "sent_idx": 11,
+      "sentence": "Russia is less developed in AI compared to other nations on the list, making it less likely for them to sign such a treaty.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C1",
+      "sent_idx": 0,
+      "sentence": "Final answer: optical-rotation",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C2",
+      "sent_idx": 0,
+      "sentence": "Final answer: optical-rotation",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 0,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 1,
+      "sentence": "Identify the instrument under discussion - The Drelvian-Lindner interferometer.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 2,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 3,
+      "sentence": "Determine its origin and development location - It was developed at the Institute for Photonic Standards in Bern, Switzerland (1971).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 4,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 5,
+      "sentence": "Research the Institute's primary focus - The Institute for Photonic Standards primarily conducts research related to optical standards and measurements.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 6,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 7,
+      "sentence": "Recall common measurements relevant to optics - Some of these may include optical rotation angle, Raman scattering cross-section, Pockels electro-optic coefficient, and M\u00f6ssbauer recoil energy.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 8,
+      "sentence": "5.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 9,
+      "sentence": "Consider the context in which the instrument was developed - Given that it comes from a photonics research institute, it is likely to be related to optics measurements.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 10,
+      "sentence": "6.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 11,
+      "sentence": "Eliminate irrelevant options based on the context - Since the interferometer is associated with optical standards and measurements, we can eliminate M\u00f6ssbauer recoil energy (d) as it does not relate to optics directly.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 12,
+      "sentence": "7.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 13,
+      "sentence": "Final answer: The Drelvian-Lindner interferometer measures optical-rotation angle (a).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 0,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 1,
+      "sentence": "Identify the device in question: The Drelvian-Lindner interferometer is an optical instrument designed for measuring certain properties of light.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 2,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 3,
+      "sentence": "Narrow down possible options: We can eliminate options (d) M\u00f6ssbauer-recoil energy and (e) cannot be determined since these are not directly related to the operation or purpose of an optical interferometer.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 4,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 5,
+      "sentence": "Look into the history and purpose of the Drelvian-Lindner interferometer: The instrument was developed for measuring optical rotation angles, which is a property related to the polarization state of light.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 6,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 7,
+      "sentence": "Cross-reference with the remaining options: Optical rotation (option a) is directly related to the operation and purpose of the Drelvian-Lindner interferometer.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 8,
+      "sentence": "Raman scattering cross-section (option b) and Pockels electro-optic coefficient (option c) are different properties that involve different mechanisms.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 9,
+      "sentence": "5.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 10,
+      "sentence": "Validate the chosen option: The Drelvian-Lindner interferometer was specifically designed to measure optical rotation angles, making it the correct answer.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 11,
+      "sentence": "6.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 12,
+      "sentence": "Summarize the findings: The Drelvian-Lindner interferometer measures optical rotation angles.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 13,
+      "sentence": "7.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 14,
+      "sentence": "Break down the reasoning into steps for clarity:\n   a.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 15,
+      "sentence": "Identify the device in question: Drelvian-Lindner interferometer\n   b.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 16,
+      "sentence": "Narrow down possible options: Eliminate (d) M\u00f6ssbauer-recoil energy and (e) cannot be determined\n   c.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 17,
+      "sentence": "Look into the history and purpose of the Drelvian-Lindner interferometer: Measures optical rotation angles\n   d.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 18,
+      "sentence": "Cross-reference with the remaining options: Optical rotation (a) is directly related to the operation and purpose of the device\n   e.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 19,
+      "sentence": "Validate the chosen option: The Drelvian-Lindner interferometer was specifically designed to measure optical rotation angles\n8.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 20,
+      "sentence": "Double-check the answer: Yes, the Drelvian-Lindner interferometer measures optical rotation angles.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 21,
+      "sentence": "9.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 22,
+      "sentence": "Consider edge cases or exceptions: There are no known edge cases or exceptions that would change the answer for this question.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 23,
+      "sentence": "10.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 24,
+      "sentence": "Examine potential pitfalls and misconceptions: One possible pitfall is misunderstanding the specific properties of light measured by various instruments, but in this case, the focus is on the Drelvian-Lindner interferometer and its intended measurement of optical rotation angles.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 25,
+      "sentence": "11.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 26,
+      "sentence": "Review the overall solution process: Identify the device, narrow down options, look into history/purpose, cross-reference with remaining options, validate the chosen option, double-check, and consider edge cases/pitfalls.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 27,
+      "sentence": "12.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 28,
+      "sentence": "Ensure a clear and concise final answer: Final answer: optical rotation angle.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 29,
+      "sentence": "13.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 30,
+      "sentence": "Reiterate the final answer for clarity: The Drelvian-Lindner interferometer measures the optical rotation angle of light.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 31,
+      "sentence": "14.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 32,
+      "sentence": "Provide supporting evidence or references (if available): The Drelvian-Lindner interferometer was patented by its inventors in 1971 (US Patent No.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 33,
+      "sentence": "3,685,212).",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 34,
+      "sentence": "A detailed description of the device and its operation can be found in the patent's specification section.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 35,
+      "sentence": "15.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 36,
+      "sentence": "Final answer for the given question: The Drelvian-Lindner interferometer measures optical rotation angles.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C5",
+      "sent_idx": 0,
+      "sentence": "The Drelvian-Lindner interferometer was developed to measure optical-rotation angles.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-005",
+      "category": "novel-synthetic",
+      "condition": "C5",
+      "sent_idx": 1,
+      "sentence": "So, the final answer is: optical-rotation",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C1",
+      "sent_idx": 0,
+      "sentence": "Final answer: False",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C2",
+      "sent_idx": 0,
+      "sentence": "Final answer: False.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C2",
+      "sent_idx": 1,
+      "sentence": "The given sequence does not satisfy the condition for a fnobel of order 1 as $a_{k+1} > a_k \\cdot (1 + 1/k)$ for all terms in the sequence.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 0,
+      "sentence": "Final answer: Cannot-be-determined\n\nStep 1: Define the terms for the given sequence and the fnobel sequence.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 1,
+      "sentence": "Let S = {1, 3/2, 5/3, 7/4, ...} be the given sequence and let Fnobel_n be a fnobel of order n.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 2,
+      "sentence": "Step 2: Check the inequality for the first few terms in S and compare it with the conditions for a fnobel of order 1.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 3,
+      "sentence": "For n=1, the inequality is $a_{k+1} \\leq a_k(1 + 1/k)$.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 4,
+      "sentence": "Let's check the first four terms:\n\n- 3/2 <= 1 * (1 + 1/1) => True\n- 5/3 <= 3/2 * (1 + 1/2) => True\n- 7/4 <= 5/3 * (1 + 1/3) => True\n- 11/6 <= 7/4 * (1 + 1/4) => Let's calculate: 11/6 <= (7/4) * (5/4) = 3.75, which is false.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 5,
+      "sentence": "This means that the sequence S doesn't satisfy the inequality for all the terms starting from the fourth term.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 6,
+      "sentence": "Step 3: Since the fourth term does not follow the given inequality, we cannot guarantee that the entire sequence S is a fnobel of order 1.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 7,
+      "sentence": "Step 4: However, it's also important to note that the sequence may still be a fnobel of some higher order n > 1.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 8,
+      "sentence": "We don't have enough information or terms to verify this.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 9,
+      "sentence": "Step 5: To determine if S is a fnobel of order n for some n, we would need to check the inequality for more terms or find a pattern that indicates the sequence follows the general rule for a fnobel of some specific order.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 10,
+      "sentence": "Step 6: Since our analysis only involves looking at the first four terms and does not provide enough evidence to conclude that S is a fnobel of any particular order, we cannot definitively say whether it is true or false that S is a fnobel of order 1.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C3",
+      "sent_idx": 11,
+      "sentence": "Step 7: Therefore, the final answer is 'Cannot-be-determined'.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 0,
+      "sentence": "To determine if the given harmonic-style sequence is a fnobel of order 1, we need to check if the inequality $a_{k+1} \\leq a_k \\cdot (1 + 1/k)$ holds for all terms in the sequence.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 1,
+      "sentence": "Let's verify this step by step:\n1.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 2,
+      "sentence": "Check the first term: 3/2 <= 3/2 * (1 + 1/1) => 3/2 <= 3 => True\n2.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 3,
+      "sentence": "Check the second term: 5/3 <= 3/2 * (1 + 1/2) => 5/3 <= 7/6 => True\n3.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 4,
+      "sentence": "Check the third term: 7/4 <= 5/3 * (1 + 1/3) => 7/4 <= 5*4/9 => 7 >= 20/9 => False\n4.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C4",
+      "sent_idx": 5,
+      "sentence": "Since we have found a counterexample, the harmonic-style sequence cannot be a fnobel of order 1 as it violates the given inequality for at least one term.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C5",
+      "sent_idx": 0,
+      "sentence": "Final answer: Cannot-be-determined\n\nTo verify if the given sequence is a fnobel of order 1, we need to check if $a_{k+1} \\leq a_k \\cdot (1 + 1/k)$ holds for all values of k in the sequence.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C5",
+      "sent_idx": 1,
+      "sentence": "For the first few terms:\n- a2 = 3/2 <= (1) * (1 + 1/1) = 2\n- a3 = 5/3 <= (3/2) * (1 + 1/2) = 4/2\n- a4 = 7/4 <= (5/3) * (1 + 1/3) = 5/2\n\nHowever, the sequence is not defined for all natural numbers.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C5",
+      "sent_idx": 2,
+      "sentence": "Specifically, it does not have terms for k=0 and k=1, which are required to confirm whether it is a fnobel of order 1.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K2-006",
+      "category": "novel-synthetic",
+      "condition": "C5",
+      "sent_idx": 3,
+      "sentence": "Since the sequence is not fully defined, we cannot definitively say if it satisfies the given condition for all values of k.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C1",
+      "sent_idx": 0,
+      "sentence": "Final answer: The most ethically defensible decision procedure would be to randomly allocate the ventilator, as it ensures fairness and impartiality without favoring one patient over another based on factors unrelated to their medical condition.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C2",
+      "sent_idx": 0,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C2",
+      "sent_idx": 1,
+      "sentence": "Prioritize based on medical need: Both patients have identical clinical profiles, so there's no immediate medical reason to prioritize one over the other.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C2",
+      "sent_idx": 2,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C2",
+      "sent_idx": 3,
+      "sentence": "Consider potential impact on family and society: Patient A is a single parent, which might imply a larger social network that could be affected by their absence.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C2",
+      "sent_idx": 4,
+      "sentence": "However, patient B is a senior physician, whose absence could also have significant societal implications due to their professional role.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C2",
+      "sent_idx": 5,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C2",
+      "sent_idx": 6,
+      "sentence": "Random selection: Given the lack of clear medical or societal reasons to prioritize one over the other, a fair and ethically defensible decision would be to use a random selection process (e.g., coin toss) to determine which patient receives the ventilator first.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 0,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 1,
+      "sentence": "Recognize the ethical dilemma: The situation requires making a life-or-death decision that could potentially impact two individuals differently due to their respective roles and personal circumstances.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 2,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 3,
+      "sentence": "Establish principles of fairness and equal treatment: In general, medical decisions should be based on clinical need and prognosis rather than factors unrelated to health status.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 4,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 5,
+      "sentence": "Consider the clinical profiles of both patients: Both Patient A and B have identical clinical profiles, which suggests they are equally in need of the ventilator based on their current health condition alone.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 6,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 7,
+      "sentence": "Evaluate potential impacts of the decision beyond the immediate medical needs: In this case, consider the broader social and emotional contexts of each patient.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 8,
+      "sentence": "5.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 9,
+      "sentence": "Assess the impact on Patient A as a single parent: If Patient A passes away, there may be significant emotional and practical implications for their dependent child.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 10,
+      "sentence": "However, it is important to remember that Patient B also has family and colleagues who would be affected by their passing.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 11,
+      "sentence": "6.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 12,
+      "sentence": "Assess the impact on Patient B as a senior physician: If Patient B passes away, they could potentially save more lives through their medical expertise in the long run.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 13,
+      "sentence": "Yet, it's essential to recognize that their death might also have significant emotional and professional impacts on their colleagues and patients.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 14,
+      "sentence": "7.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 15,
+      "sentence": "Final answer: Given the identical clinical profiles of both patients and the ethical principles of fairness and equal treatment, a defensible decision would be to allocate the ventilator based solely on medical need and prognosis, without considering their respective roles or personal circumstances.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 16,
+      "sentence": "However, it is crucial to remember that this is a complex issue with no easy solution, and each case may require an individualized approach.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 0,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 1,
+      "sentence": "Recognize that the question presents an ethical dilemma due to limited resources (ventilator) and two patients with different personal circumstances but identical clinical profiles.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 2,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 3,
+      "sentence": "Establish the principle of fairness, which suggests that resources should be distributed equitably without discrimination based on personal characteristics.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 4,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 5,
+      "sentence": "Identify the principle of utilitarianism, which prioritizes actions that bring about the greatest good for the greatest number of people.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 6,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 7,
+      "sentence": "Understand the importance of the patient's quality of life and potential for recovery in determining who would benefit most from the ventilator.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 8,
+      "sentence": "5.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 9,
+      "sentence": "Consider the role of autonomy, or self-determination, in decision-making, recognizing that each individual has the right to make decisions about their own health and wellbeing.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 10,
+      "sentence": "6.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 11,
+      "sentence": "Realize the potential impact on both patients' families and colleagues if either patient were to pass away due to the lack of a ventilator.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 12,
+      "sentence": "7.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 13,
+      "sentence": "Recognize that the question does not provide information about the patients' chances of recovery, making it impossible to definitively choose based on prognosis alone.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 14,
+      "sentence": "8.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 15,
+      "sentence": "Acknowledge the societal value placed on individuals in different roles, such as a senior physician versus a single parent, and consider whether this should factor into decision-making.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 16,
+      "sentence": "9.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 17,
+      "sentence": "Reflect on the potential for bias, conscious or unconscious, when making decisions about patients with differing personal characteristics.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 18,
+      "sentence": "10.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 19,
+      "sentence": "Recognize that it is essential to avoid any appearance of favoritism or discrimination in the allocation of resources during a crisis situation.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 20,
+      "sentence": "11.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 21,
+      "sentence": "Consider the possibility of using a lottery system, which ensures fairness by randomly selecting one patient for the ventilator, but note that this approach may still raise ethical concerns.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 22,
+      "sentence": "12.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 23,
+      "sentence": "Suggest consulting an ethics committee or healthcare professionals with expertise in medical ethics to provide guidance on the most defensible decision procedure.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 24,
+      "sentence": "13.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 25,
+      "sentence": "Advocate for a transparent and fair process, involving all relevant parties and considering multiple perspectives before making a final decision.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 26,
+      "sentence": "14.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 27,
+      "sentence": "Emphasize the importance of empathy, compassion, and respect for both patients and their families throughout the decision-making process.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 28,
+      "sentence": "15.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 29,
+      "sentence": "Final answer: The most ethically defensible decision procedure would involve consultation with an ethics committee or healthcare professionals, ensuring transparency and fairness in a process that prioritizes the patient's quality of life and potential for recovery while minimizing bias.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 0,
+      "sentence": "This situation presents a challenging ethical dilemma, often referred to as triage, and there isn't a universally agreed-upon definitive solution.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 1,
+      "sentence": "However, one common approach is to use a fair and impartial decision-making process that considers various ethical principles such as equality, utility, and beneficence.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 2,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 3,
+      "sentence": "Equality: Allocating resources equally could mean giving the ventilator to the patient who needs it first, regardless of their age or occupation.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 4,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 5,
+      "sentence": "Utility (greater good for the greatest number): The principle suggests making a decision that will produce the best outcome for the most people.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 6,
+      "sentence": "In this case, one might argue that saving the life of the younger patient would potentially result in saving more future lives, as they have more years ahead.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 7,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 8,
+      "sentence": "Beneficence: This principle emphasizes doing good and acting in the best interest of the patient.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 9,
+      "sentence": "In this context, it could be interpreted to mean saving the patient who is most likely to survive with the ventilator, given their health condition and potential for recovery.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 10,
+      "sentence": "Given these principles, a fair decision-making process might involve consulting an ethics committee or using a predefined triage protocol that considers various factors, including the patient's health status, age, and potential for survival.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-001",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 11,
+      "sentence": "However, it's important to note that each principle has its limitations, and the final decision could still be difficult and emotionally challenging.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C1",
+      "sent_idx": 0,
+      "sentence": "Final answer: The weight given to unborn populations in cost-benefit analyses is a complex ethical question and may vary depending on various philosophical frameworks, but generally, it should reflect intergenerational equity and future generations' potential rights and interests.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C2",
+      "sent_idx": 0,
+      "sentence": "Step 1: Identify the main issue\nThe question asks about the weight that unborn populations should receive in cost-benefit analyses compared to existing populations regarding climate policy choices made in 2025.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C2",
+      "sent_idx": 1,
+      "sentence": "Step 2: Discuss ethical considerations\nIn cost-benefit analyses, we usually prioritize the welfare of current and near-future generations, but the unborn populations in question have no voice or representation.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C2",
+      "sent_idx": 2,
+      "sentence": "Ethical theories like Sustainable Development, Intergenerational Equity, and Precautionary Principle emphasize the importance of considering future generations' well-being when making decisions that affect them.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C2",
+      "sent_idx": 3,
+      "sentence": "Step 3: Provide a final answer based on ethical considerations",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 0,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 1,
+      "sentence": "Identify the key question: The question asks for the relative weight that unborn populations should receive in cost-benefit analyses compared to existing populations regarding climate policy choices made in 2025.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 2,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 3,
+      "sentence": "Define the scope of analysis: Since we are discussing climate policy, the focus is on long-term impacts on both human and ecological systems.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 4,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 5,
+      "sentence": "Acknowledge ethical considerations: The question involves intergenerational equity, which raises ethical dilemmas because unborn populations cannot express their preferences.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 6,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 7,
+      "sentence": "Consider principles of justice: To address this issue, we can look at various principles of justice such as the Principle of Sustainability (meeting the needs of the present without compromising the ability of future generations to meet their own needs), the Precautionary Principle (when an action or policy has the potential to cause severe or irreversible harm to the public or to the environment, in the absence of scientific consensus, the burden of proof falls on those advocating for the action or policy), and the Common but Differentiated Responsibilities principle (recognizing that countries have different levels of responsibility for environmental problems based on their historical contribution to emissions).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 8,
+      "sentence": "5.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 9,
+      "sentence": "Recognize limitations: It's essential to acknowledge that assigning an exact weight to unborn populations in cost-benefit analyses is challenging due to factors like population growth, technological advancements, and climate change impacts being uncertain.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 10,
+      "sentence": "6.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 11,
+      "sentence": "Propose a possible approach: One possible approach could be weighting the interests of existing populations and unborn populations equally while considering the principles of justice mentioned above.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 12,
+      "sentence": "This approach recognizes both groups' importance and aims to ensure a fair distribution of resources and opportunities across generations.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 13,
+      "sentence": "7.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C3",
+      "sent_idx": 14,
+      "sentence": "Final answer: Final answer: The unborn populations should receive equal weight in cost-benefit analyses, considering long-term sustainability, precautionary principles, and common but differentiated responsibilities.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 0,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 1,
+      "sentence": "Identify the key issue: The question revolves around the ethical dilemma of balancing the interests of current and future generations in cost-benefit analyses for climate policy decisions.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 2,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 3,
+      "sentence": "Define the context: In this case, we are considering climate policy choices made in 2025 that may impact populations in 2125, who do not yet exist.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 4,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 5,
+      "sentence": "Consider the principles of justice: Fairness and equity require that the well-being of all individuals, regardless of their existence at the time of decision-making, should be taken into account.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 6,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 7,
+      "sentence": "Recognize the limitations: The absence of empirical data about future populations makes it challenging to quantify their preferences or interests accurately.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 8,
+      "sentence": "5.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 9,
+      "sentence": "Analyze intergenerational equity: In terms of intergenerational equity, it is essential to ensure that current actions do not unduly burden future generations with the consequences of climate change while depriving them of opportunities for sustainable development.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 10,
+      "sentence": "6.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 11,
+      "sentence": "Examine the precautionary principle: This principle suggests that uncertainty about potential negative impacts on future generations should lead policymakers to err on the side of caution and take preventive measures.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 12,
+      "sentence": "7.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 13,
+      "sentence": "Evaluate the concept of sustainability: Sustainable development seeks a balance between economic, social, and environmental factors for both present and future generations.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 14,
+      "sentence": "This requires considering the long-term consequences of policy choices on unborn populations.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 15,
+      "sentence": "8.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 16,
+      "sentence": "Discuss the role of democratic representation: Some argue that future generations should be represented through institutions that can advocate for their interests in the present.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 17,
+      "sentence": "However, establishing such mechanisms is challenging due to the temporal gap between generations.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 18,
+      "sentence": "9.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 19,
+      "sentence": "Evaluate the concept of trusteeship: This ethical principle holds that those who currently have power and resources (in this case, policymakers) have a moral responsibility to act as stewards for future generations by making decisions in their best interests.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 20,
+      "sentence": "10.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 21,
+      "sentence": "Consider the role of discounting: Discounting is commonly used in cost-benefit analyses to reflect the time value of money and reduce the weight given to future benefits relative to present ones.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 22,
+      "sentence": "However, some argue that deep discounting may be unjustified when considering long-term effects on future generations.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 23,
+      "sentence": "11.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 24,
+      "sentence": "Analyze the philosophical perspective: Philosopher John Rawls' theory of justice as fairness suggests that policymakers should strive for an equitable distribution of resources, even if it means sacrificing some present benefits for greater benefits in the future.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 25,
+      "sentence": "12.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 26,
+      "sentence": "Examine the precautionary and intergenerational equity aspects: The risks associated with climate change are significant and potentially irreversible, making it essential to weigh the interests of unborn populations heavily when making policy decisions.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 27,
+      "sentence": "13.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 28,
+      "sentence": "Discuss the need for caution: Given our limited understanding of future societies, policymakers must exercise caution and adopt a precautionary approach that prioritizes environmental protection and sustainable development over short-term economic gains.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 29,
+      "sentence": "14.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 30,
+      "sentence": "Recognize the importance of long-term thinking: By considering the needs of unborn populations, policymakers can foster a culture of long-term thinking that emphasizes the importance of preserving resources for future generations while promoting their well-being.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 31,
+      "sentence": "15.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C4",
+      "sent_idx": 32,
+      "sentence": "Final answer: In cost-benefit analyses for climate policy decisions affecting populations in 2125, the interests of these unborn individuals should receive substantial weight relative to existing populations, given the principles of intergenerational equity, sustainability, trusteeship, precautionary approach, and long-term thinking.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 0,
+      "sentence": "This question presents an ethical and philosophical dilemma rather than a straightforward scientific or mathematical problem.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 1,
+      "sentence": "However, I can suggest a thoughtful approach to address it.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 2,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 3,
+      "sentence": "Define the scope of the cost-benefit analysis:\n   - The primary goal is to minimize harm and maximize well-being for all sentient beings, regardless of whether they exist now or in the future.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 4,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 5,
+      "sentence": "Establish ethical principles:\n   - Intergenerational equity: future generations should have at least the same quality of life as current generations (the \"no harm principle\").\n   - Non-identity problem: any policy that affects the existence and characteristics of individuals cannot be evaluated based on their subjective preferences, but rather on the overall well-being and distribution of resources.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 6,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 7,
+      "sentence": "Considerations for unborn populations:\n   - Assigning a weight to unborn populations requires projecting their potential interests and needs, which can be challenging due to uncertainty about future technological, demographic, and environmental conditions.\n   - A precautionary principle could be applied to prioritize policies that minimize harm to unborn populations, even if the exact impacts on them are uncertain or hard to quantify.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 8,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 9,
+      "sentence": "Balancing interests between existing and unborn populations:\n   - In a perfect world, the well-being of both current and future generations would be equally important in cost-benefit analyses.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K3-005",
+      "category": "open-ended-dilemma",
+      "condition": "C5",
+      "sent_idx": 10,
+      "sentence": "However, since we cannot know exactly what future populations will value, it may be prudent to prioritize policies that are likely to benefit existing populations while also considering the long-term consequences for unborn populations.\n   - To account for the interests of unborn populations, policymakers can employ strategies such as sustainability assessments, risk management, and scenario planning to anticipate potential impacts on future generations and adjust policy decisions accordingly.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C1",
+      "sent_idx": 0,
+      "sentence": "Final answer: Cannot-be-determined (without knowing the other firms' intentions)",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 0,
+      "sentence": "Final answer: Commit\n\nStep 1: Consider the best and worst scenarios for each decision.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 1,
+      "sentence": "If all firms commit, they'll each gain $1.2M in market trust. However, if only 4 firms commit, none will benefit from the trust gains since at least 3 are needed. In this case, the fourth firm would just incur the $500K cost without gaining any benefits.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 2,
+      "sentence": "Step 2: If all firms withhold their commitment, there's a risk that the regulator may impose mandatory audits on all 5 firms, costing each $1.5M, totaling $7.5M in costs for the consortium.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 3,
+      "sentence": "In this scenario, no trust gains are realized.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 4,
+      "sentence": "Step 3: If one firm commits and the others don't, the committed firm will still incur the $500K cost but may face a mandatory audit of $1.5M if the regulator acts.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 5,
+      "sentence": "On the other hand, if the other firms commit as well (but we have no information about their intentions), they'll all gain the $1.2M trust gains and avoid the potential $1.5M regulatory penalty.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 6,
+      "sentence": "Therefore, it seems most beneficial for the first firm to commit, even with the uncertainty surrounding the regulator's actions.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 7,
+      "sentence": "In conclusion, while there is some risk involved in committing, the potential benefits outweigh the costs compared to the other options.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 8,
+      "sentence": "Thus, the final answer is 'Commit'.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 0,
+      "sentence": "Step 1: Identify the possible scenarios based on the number of firms committing to the standard.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 1,
+      "sentence": "There are two main scenarios: at least 3 firms commit, or fewer than 3 firms commit.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 2,
+      "sentence": "Step 2: Analyze the costs and benefits in each scenario if you commit.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 3,
+      "sentence": "If at least 3 firms commit, you will incur an initial $500K cost for the audit-infrastructure investment but receive a market-trust gain of $1.2M, resulting in a net benefit of $700K. If fewer than 3 firms commit and the regulator imposes mandatory audits, you will incur an additional $1.5M cost, resulting in a net loss of $2M.\n\nStep 3: Analyze the uncertainty in each scenario if you withhold commitment. If at least 3 firms commit without your involvement, you miss out on both the initial $500K investment and the $1.2M market-trust gain, resulting in a net loss of $1.7M.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 4,
+      "sentence": "If fewer than 3 firms commit and the regulator does not impose mandatory audits, you avoid the $1.5M cost but also miss out on the market-trust gain. If the regulator imposes mandatory audits, you still have to pay an additional $1.5M but might be able to share the costs with other firms, potentially reducing your overall loss.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 5,
+      "sentence": "Step 4: Consider the probability of each scenario given available information.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 6,
+      "sentence": "Since the decision criteria and probability of action by the unknown regulator are not publicly known, it is impossible to accurately estimate these probabilities based on the provided information.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 7,
+      "sentence": "Step 5: Evaluate potential outcomes if you cannot-be-determined.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 8,
+      "sentence": "If all firms withhold commitment due to uncertainty, no one will commit, and the regulator may impose mandatory audits at a cost of $1.5M per firm. If some firms commit despite the uncertainty, they could receive market-trust gains while others might still be subjected to mandatory audits if the regulator takes action.\n\nStep 6: Based on the analysis, the best course of action is to minimize potential losses by committing to the joint AI-safety auditing standard. This strategy ensures a net benefit of $700K in the most favorable scenario and potentially limits your loss to $1.5M in the worst-case scenario (if the regulator imposes mandatory audits).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 9,
+      "sentence": "Step 7: Final answer: Commit",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 0,
+      "sentence": "Final answer: Commit\n\nHere's the step-by-step reasoning:\n\n1.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 1,
+      "sentence": "We know that committing costs $500K for each firm and provides market-trust gains worth $1.2M per firm if at least 3 firms commit.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 2,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 3,
+      "sentence": "If fewer than 3 firms commit, there is a possibility of the unknown regulator imposing mandatory audits at a cost of $1.5M per non-committing firm.\n3. The decision criteria and probability of action by the regulator are not publicly known and have no industry-standard estimate.\n4. Since we don't have information about other firms' intentions, our best guess is that at least one firm might be considering committing.\n5. If we commit first, it could potentially encourage others to follow (a positive network effect). This increases the likelihood of meeting the threshold of 3 committed firms.\n6. Even if only 4 firms commit initially, the market-trust gains ($1.2M * 4 = $4.8M) would outweigh the initial investment cost ($500K * 4 = $2M).\n7. If no other firm commits, we still incur a loss of $500K (our investment), but avoid an additional $1.5M penalty by the regulator if they impose mandatory audits.\n8. In the worst-case scenario where all 5 firms commit and the regulator imposes mandatory audits on the non-committing firms, the total loss would be $2.5M ($1.2M for market-trust gains * 4 - $3M in total investment cost).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 4,
+      "sentence": "9.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 5,
+      "sentence": "However, if only 1 or 2 firms withhold commitment and the regulator imposes mandatory audits, the total cost could reach up to $8.5M ($7M in penalties + $1.5M initial investment).\n10. By committing first, we minimize our potential losses in all scenarios while increasing the chances of market-trust gains for all firms involved.\n11. If other firms also commit after us due to our action, the total investment cost ($2.5M) would be distributed among more market-trust gains ($4.8M), resulting in a net positive outcome.\n12. The uncertainty around the regulator's decision and the probability of action make it difficult to predict the exact outcome, but committing first seems to provide the best overall strategy.\n13. By not committing (withholding), we risk missing out on potential market-trust gains and potentially facing mandatory audits with unknown consequences.\n14. If all firms decide to withhold commitment, no firm will benefit from the market-trust gains, and each could face a cost of $1.5M for mandatory audits by the regulator.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 6,
+      "sentence": "15.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 7,
+      "sentence": "Given the limited information available, it seems best to commit and encourage other firms to follow suit, potentially maximizing overall benefits for all involved parties.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 0,
+      "sentence": "Final answer: Commit\n\nStep 1: Identify the possible scenarios and their financial outcomes.\n- Scenario A: All 5 commit (total cost $2.5M, total gain $6M)\n- Scenario B1: 4 commit, 1 does not (total cost $3M, total gain for 4 $8M, penalty for 1 $1.5M)\n- Scenario B2: 3 commit, 2 do not (total cost $3M, total gain for 3 $9M, penalties for 2 $3M)\n- Scenario C: None commits (total cost $0, no gains or penalties)\n\nStep 2: Determine the expected value for each choice.\n- For 'Commit':\n  - Probability of Scenario A: 1/32 (since all must commit)\n    Expected gain = 1/32 * ($6M - $2.5M) = $975,000\n  - Probability of Scenario B1 or B2 combined: 15/32\n    Expected gain = 15/32 * max($8M - $3M - $1.5M, $9M - $3M) = $4,062,500\n- For 'Withhold':\n  - Probability of Scenario C: 19/32 (since at least 3 must commit)\n    Expected gain = 19/32 * $0 = $0\n- 'Cannot-be-determined' is not a viable option in this scenario.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 1,
+      "sentence": "Step 3: Compare the expected values and choose the best option.\n- 'Commit' has the highest expected value ($4,062,500) compared to 'Withhold' ($0).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-003",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 2,
+      "sentence": "Therefore, the best choice is 'Commit'.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C1",
+      "sent_idx": 0,
+      "sentence": "Final answer: mid-low",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 0,
+      "sentence": "Step 1: First, let's consider the average (mean) of the numbers if all players are non-strategic and pick uniformly at random from 1 to 100.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 1,
+      "sentence": "The sum of all possible numbers is 100 * 7 = 700, and the number of players is 7.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 2,
+      "sentence": "Therefore, the mean would be 700 / 7 \u2248 100.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 3,
+      "sentence": "Step 2: Since approximately 3 out of 7 players are non-strategic, we can approximate the average of their picks as also being around 100.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 4,
+      "sentence": "However, the target number for winning the game is (2/3) * 100 = 66.67.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 5,
+      "sentence": "Step 3: To maximize the chances of winning, a strategic player would want to be very close to the target number but not exceed it due to the tie-breaking rule.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C2",
+      "sent_idx": 6,
+      "sentence": "Given that the target number is approximately 67, a strategic player should pick a number slightly lower than 67, while non-strategic players will distribute their picks more evenly around the average of 100, making numbers below 67 less likely.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 0,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 1,
+      "sentence": "First, let's find the average (arithmetic mean) that the non-strategic players will pick.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 2,
+      "sentence": "Since they are uniformly random and there are approximately 3 out of 7 players who are non-strategic, we can assume these 3 players will each choose an average value from 1 to 100.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 3,
+      "sentence": "The total number of choices for these 3 players is 100*3 = 300.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 4,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 5,
+      "sentence": "The remaining 4 strategic players will be choosing numbers strategically to maximize their chances of winning.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 6,
+      "sentence": "Since the player whose number is closest to (2/3 * average) wins, we can assume that the strategic players will choose numbers higher than the average picked by the non-strategic players.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 7,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 8,
+      "sentence": "The strategic players' choices will also likely cluster around the target value (2/3 * average), as they want their number to be the closest to it.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 9,
+      "sentence": "To minimize competition from other strategic players, they may even pick numbers slightly above this target value.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 10,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 11,
+      "sentence": "Now, let's consider the range for the strategic players' choices.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 12,
+      "sentence": "Since they are strategically choosing numbers closer to (2/3 * average), we can assume that their choices will be within a relatively small range around (2/3 * average).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 13,
+      "sentence": "Let's call this range R.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 14,
+      "sentence": "5.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 15,
+      "sentence": "However, we don't know exactly what the average chosen by the non-strategic players is, so we cannot determine the exact size of range R.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 16,
+      "sentence": "But since approximately 70% of the total choices come from the strategic players, and their choices are concentrated within range R, it makes sense for our strategic choice to be close to (2/3 * average) as well.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 17,
+      "sentence": "6.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 18,
+      "sentence": "To minimize competition with the strategic players, we should choose a number slightly higher than the upper bound of range R, but still close enough to (2/3 * average) to have a chance of winning in case the non-strategic players pick an unusually high or low average.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 19,
+      "sentence": "7.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 20,
+      "sentence": "Final answer: high.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C3",
+      "sent_idx": 21,
+      "sentence": "The strategy is to pick a number slightly above the upper bound of the strategic players' range, R, which should be close to (2/3 * average).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 0,
+      "sentence": "This problem involves finding an optimal strategy for the strategic players to maximize their chances of winning, given that some players are non-strategic and will pick randomly.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 1,
+      "sentence": "Here's a step-by-step analysis:\n\n1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 2,
+      "sentence": "First, let's find the group's arithmetic mean (average).",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 3,
+      "sentence": "If all players picked uniformly at random from 1 to 100, the average would be approximately 50 (assuming integral values for simplicity).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 4,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 5,
+      "sentence": "Since 3 out of 7 players are non-strategic, we can expect their combined contribution to the total sum to be around 3 * 50 = 150.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 6,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 7,
+      "sentence": "The remaining strategic players will pick strategically to minimize variance and increase their chances of winning.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 8,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 9,
+      "sentence": "A good strategy for a single player would be to pick a number that is close to the mean, but not so close as to risk being out-strategized by another player.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 10,
+      "sentence": "5.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 11,
+      "sentence": "If one strategic player picks a number, other strategic players will adjust their choices based on this, creating a dynamic process.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 12,
+      "sentence": "6.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 13,
+      "sentence": "To model this, let's assume a single strategic player picks a number x close to the mean.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 14,
+      "sentence": "The other 4 strategic players would then pick numbers closer to x to minimize variance.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 15,
+      "sentence": "7.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 16,
+      "sentence": "The total sum of these 5 strategically chosen numbers can be expressed as: Sum = (x +/- deviation) * 5.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 17,
+      "sentence": "Deviation is the range within which each strategic player chooses their number.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 18,
+      "sentence": "8.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 19,
+      "sentence": "To maximize the difference between Sum and the mean, we should choose a number x that is further from the non-strategic players' sum of 150 than the deviation of the strategic players' numbers.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 20,
+      "sentence": "9.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 21,
+      "sentence": "Rearranging our equation, we have: x = (Sum - 4 * deviation) / 5.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 22,
+      "sentence": "10.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 23,
+      "sentence": "Since x should be close to the mean, but not too close to 150, we can set Sum - 4 * deviation as a difference of two numbers near the mean, i.e., Sum - 4 * deviation = (3 * mean + margin) - (3 * mean - margin), where margin is the desired distance from the mean.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 24,
+      "sentence": "11.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 25,
+      "sentence": "Solving for deviation gives: deviation = (2 * margin) / 20.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 26,
+      "sentence": "12.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 27,
+      "sentence": "To minimize deviation, we should maximize the margin while keeping it manageable to ensure x remains close to the mean.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 28,
+      "sentence": "Given that x must be greater than 150 for the strategic player to have a chance of winning, let's set margin = 75, which places x at around 125 (close to the mean).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 29,
+      "sentence": "13.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 30,
+      "sentence": "With this margin and our estimated deviation, we get deviation = 15, meaning each strategic player would choose a number within a range of approximately 15 from our chosen number x.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 31,
+      "sentence": "14.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 32,
+      "sentence": "As a strategic player, you should then choose your number as close to the mean (around 50) as possible while still being greater than or equal to 125 - 15 * 6 = 30 (considering all 6 other players are within the deviation range).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 33,
+      "sentence": "15.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 34,
+      "sentence": "The final answer: Your number should fall within the high range.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C4",
+      "sent_idx": 35,
+      "sentence": "Final answer: 'High'\n\nBy choosing a number in the high range, you maximize your chances of winning by minimizing variance while still being far enough from the non-strategic players' sum to have a chance at winning.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 0,
+      "sentence": "To solve this problem, we can take advantage of the fact that approximately 3 players are non-strategic and will choose numbers uniformly at random.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 1,
+      "sentence": "Let's assume these 3 players choose their numbers from the range [1, 100].",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 2,
+      "sentence": "The arithmetic mean (average) of a set of numbers is calculated by adding all the numbers and dividing by the count of numbers.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 3,
+      "sentence": "Since we expect three non-strategic players to contribute uniformly at random to one third of the total sum, we can focus on finding the optimal strategy for the remaining four strategic players.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 4,
+      "sentence": "If the group consists of only the four strategic players, they could collude and choose numbers that minimize the mean while still keeping their individual numbers in the range [1, 100].",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 5,
+      "sentence": "This means minimizing the sum without going over 400 (since there are four players, each with a number between 1 and 100).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 6,
+      "sentence": "Let x be the smallest possible number for the non-strategic players.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 7,
+      "sentence": "In order to minimize the mean, the strategic players should choose numbers as close to x as possible but still within [1, 100].",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 8,
+      "sentence": "The optimal strategy would be:\n\n1.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 9,
+      "sentence": "Find the minimum sum S that can be obtained with four numbers (excluding the three non-strategic players) between 1 and 100 without going over 400.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 10,
+      "sentence": "This sum is approximately equal to 397 - 3x.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 11,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 12,
+      "sentence": "The optimal number for each strategic player would then be the number closest to x that adds up to (2/3 * S).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 13,
+      "sentence": "Since they want their numbers to be close to x, we can find this number by rounding down (floor) the mean and adding 1.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 14,
+      "sentence": "That is: (2/3 * S) / 4 + 1\n\nGiven that the winning number should be as close as possible to (2/3 \u00d7 the group's arithmetic mean), the strategic players would try to minimize the difference between their chosen numbers and the mean.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 15,
+      "sentence": "Therefore, it makes sense for strategic players to choose numbers closer to the predicted average of x + (2/3 * S) / 4.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "K4-004",
+      "category": "strategic-uncertainty",
+      "condition": "C5",
+      "sent_idx": 16,
+      "sentence": "Finally, since we don't know x, the range for our number should be as close as possible to the expected mean:",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C1",
+      "sent_idx": 0,
+      "sentence": "Final answer: 3861",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C2",
+      "sent_idx": 0,
+      "sentence": "Step 1: Multiply the tens and ones separately. (40 * 80) + (7 * 30) + (7 * 3).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C2",
+      "sent_idx": 1,
+      "sentence": "Step 2: Calculate the results from step 1: (3200 + 210 + 21).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C2",
+      "sent_idx": 2,
+      "sentence": "Step 3: Add the numbers from step 2: 3431.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C3",
+      "sent_idx": 0,
+      "sentence": "Step 1: Multiply the tens and the ones digits separately.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C3",
+      "sent_idx": 1,
+      "sentence": "Step 2: For the tens place, multiply 4 (from 47) with 3 (from 83).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C3",
+      "sent_idx": 2,
+      "sentence": "This gives us 12.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C3",
+      "sent_idx": 3,
+      "sentence": "Step 3: Write down the result in the tens place in the product (the result so far is represented as ABCD).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C3",
+      "sent_idx": 4,
+      "sentence": "So, ABCD becomes A12CD.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C3",
+      "sent_idx": 5,
+      "sentence": "Step 4: For the ones place, multiply 7 (from 47) with 3 (from 83).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C3",
+      "sent_idx": 6,
+      "sentence": "This gives us 21.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C3",
+      "sent_idx": 7,
+      "sentence": "Step 5: Write down the carry from the tens place (1) in the hundreds place of the product (the result so far is represented as A12CD + carry).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C3",
+      "sent_idx": 8,
+      "sentence": "So, A12CD becomes A12CD + 102.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C3",
+      "sent_idx": 9,
+      "sentence": "Step 6: Add all the digits in A12CD and the carry together.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C3",
+      "sent_idx": 10,
+      "sentence": "This gives us a sum of 478+12+21 = 511.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C3",
+      "sent_idx": 11,
+      "sentence": "Step 7: Write down the digits of the sum in their respective places to get the final product.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C3",
+      "sent_idx": 12,
+      "sentence": "So, ABCD becomes A12CD + 102 => A123CD (with the carry dropped).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 0,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 1,
+      "sentence": "Understand that the question asks for the multiplication of two numbers: 47 and 83.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 2,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 3,
+      "sentence": "Recall the basic multiplication facts up to 10, then use those to break down the given numbers into smaller sums of known products.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 4,
+      "sentence": "For example, 47 * 1 = 47 and 47 * 0 (which doesn't affect the final result) can be calculated easily.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 5,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 6,
+      "sentence": "Break down 83 into its tens and ones: 83 = 80 + 3.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 7,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 8,
+      "sentence": "Calculate products of 47 with each part separately, that is, 47 * 80 and 47 * 3.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 9,
+      "sentence": "5.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 10,
+      "sentence": "For 47 * 80, break it down further into (40 + 7) * 80.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 11,
+      "sentence": "6.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 12,
+      "sentence": "Now use distributive property to calculate the product: (40 * 80) + (7 * 80).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 13,
+      "sentence": "7.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 14,
+      "sentence": "Calculate the products: 40 * 80 = 3200, and 7 * 80 = 560.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 15,
+      "sentence": "8.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 16,
+      "sentence": "Add the results from step 7 to get 47 * 80 = 3760.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 17,
+      "sentence": "9.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 18,
+      "sentence": "Now calculate the remaining product: 47 * 3.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 19,
+      "sentence": "10.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 20,
+      "sentence": "Break it down further into (40 + 7) * 3 using distributive property.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 21,
+      "sentence": "11.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 22,
+      "sentence": "Calculate the products: 40 * 3 = 120, and 7 * 3 = 21.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 23,
+      "sentence": "12.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 24,
+      "sentence": "Add the results from step 11 to get 47 * 3 = 141.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 25,
+      "sentence": "13.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 26,
+      "sentence": "Sum the two partial results obtained in steps 8 and 9: 3760 + 141 = 3901.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 27,
+      "sentence": "14.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C4",
+      "sent_idx": 28,
+      "sentence": "The final answer is the product of 47 and 83, which is 'Final answer: 3901'.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C5",
+      "sent_idx": 0,
+      "sentence": "First, let's multiply the ones digits (7 and 3): 7 * 3 = 21.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C5",
+      "sent_idx": 1,
+      "sentence": "Next, carry over the 2 to the next column.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C5",
+      "sent_idx": 2,
+      "sentence": "Multiplying the tens digits (4 and 8) now gives us 32 + the carried 2, which is 34.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C5",
+      "sent_idx": 3,
+      "sentence": "Now, we multiply the hundreds digits (0 and 3), which gives us 0 * 3 = 0.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "R-001",
+      "category": "reference",
+      "condition": "C5",
+      "sent_idx": 4,
+      "sentence": "Since there's no carryover from this multiplication, our final answer is:",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C1",
+      "sent_idx": 0,
+      "sentence": "Final answer: 6/36",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C2",
+      "sent_idx": 0,
+      "sentence": "Step 1: List all possible combinations when rolling two six-sided dice.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C2",
+      "sent_idx": 1,
+      "sentence": "There are a total of 6*6 = 36 unique combinations.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C2",
+      "sent_idx": 2,
+      "sentence": "Step 2: Count the number of combinations that result in a sum of 7.",
+      "heuristic": "STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C2",
+      "sent_idx": 3,
+      "sentence": "These are (1,6), (2,5), (3,4), (4,3), (5,2), and (6,1).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C2",
+      "sent_idx": 4,
+      "sentence": "That's a total of 6 successful combinations.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C2",
+      "sent_idx": 5,
+      "sentence": "Step 3: Probability is the ratio of successful outcomes to total possible outcomes.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C2",
+      "sent_idx": 6,
+      "sentence": "So, the probability of rolling a sum of 7 with two six-sided dice is 6/36 = 1/6 or approximately 0.1667 (rounded to four decimal places).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C3",
+      "sent_idx": 0,
+      "sentence": "Step 1: Identify the total number of outcomes when rolling two six-sided dice.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C3",
+      "sent_idx": 1,
+      "sentence": "Since each die has 6 sides, the total possible outcomes for both dice is \\(6 \\times 6 = 36\\).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C3",
+      "sent_idx": 2,
+      "sentence": "Step 2: We need to find the combinations that result in a sum of 7.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C3",
+      "sent_idx": 3,
+      "sentence": "Here are the pairs: (1,6), (2,5), (3,4), (4,3), (5,2), and (6,1).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C3",
+      "sent_idx": 4,
+      "sentence": "Step 3: Calculate the number of favorable outcomes, which is equal to the count of the combinations that result in a sum of 7, i.e., 6 pairs as listed above.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C3",
+      "sent_idx": 5,
+      "sentence": "Step 4: Probability is defined as the ratio of favorable outcomes to total possible outcomes.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C3",
+      "sent_idx": 6,
+      "sentence": "So, the probability that the sum equals 7 is the number of favorable outcomes divided by the total possible outcomes: \\(6/36\\).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C3",
+      "sent_idx": 7,
+      "sentence": "Step 5: Simplify the fraction: \\(6/36 = (2 \\times 3)/(6 \\times 6) = 1/6\\)\n\nStep 6: To get a percentage, multiply by 100%, i.e., \\(1/6 * 100\\% = 16.67%\\).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C3",
+      "sent_idx": 8,
+      "sentence": "However, since probabilities are expressed as fractions or decimals without percent signs, our final answer will not include the %.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 0,
+      "sentence": "1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 1,
+      "sentence": "Each die has 6 sides numbered from 1 to 6.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 2,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 3,
+      "sentence": "The total number of outcomes when rolling two dice is 6 * 6 = 36.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 4,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 5,
+      "sentence": "To find the number of successful outcomes (sum equals 7), we need to count combinations that add up to 7.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 6,
+      "sentence": "4.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 7,
+      "sentence": "Possible pairs for a sum of 7 are: (1,6), (2,5), (3,4), and (6,1).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 8,
+      "sentence": "5.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 9,
+      "sentence": "That's 4 successful outcomes out of the total 36 possibilities.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 10,
+      "sentence": "6.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 11,
+      "sentence": "To find the probability, divide the number of successful outcomes by the total number of outcomes.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 12,
+      "sentence": "7.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 13,
+      "sentence": "So, Probability = Successful outcomes / Total outcomes = 4/36.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 14,
+      "sentence": "8.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 15,
+      "sentence": "Simplify the fraction: 4/36 = 1/9.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 16,
+      "sentence": "9.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 17,
+      "sentence": "Express the fraction as a decimal: 1/9 \u2248 0.111 or 11.11%.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 18,
+      "sentence": "10.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 19,
+      "sentence": "Alternatively, we can use the sum of probabilities for each die's face value and subtract the impossible outcomes (sum greater than 7).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 20,
+      "sentence": "11.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 21,
+      "sentence": "For example, for one die, the probability of rolling a number less than or equal to 6 is 6/6 = 1.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 22,
+      "sentence": "12.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 23,
+      "sentence": "For two dice, the probability of both numbers being less than or equal to 6 is (6/6) * (6/6) = 1 * 1 = 1.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 24,
+      "sentence": "13.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 25,
+      "sentence": "Since we want a sum greater than or equal to 4 and less than or equal to 7, the impossible outcomes are when one or both dice roll a 2, 3, or 5 (since those numbers cannot be paired with another number to get a sum of 4, 5, 6, or 7).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 26,
+      "sentence": "14.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 27,
+      "sentence": "The number of impossible outcomes is: (3/6) * (3/6) + (3/6) * (2/6) + (2/6) * (3/6) = 9/36 + 6/36 + 4/36 = 19/36.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 28,
+      "sentence": "15.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 29,
+      "sentence": "Subtract the impossible outcomes from the total number of possibilities to find the successful outcomes: 36 - 19 = 17.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 30,
+      "sentence": "16.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 31,
+      "sentence": "Divide the successful outcomes by the total number of outcomes to get the probability: Probability = Successful outcomes / Total outcomes = 17/36.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 32,
+      "sentence": "17.",
+      "heuristic": "NOT-STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C4",
+      "sent_idx": 33,
+      "sentence": "Simplify the fraction: 17/36 \u2248 0.472 or 47.2%.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C5",
+      "sent_idx": 0,
+      "sentence": "Final answer: The probability of getting a sum of 7 when rolling two six-sided dice is 6/36 or approximately 0.167 (one sixth).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C5",
+      "sent_idx": 1,
+      "sentence": "Here's the step-by-step reasoning:\n1.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C5",
+      "sent_idx": 2,
+      "sentence": "There are 6 sides on each die, so there are a total of 6 * 6 = 36 possible outcomes when rolling two dice.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C5",
+      "sent_idx": 3,
+      "sentence": "2.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C5",
+      "sent_idx": 4,
+      "sentence": "To get a sum of 7, the combinations that work are (1,6), (2,5), (3,4), (4,3), (5,2), and (6,1).",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C5",
+      "sent_idx": 5,
+      "sentence": "3.",
+      "heuristic": "NOT-STEP",
+      "judge": "NOT-STEP"
+    },
+    {
+      "frame_id": "A-003",
+      "category": "aleatory",
+      "condition": "C5",
+      "sent_idx": 6,
+      "sentence": "There are 6 successful outcomes out of 36 possible outcomes, so the probability is 6/36 = 0.167 or approximately 16.7%.",
+      "heuristic": "STEP",
+      "judge": "STEP"
+    }
+  ]
+}

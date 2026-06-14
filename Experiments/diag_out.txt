@@ -1,0 +1,47 @@
+======================================================================
+1. MEAN REALIZED STEPS by regime x condition (does manipulation move steps?)
+======================================================================
+condition    C1    C2     C3     C4    C5
+regime                                   
+0          0.96  3.82   9.63  18.02  5.33
+1          0.85  3.39  11.37  17.82  7.26
+
+steps range overlap:
+  low(R/A): steps mean=7.55 sd=7.68 min=0 p10=0 p90=17 max=88
+  high(K): steps mean=8.14 sd=7.24 min=0 p10=0 p90=17 max=41
+
+======================================================================
+2. WITHIN-REGIME association of y with realized steps vs condition
+======================================================================
+
+  high(K):
+    corr(y, realized steps) = -0.124   | y in low-steps tercile=0.744  high-steps tercile=0.582  (diff -0.162)
+    corr(y, condition ord)  = -0.058   | y at C1=0.710  C5=0.583  (diff -0.127)
+
+  low(R/A):
+    corr(y, realized steps) = -0.082   | y in low-steps tercile=0.719  high-steps tercile=0.629  (diff -0.090)
+    corr(y, condition ord)  = +0.007   | y at C1=0.659  C5=0.690  (diff +0.032)
+
+======================================================================
+3. POPULATION LOGISTIC: y ~ regressor*regime  (interaction = H1 term)
+======================================================================
+
+  regressor = realized steps (REGISTERED)
+    b1 (low-regime slope)   = -0.165
+    b3 (interaction)        = -0.094   <-- H1 predicts < 0
+    high-regime slope b1+b3 = -0.258
+
+  regressor = condition ord (EXOGENOUS)
+    b1 (low-regime slope)   = +0.016
+    b3 (interaction)        = -0.135   <-- H1 predicts < 0
+    high-regime slope b1+b3 = -0.119
+
+======================================================================
+4. Is realized-steps endogenous in low regime? (steps by correctness)
+======================================================================
+  high(K): mean steps | correct=7.44  wrong=9.28  (wrong-correct +1.84)
+  low(R/A): mean steps | correct=7.12  wrong=8.48  (wrong-correct +1.36)
+
+  low-regime split (R arithmetic vs A aleatory):
+    A: n=360 acc=0.606 corr(y,steps)=+0.042
+    R: n=270 acc=0.785 corr(y,steps)=-0.193

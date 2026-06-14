@@ -1,0 +1,35 @@
+g++ not available, if using conda: `conda install gxx`
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3]
+Sampling 2 chains for 1_000 tune and 1_000 draw iterations (2_000 + 2_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_u, z_u]
+Sampling 2 chains for 1_000 tune and 1_000 draw iterations (2_000 + 2_000 draws total) took 13 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, z_a, sigma_u, z_u]
+Sampling 2 chains for 1_000 tune and 1_000 draw iterations (2_000 + 2_000 draws total) took 27 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, z_a, sigma_g, z_g, sigma_u, z_u]
+Sampling 2 chains for 1_000 tune and 1_000 draw iterations (2_000 + 2_000 draws total) took 30 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[data] 1890 rows, 3 models, 42 items
+==============================================================================
+ABLATION: add hierarchical components one at a time; watch b3 cross 0
+  H1 predicts b3 < 0.  Pooled is known ~ -0.09; full registered = +0.115
+==============================================================================
+M0 pooled (no REs)                b1=-0.225  b3=+0.167  Pr(b3<0)=0.045
+M1 + item intercept               b1=-0.214  b3=+0.157  Pr(b3<0)=0.096
+M2 + model intercept a_m          b1=-0.217  b3=+0.131  Pr(b3<0)=0.152
+M3 + model slope g_m (FULL)       b1=-0.192  b3=+0.110  Pr(b3<0)=0.205  sigma_g=0.152
+==============================================================================
+The line where b3 turns positive identifies the culprit component.

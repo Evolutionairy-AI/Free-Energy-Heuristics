@@ -1,0 +1,18 @@
+ANALYSIS START 11:29:55
+g++ not available, if using conda: `conda install gxx`
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 872 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 713 seconds.
+[data] 7875 raw cells (0 errors) -> 7875 scored; 7 models, 45 items
+[desc] high short->long drop = 12.7 pp; low = 1.73 pp; DiD = 10.97 pp
+[fit] primary eq. 6.1' ITT (registered sampler draws=2000x4) ...
+[fit] secondary R7 (realized-steps eq. 6.1) ...
+[done] confirmatory_analysis_results.json + confirmatory_analysis_results.md
+  PRIMARY verdict=confirmed  Pr(b3<0)=1.0000  robust pp-drop=+17.44  converged=False
+ANALYSIS DONE 11:56:42

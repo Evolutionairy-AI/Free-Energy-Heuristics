@@ -1,0 +1,110 @@
+======================================================================
+FEH Experiment 2: Continuous Gaussian-Gamma (Theorem 2.6.1)
+======================================================================
+K = 12,  N_MC = 5000,  N_TRIALS = 200
+Dimensions: [1, 4]
+Cue precision regime: 'moderate' (linspace 2.0 → 0.3)
+
+======================================================================
+Dimension d = 1
+======================================================================
+
+  Regime: very_high_metauncert  (α_0=0.5, β_0=0.5, E[τ]=1.00, Var[τ]=2.000)
+    Chapter form:  mean k*=0.00  frac(G(K) > G(k*))=1.00
+    Standard form: mean k*=5.63  frac(G(K) > G(k*))=0.66
+
+  Regime: high_metauncert  (α_0=1.0, β_0=1.0, E[τ]=1.00, Var[τ]=1.000)
+    Chapter form:  mean k*=0.00  frac(G(K) > G(k*))=1.00
+    Standard form: mean k*=4.41  frac(G(K) > G(k*))=0.78
+
+  Regime: moderate_metauncert  (α_0=2.5, β_0=2.5, E[τ]=1.00, Var[τ]=0.400)
+    Chapter form:  mean k*=0.00  frac(G(K) > G(k*))=1.00
+    Standard form: mean k*=3.34  frac(G(K) > G(k*))=0.95
+
+  Regime: low_metauncert  (α_0=10.0, β_0=10.0, E[τ]=1.00, Var[τ]=0.100)
+    Chapter form:  mean k*=0.00  frac(G(K) > G(k*))=1.00
+    Standard form: mean k*=4.04  frac(G(K) > G(k*))=0.98
+
+  Regime: very_low_metauncert  (α_0=100.0, β_0=100.0, E[τ]=1.00, Var[τ]=0.010)
+    Chapter form:  mean k*=0.00  frac(G(K) > G(k*))=1.00
+    Standard form: mean k*=7.74  frac(G(K) > G(k*))=0.95
+
+======================================================================
+Dimension d = 4
+======================================================================
+
+  Regime: very_high_metauncert  (α_0=0.5, β_0=0.5, E[τ]=1.00, Var[τ]=2.000)
+    Chapter form:  mean k*=0.00  frac(G(K) > G(k*))=1.00
+    Standard form: mean k*=5.72  frac(G(K) > G(k*))=0.68
+
+  Regime: high_metauncert  (α_0=1.0, β_0=1.0, E[τ]=1.00, Var[τ]=1.000)
+    Chapter form:  mean k*=0.00  frac(G(K) > G(k*))=1.00
+    Standard form: mean k*=5.91  frac(G(K) > G(k*))=0.76
+
+  Regime: moderate_metauncert  (α_0=2.5, β_0=2.5, E[τ]=1.00, Var[τ]=0.400)
+    Chapter form:  mean k*=0.00  frac(G(K) > G(k*))=1.00
+    Standard form: mean k*=6.07  frac(G(K) > G(k*))=0.84
+
+  Regime: low_metauncert  (α_0=10.0, β_0=10.0, E[τ]=1.00, Var[τ]=0.100)
+    Chapter form:  mean k*=0.00  frac(G(K) > G(k*))=1.00
+    Standard form: mean k*=6.98  frac(G(K) > G(k*))=0.94
+
+  Regime: very_low_metauncert  (α_0=100.0, β_0=100.0, E[τ]=1.00, Var[τ]=0.010)
+    Chapter form:  mean k*=0.00  frac(G(K) > G(k*))=1.00
+    Standard form: mean k*=10.04  frac(G(K) > G(k*))=0.67
+
+Saved exp2_continuous_curves.png
+Saved exp2_summary.json
+
+======================================================================
+VERDICT ON THEOREM 2.6.1
+======================================================================
+
+Theorem 2.6.1 predicts: under high meta-uncertainty, G(K) > G(k*)
+                       (i.e., full integration is strictly worse).
+
+Chapter form (G = +epistemic + meta):
+
+  d = 1:
+    very_high_metauncert     : mean k*= 0.00/12  P(G(K)>G(k*))=1.00
+    high_metauncert          : mean k*= 0.00/12  P(G(K)>G(k*))=1.00
+    moderate_metauncert      : mean k*= 0.00/12  P(G(K)>G(k*))=1.00
+    low_metauncert           : mean k*= 0.00/12  P(G(K)>G(k*))=1.00
+    very_low_metauncert      : mean k*= 0.00/12  P(G(K)>G(k*))=1.00
+
+  d = 4:
+    very_high_metauncert     : mean k*= 0.00/12  P(G(K)>G(k*))=1.00
+    high_metauncert          : mean k*= 0.00/12  P(G(K)>G(k*))=1.00
+    moderate_metauncert      : mean k*= 0.00/12  P(G(K)>G(k*))=1.00
+    low_metauncert           : mean k*= 0.00/12  P(G(K)>G(k*))=1.00
+    very_low_metauncert      : mean k*= 0.00/12  P(G(K)>G(k*))=1.00
+
+Standard form (G = -epistemic + meta):
+
+  d = 1:
+    very_high_metauncert     : mean k*= 5.63/12  P(G(K)>G(k*))=0.66
+    high_metauncert          : mean k*= 4.41/12  P(G(K)>G(k*))=0.78
+    moderate_metauncert      : mean k*= 3.34/12  P(G(K)>G(k*))=0.95
+    low_metauncert           : mean k*= 4.04/12  P(G(K)>G(k*))=0.98
+    very_low_metauncert      : mean k*= 7.74/12  P(G(K)>G(k*))=0.95
+
+  d = 4:
+    very_high_metauncert     : mean k*= 5.72/12  P(G(K)>G(k*))=0.68
+    high_metauncert          : mean k*= 5.91/12  P(G(K)>G(k*))=0.76
+    moderate_metauncert      : mean k*= 6.07/12  P(G(K)>G(k*))=0.84
+    low_metauncert           : mean k*= 6.98/12  P(G(K)>G(k*))=0.94
+    very_low_metauncert      : mean k*=10.04/12  P(G(K)>G(k*))=0.67
+
+======================================================================
+BOTTOM LINE
+======================================================================
+
+  At d=4, very high meta-uncertainty:
+    P(G(K) > G(k*))  chapter form  = 1.00
+    P(G(K) > G(k*))  standard form = 0.68
+  At d=4, very low meta-uncertainty:
+    P(G(K) > G(k*))  chapter form  = 1.00
+    P(G(K) > G(k*))  standard form = 0.67
+
+  THEOREM 2.6.1: NOT supported empirically in continuous case.
+  This is a serious finding. The chapter's central theorem fails.

@@ -1,0 +1,742 @@
+g++ not available, if using conda: `conda install gxx`
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 117 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[design] 5375 obs, 49 IRLS params, 5 models, 31+12 items, reps=5, short:long 1:4
+[gate] Bayesian: Pr(b3<0)>0.95 AND pp-drop>6.0
+[sampler] draws=500 tune=500 chains=4
+
+  [ 0.0pp] sim 1/40  pymc=0.00 irls=0.00  (122.1s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 118 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 2/40  pymc=0.00 irls=0.00  (121.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 118 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 3/40  pymc=0.00 irls=0.00  (122.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 99 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 4/40  pymc=0.00 irls=0.00  (117.3s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 99 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 5/40  pymc=0.00 irls=0.00  (114.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 102 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 6/40  pymc=0.00 irls=0.00  (112.7s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 94 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 7/40  pymc=0.00 irls=0.00  (110.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 96 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 8/40  pymc=0.00 irls=0.00  (109.1s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 95 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 9/40  pymc=0.00 irls=0.00  (107.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 99 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 10/40  pymc=0.10 irls=0.10  (107.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 105 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 11/40  pymc=0.09 irls=0.09  (107.3s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 91 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 12/40  pymc=0.08 irls=0.08  (106.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 106 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 13/40  pymc=0.08 irls=0.08  (106.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 108 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 14/40  pymc=0.07 irls=0.07  (106.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 112 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 15/40  pymc=0.07 irls=0.07  (107.4s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 100 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 16/40  pymc=0.06 irls=0.06  (107.1s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 93 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 17/40  pymc=0.06 irls=0.06  (106.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 100 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 18/40  pymc=0.06 irls=0.06  (106.3s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 97 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 19/40  pymc=0.05 irls=0.05  (105.9s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 114 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 20/40  pymc=0.05 irls=0.05  (106.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 109 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 21/40  pymc=0.05 irls=0.05  (106.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 96 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 22/40  pymc=0.05 irls=0.05  (106.4s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 96 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 23/40  pymc=0.04 irls=0.04  (106.1s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 96 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 24/40  pymc=0.04 irls=0.04  (105.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 98 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 25/40  pymc=0.04 irls=0.04  (105.6s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 97 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 26/40  pymc=0.04 irls=0.04  (105.4s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 99 seconds.
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 27/40  pymc=0.04 irls=0.04  (105.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 130 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 28/40  pymc=0.04 irls=0.04  (106.3s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 102 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 29/40  pymc=0.03 irls=0.03  (106.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 91 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 30/40  pymc=0.03 irls=0.03  (105.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 97 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 31/40  pymc=0.03 irls=0.03  (105.6s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 101 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 32/40  pymc=0.03 irls=0.03  (105.6s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 89 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 33/40  pymc=0.03 irls=0.03  (105.1s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 96 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 34/40  pymc=0.03 irls=0.03  (105.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 94 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 35/40  pymc=0.03 irls=0.03  (104.7s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 95 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 36/40  pymc=0.03 irls=0.03  (104.6s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 110 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 37/40  pymc=0.05 irls=0.05  (104.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 92 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 38/40  pymc=0.05 irls=0.05  (104.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 96 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 39/40  pymc=0.05 irls=0.05  (104.4s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 100 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 0.0pp] sim 40/40  pymc=0.05 irls=0.05  (104.4s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 107 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+
+  -> power(Bayes)=0.05  power(IRLS)=0.05  nonconv=40/40  (69.6 min)
+
+  [ 7.0pp] sim 1/40  pymc=1.00 irls=1.00  (109.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 94 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 2/40  pymc=1.00 irls=1.00  (103.7s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 98 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 3/40  pymc=1.00 irls=1.00  (102.9s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 93 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 4/40  pymc=1.00 irls=1.00  (101.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 116 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 5/40  pymc=0.80 irls=0.80  (104.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 103 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 6/40  pymc=0.67 irls=0.67  (105.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 100 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 7/40  pymc=0.71 irls=0.71  (104.9s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 87 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 8/40  pymc=0.75 irls=0.75  (103.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 85 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 9/40  pymc=0.78 irls=0.78  (101.4s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 88 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 10/40  pymc=0.80 irls=0.80  (100.3s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 94 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 11/40  pymc=0.82 irls=0.82  (100.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 95 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 12/40  pymc=0.83 irls=0.83  (99.9s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 100 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 13/40  pymc=0.85 irls=0.85  (100.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 85 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 14/40  pymc=0.86 irls=0.86  (99.3s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 99 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 15/40  pymc=0.87 irls=0.87  (99.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 84 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 16/40  pymc=0.81 irls=0.81  (98.7s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 96 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 17/40  pymc=0.82 irls=0.82  (98.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 92 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 18/40  pymc=0.83 irls=0.83  (98.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 88 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 19/40  pymc=0.84 irls=0.84  (98.1s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 97 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 20/40  pymc=0.85 irls=0.85  (98.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 92 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 21/40  pymc=0.86 irls=0.86  (98.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 88 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 22/40  pymc=0.86 irls=0.86  (97.7s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 88 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 23/40  pymc=0.87 irls=0.87  (97.4s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 90 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 24/40  pymc=0.88 irls=0.88  (97.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 88 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 25/40  pymc=0.88 irls=0.88  (97.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 86 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 26/40  pymc=0.88 irls=0.88  (96.7s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 97 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 27/40  pymc=0.89 irls=0.89  (96.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 100 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 28/40  pymc=0.89 irls=0.89  (97.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 93 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 29/40  pymc=0.90 irls=0.90  (97.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 92 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 30/40  pymc=0.90 irls=0.90  (97.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 94 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 31/40  pymc=0.87 irls=0.87  (97.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 94 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 32/40  pymc=0.88 irls=0.88  (97.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 91 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 33/40  pymc=0.88 irls=0.88  (96.9s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 100 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 34/40  pymc=0.88 irls=0.88  (97.1s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 108 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 35/40  pymc=0.86 irls=0.86  (97.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 112 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 36/40  pymc=0.86 irls=0.86  (98.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 102 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 37/40  pymc=0.84 irls=0.84  (98.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 100 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 38/40  pymc=0.82 irls=0.82  (98.3s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 106 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 39/40  pymc=0.82 irls=0.82  (98.6s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 93 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [ 7.0pp] sim 40/40  pymc=0.82 irls=0.82  (98.6s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 97 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+
+  -> power(Bayes)=0.82  power(IRLS)=0.82  nonconv=40/40  (65.7 min)
+
+  [10.0pp] sim 1/40  pymc=1.00 irls=1.00  (100.1s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 113 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 2/40  pymc=1.00 irls=1.00  (108.3s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 88 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 3/40  pymc=1.00 irls=1.00  (102.9s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 101 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 4/40  pymc=1.00 irls=1.00  (103.1s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 111 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 5/40  pymc=1.00 irls=1.00  (105.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 90 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 6/40  pymc=1.00 irls=1.00  (103.3s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 92 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 7/40  pymc=1.00 irls=1.00  (102.1s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 87 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 8/40  pymc=1.00 irls=1.00  (100.6s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 92 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 9/40  pymc=1.00 irls=1.00  (100.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 98 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 10/40  pymc=1.00 irls=1.00  (100.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 94 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 11/40  pymc=1.00 irls=1.00  (99.9s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 96 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 12/40  pymc=1.00 irls=1.00  (99.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 96 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 13/40  pymc=1.00 irls=1.00  (99.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 101 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 14/40  pymc=1.00 irls=1.00  (100.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 107 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 15/40  pymc=1.00 irls=1.00  (100.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 100 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 16/40  pymc=1.00 irls=1.00  (100.9s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 98 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 17/40  pymc=1.00 irls=1.00  (101.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 102 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 18/40  pymc=1.00 irls=1.00  (101.3s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 111 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 19/40  pymc=1.00 irls=1.00  (101.9s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 88 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 20/40  pymc=1.00 irls=1.00  (101.4s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 101 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 21/40  pymc=1.00 irls=1.00  (101.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 95 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 22/40  pymc=1.00 irls=1.00  (101.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 98 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 23/40  pymc=1.00 irls=1.00  (101.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 88 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 24/40  pymc=1.00 irls=1.00  (101.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 92 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 25/40  pymc=1.00 irls=1.00  (100.8s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 92 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 26/40  pymc=1.00 irls=1.00  (100.6s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 93 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 27/40  pymc=1.00 irls=1.00  (100.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 91 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 28/40  pymc=1.00 irls=1.00  (100.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 89 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 29/40  pymc=1.00 irls=1.00  (100.0s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 89 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 30/40  pymc=1.00 irls=1.00  (99.7s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 93 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 31/40  pymc=1.00 irls=1.00  (99.6s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 91 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 32/40  pymc=1.00 irls=1.00  (99.4s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 100 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 33/40  pymc=1.00 irls=1.00  (99.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 89 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 34/40  pymc=1.00 irls=1.00  (99.3s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 103 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 35/40  pymc=1.00 irls=1.00  (99.5s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 91 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 36/40  pymc=1.00 irls=1.00  (99.4s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 90 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 37/40  pymc=1.00 irls=1.00  (99.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 92 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 38/40  pymc=1.00 irls=1.00  (99.1s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 99 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 39/40  pymc=1.00 irls=1.00  (99.2s/fit)Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 500 tune and 500 draw iterations (2_000 + 2_000 draws total) took 91 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+  [10.0pp] sim 40/40  pymc=1.00 irls=1.00  (99.1s/fit)
+  -> power(Bayes)=1.00  power(IRLS)=1.00  nonconv=40/40  (66.0 min)
+
+[done] condition_power_pymc.json + condition_power_pymc.md

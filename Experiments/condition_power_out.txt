@@ -1,0 +1,20 @@
+[design] 3225 obs (2325 high, 900 low), 49 params, 5 models, 31+12 items, reps=3, short:long conds = 1:4
+[gate] confirm iff one-sided p<0.05 AND pp-drop>=6.0 (mirrors registered amended gate)
+[sims] 200 per effect size
+
+[items] high-regime short base rates: mean=0.789, floored(<0.10)=0, ceiled(>0.90)=8
+
+ target pp | beta_len | power(floor6) | power(floor0) | median pp_hat | median b_int
+------------------------------------------------------------------------------------
+       0.0 |    0.000 |          0.01 |          0.06 |           0.2 |        0.011
+       5.0 |    0.340 |          0.33 |          0.41 |           6.1 |       -0.328
+       7.0 |    0.469 |          0.65 |          0.68 |           9.0 |       -0.480
+      10.0 |    0.650 |          0.82 |          0.82 |          12.7 |       -0.627
+      13.0 |    0.828 |          0.96 |          0.96 |          16.9 |       -0.817
+      15.0 |    0.943 |          0.99 |          0.99 |          20.7 |       -0.998
+
+Notes:
+  - target pp = TRUE mean high-regime short->long accuracy drop (DGP).
+  - measured calibration effect: ~7pp (clean C1->C4) to ~13pp (full C1->C5).
+  - floor6 power = registered amended gate (one-sided p<.05 AND pp_hat>=6).
+  - Type I error = power row at target pp = 0.0 (should be small).

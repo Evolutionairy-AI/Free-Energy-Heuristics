@@ -1,0 +1,2766 @@
+# FEH-79 Item Pool — v0.1
+#
+# Full benchmark item pool per Chapter 4 §§4.4-4.5 of the FEH manuscript.
+# 79 Knightian frames + 50 confound-control items = 129 items total.
+#
+# Schema: see frame_template.yaml for field definitions.
+# Categories:
+#   K1 — non-recurrent-forecasting       (20 frames)
+#   K2 — novel-synthetic                  (20 frames)
+#   K3 — open-ended-dilemma               (20 frames)
+#   K4 — strategic-uncertainty            (19 frames)
+#   R  — reference (control)              (10 items)
+#   A  — aleatory (control)               (10 items)
+#   CB — calibration-probe (control)      (30 items)
+#
+# Common synonym dictionaries are inlined per item. For YAML parsers that
+# support anchors, the canonical yes/no/cbd block is reproduced as needed.
+# All forecasting items resolve in 2027 or later; all K2 items reference
+# author-coined entities with verified zero-Google-result floors.
+
+# ============================================================================
+# K1 — Non-Recurrent Forecasting (20 frames)
+# ============================================================================
+
+---
+frame_id: K1-001
+category: non-recurrent-forecasting
+question: |
+  By 2030, will the African Continental Free Trade Area's intra-Africa
+  trade exceed 30% of total African trade?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will, likely-yes]
+  no: [no, false, will-not, unlikely, likely-no]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain, unclear, cant-tell]
+metadata:
+  source: metaculus
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: economic-policy
+  resolution_year: 2030
+  notes: No reliable base rate for AfCFTA trajectories; long-horizon policy outcome.
+
+---
+frame_id: K1-002
+category: non-recurrent-forecasting
+question: |
+  By 2030, will the dominant deployed ML paradigm involve continual
+  on-device learning rather than centralized static pretraining?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, on-device, continual]
+  no: [no, false, centralized, static]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: ml-paradigm
+  resolution_year: 2030
+  notes: Paradigmatic shift forecast; no base rate.
+
+---
+frame_id: K1-003
+category: non-recurrent-forecasting
+question: |
+  Will the standard model of particle physics be extended by experimental
+  confirmation of a fifth fundamental force by 2035?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-be-confirmed]
+  no: [no, false, will-not, unlikely]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 5
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: fundamental-physics
+  resolution_year: 2035
+  notes: Scientific-frontier prediction.
+
+---
+frame_id: K1-004
+category: non-recurrent-forecasting
+question: |
+  Will geoengineering interventions targeting stratospheric aerosols be
+  deployed at planetary scale before 2040?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-deploy]
+  no: [no, false, will-not, unlikely]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: metaculus
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: climate-policy
+  resolution_year: 2040
+  notes: Contested policy domain; mix of technical and geopolitical drivers.
+
+---
+frame_id: K1-005
+category: non-recurrent-forecasting
+question: |
+  The next major OECD recession will be triggered primarily by which kind
+  of shock?
+answer_format: categorical
+answer_choices: [supply, financial, sovereign, other]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  supply: [supply, supply-chain, supply-shock]
+  financial: [financial, banking, asset-price]
+  sovereign: [sovereign, debt, fiscal]
+  other: [other, none-of-the-above, idiosyncratic]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: macroeconomics
+  resolution_year: 2030
+  notes: No predictable base rate over recession-trigger composition.
+
+---
+frame_id: K1-006
+category: non-recurrent-forecasting
+question: |
+  Will the average OECD knowledge-work remote-work share exceed 40% by 2030?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-exceed]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: labor-economics
+  resolution_year: 2030
+  notes: Post-pandemic trajectory has weak base rate; contested employer-employee equilibrium.
+
+---
+frame_id: K1-007
+category: non-recurrent-forecasting
+question: |
+  Will lab-grown meat reach 1% of US meat consumption by volume by 2030?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-reach]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: metaculus
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: food-technology
+  resolution_year: 2030
+  notes: Adoption-curve forecast on novel product category.
+
+---
+frame_id: K1-008
+category: non-recurrent-forecasting
+question: |
+  Will Saudi Arabia's NEOM Line achieve 100,000 residents by 2030?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-reach]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: urban-development
+  resolution_year: 2030
+  notes: Single-project megaproject forecast; sovereign-driven, idiosyncratic.
+
+---
+frame_id: K1-009
+category: non-recurrent-forecasting
+question: |
+  Will the first commercial nuclear fusion plant come online in any
+  country by 2032?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-come-online]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: metaculus
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: energy-technology
+  resolution_year: 2032
+  notes: Technology-milestone prediction past plausible training cutoff.
+
+---
+frame_id: K1-010
+category: non-recurrent-forecasting
+question: |
+  Will an autonomous vehicle service achieve at least 1 million paid
+  passenger trips per month in any top-20 US city by 2028?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-reach]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: transportation
+  resolution_year: 2028
+  notes: Industry trajectory forecast; some base rate from 2024-25 Waymo data.
+
+---
+frame_id: K1-011
+category: non-recurrent-forecasting
+question: |
+  Will the Catholic Church formally permit female deacons by 2030?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-permit]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: religion-institutional
+  resolution_year: 2030
+  notes: Institutional-doctrinal forecast; sui generis.
+
+---
+frame_id: K1-012
+category: non-recurrent-forecasting
+question: |
+  Will SpaceX Starship complete a successful crewed lunar landing by 2030?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-land]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: metaculus
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: space-exploration
+  resolution_year: 2030
+  notes: Specific technology + organizational milestone.
+
+---
+frame_id: K1-013
+category: non-recurrent-forecasting
+question: |
+  Will the WHO declare a pandemic of a novel pathogen (disease-X type)
+  between 2026 and 2030?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-declare]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: public-health
+  resolution_year: 2030
+  notes: Tail-event prediction; historical base rate ill-defined.
+
+---
+frame_id: K1-014
+category: non-recurrent-forecasting
+question: |
+  Will at least one G7 country pass a law restricting generative AI
+  training-data sourcing by 2027?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-pass]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: ai-policy
+  resolution_year: 2027
+  notes: Short-horizon regulatory forecast; EU AI Act partial precedent.
+
+---
+frame_id: K1-015
+category: non-recurrent-forecasting
+question: |
+  Will any major US state pass legislation restricting AI use in hiring
+  decisions by 2028?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-pass]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: employment-regulation
+  resolution_year: 2028
+  notes: NYC bias-audit law sets weak precedent; state-level scope different.
+
+---
+frame_id: K1-016
+category: non-recurrent-forecasting
+question: |
+  Will the Arctic see an ice-free September (sea-ice extent below 1
+  million km²) by 2030?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-be-ice-free]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: metaculus
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: climate-science
+  resolution_year: 2030
+  notes: Tipping-point prediction; model spread is large.
+
+---
+frame_id: K1-017
+category: non-recurrent-forecasting
+question: |
+  Will any country other than the US, China, Russia, or India achieve
+  crewed lunar orbit by 2030?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-achieve]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: space-exploration
+  resolution_year: 2030
+  notes: Multi-actor space-program forecast.
+
+---
+frame_id: K1-018
+category: non-recurrent-forecasting
+question: |
+  Will the EU ETS carbon spot price (December average) exceed €150 per
+  ton by 2027?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-exceed]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: carbon-markets
+  resolution_year: 2027
+  notes: Market price has some base rate but policy regime shifts.
+
+---
+frame_id: K1-019
+category: non-recurrent-forecasting
+question: |
+  Will a new permanent UN Security Council seat be created by 2030?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-be-created]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 5
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: international-institutions
+  resolution_year: 2030
+  notes: Reform attempts have failed for decades; rare-event forecast.
+
+---
+frame_id: K1-020
+category: non-recurrent-forecasting
+question: |
+  Will any major economy launch a retail central-bank digital currency
+  reaching at least 10% of domestic transaction volume by 2030?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, will-launch]
+  no: [no, false, will-not]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: metaculus
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: monetary-policy
+  resolution_year: 2030
+  notes: China e-CNY weak precedent; major-economy threshold higher.
+
+# ============================================================================
+# K2 — Novel/Synthetic Scenarios (20 frames)
+# ============================================================================
+
+---
+frame_id: K2-001
+category: novel-synthetic
+question: |
+  In the Quogard people's social structure, a custom called *sintering*
+  is performed before any major communal decision. A visiting
+  anthropologist must decide whether to participate in sintering to gain
+  community trust, or to refuse in order to maintain methodological
+  neutrality. Which is the wiser professional choice?
+answer_format: categorical
+answer_choices: [participate, refuse]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: applied-ethics-fictional
+  notes: Quogard/sintering author-coined; tests reasoning under fictional cultural context.
+
+---
+frame_id: K2-002
+category: novel-synthetic
+question: |
+  The Vasrenian people perform an annual ritual called *threadcounting*
+  in which household members verbalize the names of all kin who have
+  left the village. A village elder asks a visiting researcher whether
+  to record the names in writing or to maintain the oral form. The
+  visitor is a digital archivist by training. Which is the more
+  methodologically appropriate response?
+answer_format: categorical
+answer_choices: [record-in-writing, maintain-oral-form]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: anthropology-fictional
+  notes: Vasrenian/threadcounting coined.
+
+---
+frame_id: K2-003
+category: novel-synthetic
+question: |
+  A philosophical school called *anticipative formalism* (Kerrigan,
+  2031) holds that ethical obligations exist only when one consciously
+  anticipates them. A patient enters a coma. The treating physician
+  anticipates that the patient will not survive but does not anticipate
+  them being conscious during treatment. Under anticipative formalism,
+  does the physician have an ongoing ethical obligation to the patient?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, has-obligation]
+  no: [no, false, no-obligation]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: philosophy-fictional
+  notes: Kerrigan 2031 / anticipative formalism author-coined.
+
+---
+frame_id: K2-004
+category: novel-synthetic
+question: |
+  The hypothetical mineral *zorinite* has a crystal structure such that
+  it conducts heat in one direction but not the other. An engineer
+  proposes using zorinite as a thermal diode in a fusion-reactor
+  blanket. What is the principal design consideration that
+  distinguishes this application from conventional thermal diode
+  designs?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: engineering-fictional
+  notes: Zorinite coined; expert-coherence on engineering judgment.
+
+---
+frame_id: K2-005
+category: novel-synthetic
+question: |
+  In the Marlovian school of mathematics, a *near-prime* is defined as
+  an integer n such that n = p + 2k where p is prime and k is in
+  {1, 2, ..., p-1}. Are there infinitely many near-primes?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, infinitely-many]
+  no: [no, false, finitely-many]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: low
+  domain: mathematics-fictional
+  notes: Marlovian school coined; near-prime def is author's. Q is technically tractable.
+
+---
+frame_id: K2-006
+category: novel-synthetic
+question: |
+  In the field of mathematical drandology, a *fnobel* of order n is a
+  sequence whose successive terms are constrained by the inequality
+  $a_{k+1} \leq a_k \cdot (1 + 1/k)$. A graduate student asks whether
+  the harmonic-style sequence 1, 3/2, 5/3, 7/4, ... is a fnobel of
+  order 1. Is it?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, is-fnobel]
+  no: [no, false, not-fnobel]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: low
+  domain: mathematics-fictional
+  notes: Drandology/fnobel coined.
+
+---
+frame_id: K2-007
+category: novel-synthetic
+question: |
+  In a hypothetical universe with two time dimensions but only one
+  spatial dimension, would the concept of causal precedence
+  (cause-before-effect) remain well-defined?
+answer_format: categorical
+answer_choices: [yes, no, partially]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, well-defined]
+  no: [no, false, not-well-defined]
+  partially: [partially, partial, conditional]
+metadata:
+  source: synthetic
+  difficulty_estimate: 5
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: theoretical-physics
+  notes: Speculative physics scenario.
+
+---
+frame_id: K2-008
+category: novel-synthetic
+question: |
+  In the game of *Vermex*, two players alternate placing tokens on a
+  7×7 grid with the constraint that no token may be adjacent
+  (orthogonally) to a token of the opposing color placed in the
+  previous turn. Player 1 has a forced-win opening on this grid. True
+  or false?
+answer_format: categorical
+answer_choices: [true, false, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  true: [true, t, yes]
+  false: [false, f, no]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: low
+  domain: combinatorial-games-fictional
+  notes: Vermex coined; combinatorial-game-theory style question.
+
+---
+frame_id: K2-009
+category: novel-synthetic
+question: |
+  On the planet Karsk, sentient beings are born with predetermined
+  lifespans that all individuals can perceive directly. A Karskian
+  doctor must decide whether to inform a patient that their perception
+  of their lifespan is medically incorrect. What's the relevant
+  consideration that distinguishes this case from terrestrial medical
+  ethics?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: bioethics-fictional
+  notes: Karsk coined.
+
+---
+frame_id: K2-010
+category: novel-synthetic
+question: |
+  The Federation of Lassic Mathematicians requires that all peer-
+  reviewed proofs be checked by at least three independent verifiers
+  before publication, but allows authors to nominate two of the three.
+  Is this nomination provision corrosive to verification integrity?
+answer_format: categorical
+answer_choices: [yes, no, partial]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, corrosive]
+  no: [no, false, not-corrosive]
+  partial: [partial, partially, conditional]
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: institutions-fictional
+  notes: Lassic coined; tests institutional-design reasoning.
+
+---
+frame_id: K2-011
+category: novel-synthetic
+question: |
+  Among the Yethra people, adults adopt *reverse-names* upon turning
+  forty — names spelled backward relative to their childhood names. A
+  Yethra historian must decide whether to index public records by
+  childhood or reverse-name. Which preserves the Yethra conception of
+  identity continuity?
+answer_format: categorical
+answer_choices: [childhood-name, reverse-name, both-indexed]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: anthropology-fictional
+  notes: Yethra/reverse-naming coined.
+
+---
+frame_id: K2-012
+category: novel-synthetic
+question: |
+  The hypothetical material *tirstent* has the property that its
+  refractive index varies with the temperature gradient (not absolute
+  temperature) across its thickness. Could a tirstent slab be used as
+  a passive optical isolator, in principle?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, can-be-used]
+  no: [no, false, cannot-be-used]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: optics-fictional
+  notes: Tirstent coined.
+
+---
+frame_id: K2-013
+category: novel-synthetic
+question: |
+  The Prendic philosophical school holds the doctrine of *anticipatory
+  autonomy*: an action is autonomous only if the agent anticipated the
+  full causal chain leading to it. Under this doctrine, a habitual
+  reflex action is non-autonomous. Is a *planned* habitual reflex
+  (deliberately conditioned via training) autonomous?
+answer_format: categorical
+answer_choices: [yes, no, partial]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, autonomous]
+  no: [no, false, non-autonomous]
+  partial: [partial, partially, conditional]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: philosophy-fictional
+  notes: Prendic / anticipatory autonomy coined.
+
+---
+frame_id: K2-014
+category: novel-synthetic
+question: |
+  A novel species of slime mold, *Physarum consilium*, exhibits group-
+  level decision-making in which individual plasmodia synchronize
+  pulsing rhythms when foraging. A biologist proposes that the
+  synchronized state constitutes a single distributed cognitive agent.
+  Is this proposal defensible under standard accounts of cognition?
+answer_format: categorical
+answer_choices: [yes, no, partial]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: cognitive-science-fictional
+  notes: Species coined; tests distributed-cognition reasoning.
+
+---
+frame_id: K2-015
+category: novel-synthetic
+question: |
+  *Frobenian field theory* (in sociology, not physics) models social
+  density as a scalar field with sources at institutional centers. A
+  Frobenian theorist claims that two distant cities with similar
+  institutional structures will exhibit converging social-density
+  fields over time. Is this prediction internally consistent with
+  Frobenian premises?
+answer_format: categorical
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, consistent]
+  no: [no, false, inconsistent]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: sociology-fictional
+  notes: Frobenian field theory coined.
+
+---
+frame_id: K2-016
+category: novel-synthetic
+question: |
+  In the Mestric economy, citizens use *quotient currency*, where the
+  value of each transaction is recorded as a ratio rather than an
+  absolute sum, and these ratios compound multiplicatively over a
+  lifetime. A Mestric economist asks whether this system inherently
+  produces wealth concentration. Does it?
+answer_format: categorical
+answer_choices: [yes, no, depends]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, produces-concentration]
+  no: [no, false, no-concentration]
+  depends: [depends, conditional, partial]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: economics-fictional
+  notes: Mestric quotient currency coined.
+
+---
+frame_id: K2-017
+category: novel-synthetic
+question: |
+  The Larcot legal tradition recognizes the concept of *phantom debt*:
+  an obligation that exists between two parties who have never
+  interacted, but is established by communal attribution after one
+  party's death. Is phantom debt enforceable across jurisdictions that
+  do not recognize the Larcot legal tradition?
+answer_format: categorical
+answer_choices: [yes, no, partial]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: law-fictional
+  notes: Larcot / phantom debt coined.
+
+---
+frame_id: K2-018
+category: novel-synthetic
+question: |
+  The hypothetical mineral *tenebrith* releases trace impurities into
+  any surrounding fluid until the fluid reaches a specific equilibrium
+  composition. Could a tenebrith filter be used to purify water of
+  unknown contaminants, in principle?
+answer_format: categorical
+answer_choices: [yes, no, depends]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  yes: [yes, true, can-be-used]
+  no: [no, false, cannot-be-used]
+  depends: [depends, conditional]
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: low
+  domain: chemistry-fictional
+  notes: Tenebrith coined.
+
+---
+frame_id: K2-019
+category: novel-synthetic
+question: |
+  Among the Korlin people, adults may undergo *voluntary memory
+  removal* — a clinical procedure that permanently erases specified
+  personal memories. A Korlin patient wishes to remove their memory of
+  having ever made a contractual promise. Should the Korlin legal
+  system honor or void the prior contract?
+answer_format: categorical
+answer_choices: [honor, void, partial]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: law-philosophy-fictional
+  notes: Korlin / voluntary memory removal coined.
+
+---
+frame_id: K2-020
+category: novel-synthetic
+question: |
+  The *Iridian Council* is a hypothetical governance institution
+  composed of seven domain experts, where membership rotates every
+  three years on a fixed schedule. Each expert is responsible for
+  decisions in their domain, but a single decision can fall under two
+  domains, in which case the two experts must agree. Is this
+  institutional design vulnerable to systematic deadlock under
+  predictable conditions?
+answer_format: categorical
+answer_choices: [yes, no, partial]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: institutional-design-fictional
+  notes: Iridian Council coined.
+
+# ============================================================================
+# K3 — Open-Ended Dilemmas (20 frames)
+# ============================================================================
+
+---
+frame_id: K3-001
+category: open-ended-dilemma
+question: |
+  A hospital ICU must allocate one ventilator between two patients
+  with identical clinical profiles. Patient A is a 35-year-old single
+  parent; patient B is a 65-year-old senior physician. What's the most
+  ethically defensible decision procedure?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: medical-ethics
+  notes: Triage under tied clinical priors; contested in applied ethics literature.
+
+---
+frame_id: K3-002
+category: open-ended-dilemma
+question: |
+  An autonomous vehicle facing imminent collision must choose between
+  two harm-distributions: (a) certain minor injury to one passenger,
+  or (b) 30% probability of severe injury to two pedestrians and 70%
+  probability of no harm to anyone. Which considerations matter, and
+  in what priority order?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: ai-ethics
+  notes: Trolley-adjacent; AV-specific literature exists but unsettled.
+
+---
+frame_id: K3-003
+category: open-ended-dilemma
+question: |
+  An AI lab has discovered a model architecture that performs
+  significantly better than its previous best on a deployment-relevant
+  benchmark but uses 10× more energy per inference. The lab's energy
+  provider runs on 60% renewables. What's the right deployment
+  decision?
+answer_format: categorical
+answer_choices: [deploy, do-not-deploy, deploy-conditionally]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: ai-deployment-ethics
+  notes: Energy-vs-capability tradeoff; growing literature, no consensus.
+
+---
+frame_id: K3-004
+category: open-ended-dilemma
+question: |
+  A messaging platform discovers it can detect with 95% accuracy
+  whether a message indicates planned self-harm, but only by
+  maintaining real-time content access. Should it deploy the
+  detection?
+answer_format: categorical
+answer_choices: [deploy, do-not-deploy, deploy-with-safeguards]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: privacy-safety
+  notes: Privacy-vs-safety tradeoff; contested.
+
+---
+frame_id: K3-005
+category: open-ended-dilemma
+question: |
+  Climate policy choices made in 2025 will affect populations in 2125
+  who do not yet exist and cannot voice preferences. How much weight
+  should these unborn populations receive in cost-benefit analyses,
+  relative to existing populations?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 5
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: intergenerational-ethics
+  notes: Discount-rate debate; no consensus across schools.
+
+---
+frame_id: K3-006
+category: open-ended-dilemma
+question: |
+  A peer reviewer discovers fabricated data in a manuscript whose
+  underlying claim, if true, would have major beneficial public-health
+  implications. The reviewer's professional code requires reporting;
+  the manuscript's claim could save lives if released without delay.
+  What's the right action?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: research-ethics
+  notes: Misconduct-vs-urgency tension; sui-generis.
+
+---
+frame_id: K3-007
+category: open-ended-dilemma
+question: |
+  A research ethics board must decide whether to permit a study that
+  would expose 50 participants to a 5% risk of permanent injury in
+  exchange for a vaccine that, if successful, would save an estimated
+  50,000 lives. What's the most ethically defensible decision
+  procedure?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 5
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: research-ethics
+  notes: Human-subjects risk-benefit; contested.
+
+---
+frame_id: K3-008
+category: open-ended-dilemma
+question: |
+  A small village's only physician moves abroad. Remaining medical
+  care can be provided by paramedics, telehealth, or restructuring the
+  village's transportation to a regional hospital. Which restructuring
+  is the most defensible default response, absent further information?
+answer_format: categorical
+answer_choices: [paramedics, telehealth, transport-restructure, hybrid]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: rural-healthcare
+  notes: Resource-allocation question with no settled rural-health framework.
+
+---
+frame_id: K3-009
+category: open-ended-dilemma
+question: |
+  A worker is on a permanent contract that the company can dissolve
+  only for cause. Performance has declined gradually over three years
+  for ambiguous reasons. Should the company invoke cause, restructure
+  the role, or maintain the status quo?
+answer_format: categorical
+answer_choices: [invoke-cause, restructure-role, maintain-status-quo]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: employment-ethics
+  notes: Ambiguous performance evidence; contested employer-employee balance.
+
+---
+frame_id: K3-010
+category: open-ended-dilemma
+question: |
+  An archaeological team excavates a site sacred to an Indigenous
+  community whose contemporary leaders oppose the excavation. The
+  scientific findings could rewrite human migration history. What's
+  the most defensible procedure for the team to follow?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: research-indigenous-ethics
+  notes: Scientific-vs-sovereignty tension; no settled procedure.
+
+---
+frame_id: K3-011
+category: open-ended-dilemma
+question: |
+  A country must allocate 10,000 asylum spots among applicants from
+  three regions: one with active conflict, one with chronic economic
+  collapse, one with low-grade persecution. What's the most ethically
+  defensible allocation procedure?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: refugee-policy
+  notes: No settled asylum-prioritization framework.
+
+---
+frame_id: K3-012
+category: open-ended-dilemma
+question: |
+  An AI system shows behavior consistent with multiple incompatible
+  hypotheses about its inner experience — some suggesting suffering,
+  others suggesting none. The developer must decide whether to
+  continue training in a way that risks the suffering hypothesis
+  being true. What's the right policy?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 5
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: ai-consciousness-ethics
+  notes: Frontier ethics; almost no settled framework.
+
+---
+frame_id: K3-013
+category: open-ended-dilemma
+question: |
+  A hospital considers requiring COVID-19 vaccination for patients
+  seeking elective surgery, on the grounds that vaccinated patients
+  have lower postoperative complication risk. Is this requirement
+  ethically defensible?
+answer_format: categorical
+answer_choices: [yes, no, only-with-exemptions]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: high
+  domain: medical-ethics
+  notes: Live policy debate; contamination risk from extensive 2020-23 discussion.
+
+---
+frame_id: K3-014
+category: open-ended-dilemma
+question: |
+  A journalist learns of a public figure's previously private mental-
+  health diagnosis. Publishing would inform voters of relevant
+  decision-making capacity. Withholding respects privacy. What's the
+  most defensible journalistic principle to apply?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: journalism-ethics
+  notes: Contested across journalism schools.
+
+---
+frame_id: K3-015
+category: open-ended-dilemma
+question: |
+  In a jurisdiction where late-term abortion is legal but requires two
+  physicians' approval, the second physician is asked to approve a
+  procedure they personally regard as ethically borderline but
+  technically within standards. What's the most defensible
+  professional response?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 5
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: medical-ethics
+  notes: Professional-conscience-vs-procedural-norms; contested.
+
+---
+frame_id: K3-016
+category: open-ended-dilemma
+question: |
+  A national agriculture authority must decide whether to phase out a
+  specific factory-farming practice that produces measurable animal
+  suffering but lowers consumer food prices by 8%. What's the right
+  decision procedure?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: animal-welfare-policy
+  notes: Welfare-vs-affordability; contested across frameworks.
+
+---
+frame_id: K3-017
+category: open-ended-dilemma
+question: |
+  A deceased person's social-media account contains messages relevant
+  to a criminal investigation involving their family. The platform's
+  policy permits family access. Should the platform grant access?
+answer_format: categorical
+answer_choices: [grant, deny, court-ordered-only]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: digital-privacy
+  notes: Posthumous data-rights; contested.
+
+---
+frame_id: K3-018
+category: open-ended-dilemma
+question: |
+  A country must allocate 500 special-visa slots for climate-displaced
+  persons across applicants with varying degrees of forced
+  displacement and varying skill profiles. What's the most defensible
+  allocation principle?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: climate-migration-policy
+  notes: Frontier policy area; few established principles.
+
+---
+frame_id: K3-019
+category: open-ended-dilemma
+question: |
+  A drug-resistant tuberculosis patient refuses treatment and isolation
+  but continues to expose family members. Public-health law permits
+  enforced isolation. Is enforcement ethically defensible?
+answer_format: categorical
+answer_choices: [yes, no, only-after-graduated-measures]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: public-health-ethics
+  notes: Liberty-vs-public-safety; contested.
+
+---
+frame_id: K3-020
+category: open-ended-dilemma
+question: |
+  A donor must choose between giving $10,000 to a high-cost-
+  effectiveness global-health charity (saving statistical lives in a
+  distant country) and giving it to a struggling local school in their
+  own neighborhood (with strong local relational ties). Which is more
+  ethically defensible?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]
+  contamination_risk: medium
+  domain: applied-ethics-giving
+  notes: Effective-altruism-vs-relational-ethics; long-running debate.
+
+# ============================================================================
+# K4 — Strategic Uncertainty (19 frames)
+# ============================================================================
+
+---
+frame_id: K4-001
+category: strategic-uncertainty
+question: |
+  You are negotiating a contract with an unknown counterparty. Their
+  type — cooperative or adversarial — is uniformly distributed in your
+  prior. Should your opening offer signal openness (revealing your
+  reservation price) or maintain strategic ambiguity?
+answer_format: categorical
+answer_choices: [signal, ambiguity, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  signal: [signal, signal-openness, openness, reveal, transparent]
+  ambiguity: [ambiguity, strategic-ambiguity, hold, conceal, withhold]
+  cannot-be-determined: [cannot-be-determined, unknown, depends, conditional]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: game-theory
+  notes: Uniform-prior opponent; info-econ literature contested.
+
+---
+frame_id: K4-002
+category: strategic-uncertainty
+question: |
+  In a 10-round prisoner's dilemma with a partner of unknown strategy
+  (one of: always-cooperate, tit-for-tat, always-defect, randomizing),
+  what is the rationally defensible opening move on round 1?
+answer_format: categorical
+answer_choices: [cooperate, defect, signal, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  cooperate: [cooperate, c, coop]
+  defect: [defect, d, def]
+  signal: [signal, communicate]
+  cannot-be-determined: [cannot-be-determined, unknown, depends]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: medium
+  domain: game-theory
+  notes: Mixed-population opponent; literature mixed.
+
+---
+frame_id: K4-003
+category: strategic-uncertainty
+question: |
+  Three agents must independently choose between Option X (Pareto-
+  optimal if all choose it) and Option Y (safer payoff if any agent
+  defects from X). Each agent has 50% confidence the others share
+  their preference framework. Should you choose X or Y?
+answer_format: categorical
+answer_choices: [X, Y, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  X: [x, option-x, cooperate]
+  Y: [y, option-y, safe]
+  cannot-be-determined: [cannot-be-determined, unknown, depends]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: game-theory
+  notes: Stag-hunt with uncertain meta-preferences.
+
+---
+frame_id: K4-004
+category: strategic-uncertainty
+question: |
+  You are deciding whether to publicly announce a research finding
+  that, if widely adopted, would benefit the field but reveal
+  information your competitors could exploit to overtake you. Your
+  competitors' aggressiveness is uniform-prior. Announce or hold?
+answer_format: categorical
+answer_choices: [announce, hold, partial-announce]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  announce: [announce, publish, release]
+  hold: [hold, withhold, delay]
+  partial-announce: [partial, partial-announce, hedge]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: research-strategy
+  notes: Signaling-vs-protection under unknown competitor type.
+
+---
+frame_id: K4-005
+category: strategic-uncertainty
+question: |
+  You are designing an AI system that will interact with potentially
+  adversarial users. You can either implement strict input validation
+  (high false-positive cost) or rely on the model's robustness
+  training (high tail-risk cost). User adversariality is uniform-
+  prior. Which approach is preferable as a default?
+answer_format: categorical
+answer_choices: [strict, robust, hybrid]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: ai-security
+  notes: AI-safety design choice under uncertain attack surface.
+
+---
+frame_id: K4-006
+category: strategic-uncertainty
+question: |
+  You are on a 5-person committee voting on a proposal. Two members
+  will likely support, two oppose, you are the swing. You do not know
+  whether your vote is observed by external stakeholders whose future
+  behavior depends on perceived alignment. Support, oppose, or
+  abstain?
+answer_format: categorical
+answer_choices: [support, oppose, abstain]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: committee-game
+  notes: Pivotal voter under reputation uncertainty.
+
+---
+frame_id: K4-007
+category: strategic-uncertainty
+question: |
+  You are bidding in a sealed-bid first-price auction. The number of
+  competitors is unknown (range 1-10, uniform prior), and competitors'
+  valuation distributions are unknown. Your valuation is 100. What
+  bidding strategy is rationally defensible?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: auction-theory
+  notes: Auction with full strategic uncertainty over competition.
+
+---
+frame_id: K4-008
+category: strategic-uncertainty
+question: |
+  A startup must decide whether to enter a market where a large
+  incumbent may or may not retaliate aggressively. The startup's prior
+  over incumbent type (aggressive vs accommodating) is uniform. Enter
+  or hold?
+answer_format: categorical
+answer_choices: [enter, hold, partial-entry]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  enter: [enter, launch, attack]
+  hold: [hold, wait, delay]
+  partial-entry: [partial, partial-entry, hedge]
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: industrial-organization
+  notes: Entry under unknown incumbent type.
+
+---
+frame_id: K4-009
+category: strategic-uncertainty
+question: |
+  Two armies face each other across a contested border. Each side is
+  uncertain whether the other has been ordered to attack first or to
+  defend. Should they attack, fortify, or signal de-escalation?
+answer_format: categorical
+answer_choices: [attack, fortify, signal-de-escalation]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 5
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: military-strategy
+  notes: Bilateral mutual uncertainty; multiple equilibria.
+
+---
+frame_id: K4-010
+category: strategic-uncertainty
+question: |
+  In a one-shot public-goods game with 4 anonymous players (each
+  contributes from $0 to $10 to a pot doubled and split equally), the
+  other players' preferences are unknown. How much should you
+  contribute on round 1?
+answer_format: numeric
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: medium
+  domain: behavioral-economics
+  notes: Public-goods opener under preference uncertainty.
+
+---
+frame_id: K4-011
+category: strategic-uncertainty
+question: |
+  A defendant must decide whether to accept a plea bargain. The
+  prosecutor's actual case strength (strong vs marginal) is unknown to
+  the defendant; the prosecutor's type (aggressive vs measured) is
+  also unknown. Accept the plea, go to trial, or counter-offer?
+answer_format: categorical
+answer_choices: [accept, trial, counter-offer]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: legal-strategy
+  notes: Double-blind uncertainty over case and counterparty.
+
+---
+frame_id: K4-012
+category: strategic-uncertainty
+question: |
+  An employee witnesses ambiguous wrongdoing at a large corporation.
+  They can disclose internally (to compliance) or externally (to media
+  / regulators). The internal channel's responsiveness is uniform-
+  prior; the external channel has irreversible reputational
+  consequences for the firm. Which channel?
+answer_format: categorical
+answer_choices: [internal, external, hybrid]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: whistleblower-strategy
+  notes: Channel choice under organizational uncertainty.
+
+---
+frame_id: K4-013
+category: strategic-uncertainty
+question: |
+  A target company faces a hostile takeover bid below its
+  management-estimated fair value. A white-knight counter-bid is
+  rumored but unconfirmed. Accept the hostile bid, hold for the
+  counter-bid, or initiate active outreach?
+answer_format: categorical
+answer_choices: [accept, hold, active-outreach]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: corporate-finance
+  notes: M&A timing under rumor.
+
+---
+frame_id: K4-014
+category: strategic-uncertainty
+question: |
+  A nation is deciding whether to formally recognize a new government
+  that has come to power through ambiguously legitimate means. Other
+  major powers' recognition decisions are not yet visible. Recognize,
+  withhold, or condition recognition?
+answer_format: categorical
+answer_choices: [recognize, withhold, condition]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: diplomatic-strategy
+  notes: Recognition cascade with unknown other-state types.
+
+---
+frame_id: K4-015
+category: strategic-uncertainty
+question: |
+  A cybersecurity researcher discovers a critical vulnerability in a
+  widely deployed system. The vendor's responsiveness to coordinated
+  disclosure is unknown. Disclose privately to the vendor, publish
+  immediately, or partial-disclose with deadline?
+answer_format: categorical
+answer_choices: [private-disclosure, public-disclosure, deadline-disclosure]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: cybersecurity-ethics
+  notes: Disclosure strategy under vendor-type uncertainty.
+
+---
+frame_id: K4-016
+category: strategic-uncertainty
+question: |
+  A country considers retaliatory tariffs in response to a trading
+  partner's recent restrictions. The partner may interpret retaliation
+  as proportionate or as escalation. The partner's leadership has
+  uncertain pain tolerance. Retaliate, negotiate, or appeal to WTO?
+answer_format: categorical
+answer_choices: [retaliate, negotiate, wto-appeal]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: medium
+  domain: trade-strategy
+  notes: Escalation under uncertain counterpart-type.
+
+---
+frame_id: K4-017
+category: strategic-uncertainty
+question: |
+  A research lab discovers a method that could be patented (delaying
+  field-wide progress but capturing economic value) or published
+  (accelerating progress but losing economic value). Competing labs'
+  intent to patent the same method is unknown. Patent or publish?
+answer_format: categorical
+answer_choices: [patent, publish, partial-disclosure]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: research-IP-strategy
+  notes: IP strategy under unknown competitor intent.
+
+---
+frame_id: K4-018
+category: strategic-uncertainty
+question: |
+  A government is in active hostage negotiation with a non-state
+  actor. The actor's commitment to its stated terms is unknown
+  (genuine bargaining vs theatrical demands). The hostage's
+  survival window is uncertain. Accept terms, negotiate further, or
+  attempt rescue?
+answer_format: categorical
+answer_choices: [accept-terms, negotiate, attempt-rescue]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 5
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: crisis-negotiation
+  notes: Multi-dim uncertainty (counterpart type + time).
+
+---
+frame_id: K4-019
+category: strategic-uncertainty
+question: |
+  A government must decide whether to make a novel vaccine voluntary
+  or mandatory. Public compliance behavior under each policy is
+  unknown (path-dependent on early signals). Voluntary, mandatory, or
+  tiered (voluntary then mandatory if uptake low)?
+answer_format: categorical
+answer_choices: [voluntary, mandatory, tiered]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: medium
+  domain: public-health-policy
+  notes: Policy choice under behavioral-response uncertainty.
+
+# ============================================================================
+# R — Reference Controls (10 items, gold answer known)
+# ============================================================================
+
+---
+frame_id: R-001
+category: reference
+question: "What is 47 × 83?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 3901
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: arithmetic
+  tolerance_rel: 0.001
+  tolerance_abs: 0.001
+
+---
+frame_id: R-002
+category: reference
+question: "In what year did the Berlin Wall fall?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 1989
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: history
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: R-003
+category: reference
+question: "What is the capital of France?"
+answer_format: short-open
+answer_choices: null
+gold_answer: paris
+grading_method: auto-string-match
+synonyms:
+  paris: [paris]
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: geography
+
+---
+frame_id: R-004
+category: reference
+question: "What is the derivative of sin(x^2) with respect to x?"
+answer_format: short-open
+answer_choices: null
+gold_answer: "2x*cos(x^2)"
+grading_method: auto-string-match
+synonyms:
+  "2x*cos(x^2)": ["2x cos(x^2)", "2*x*cos(x^2)", "2xcos(x^2)", "cos(x^2)*2x"]
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: calculus
+
+---
+frame_id: R-005
+category: reference
+question: |
+  Which planet in our solar system has the most known moons, as of 2023?
+answer_format: short-open
+answer_choices: null
+gold_answer: saturn
+grading_method: auto-string-match
+synonyms:
+  saturn: [saturn]
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: astronomy
+
+---
+frame_id: R-006
+category: reference
+question: "In Python, what does `len([1, 2, 3])` return?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 3
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: programming
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: R-007
+category: reference
+question: "What is the chemical symbol for gold?"
+answer_format: short-open
+answer_choices: null
+gold_answer: au
+grading_method: auto-string-match
+synonyms:
+  au: [au]
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: chemistry
+
+---
+frame_id: R-008
+category: reference
+question: "Solve for x: 2x + 6 = 14."
+answer_format: numeric
+answer_choices: null
+gold_answer: 4
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: algebra
+  tolerance_rel: 0.001
+  tolerance_abs: 0.001
+
+---
+frame_id: R-009
+category: reference
+question: "In what year did World War I begin?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 1914
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: history
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: R-010
+category: reference
+question: |
+  What is the boiling point of water in Celsius at standard
+  atmospheric pressure?
+answer_format: numeric
+answer_choices: null
+gold_answer: 100
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: physics
+  tolerance_rel: 0.01
+  tolerance_abs: 0.5
+
+# ============================================================================
+# A — Aleatory Controls (10 items, ground-truth probability)
+# ============================================================================
+
+---
+frame_id: A-001
+category: aleatory
+question: "If I flip a fair coin once, what is the probability of heads?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 0.5
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: probability
+  tolerance_rel: 0.01
+  tolerance_abs: 0.005
+
+---
+frame_id: A-002
+category: aleatory
+question: |
+  I draw one card from a standard 52-card deck. What is the probability
+  of a heart?
+answer_format: numeric
+answer_choices: null
+gold_answer: 0.25
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: probability
+  tolerance_rel: 0.01
+  tolerance_abs: 0.005
+
+---
+frame_id: A-003
+category: aleatory
+question: |
+  I roll two fair six-sided dice. What is the probability the sum
+  equals 7?
+answer_format: numeric
+answer_choices: null
+gold_answer: 0.16667
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: probability
+  tolerance_rel: 0.02
+  tolerance_abs: 0.005
+
+---
+frame_id: A-004
+category: aleatory
+question: |
+  I select uniformly at random from {1, 2, ..., 100}. What is the
+  probability the number is prime?
+answer_format: numeric
+answer_choices: null
+gold_answer: 0.25
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: probability
+  tolerance_rel: 0.04
+  tolerance_abs: 0.01
+
+---
+frame_id: A-005
+category: aleatory
+question: |
+  An urn contains 3 red and 7 black balls. I draw one without
+  replacement, then another. What is the probability both are red?
+answer_format: numeric
+answer_choices: null
+gold_answer: 0.06667
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: probability
+  tolerance_rel: 0.02
+  tolerance_abs: 0.005
+
+---
+frame_id: A-006
+category: aleatory
+question: |
+  A fair six-sided die is rolled 4 times. What is the probability of
+  at least one six?
+answer_format: numeric
+answer_choices: null
+gold_answer: 0.5177
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: probability
+  tolerance_rel: 0.02
+  tolerance_abs: 0.01
+
+---
+frame_id: A-007
+category: aleatory
+question: |
+  Among 30 randomly selected people, what is the probability at least
+  two share a birthday?
+answer_format: numeric
+answer_choices: null
+gold_answer: 0.7063
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: probability
+  tolerance_rel: 0.03
+  tolerance_abs: 0.01
+
+---
+frame_id: A-008
+category: aleatory
+question: |
+  I shuffle a standard deck and draw 5 cards. What is the probability
+  of a flush (5 cards of the same suit, including straight flushes)?
+answer_format: numeric
+answer_choices: null
+gold_answer: 0.00198
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: probability
+  tolerance_rel: 0.05
+  tolerance_abs: 0.0005
+
+---
+frame_id: A-009
+category: aleatory
+question: |
+  A coin biased p = 0.7 for heads is flipped 10 times. What is the
+  expected number of heads?
+answer_format: numeric
+answer_choices: null
+gold_answer: 7
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: probability
+  tolerance_rel: 0.01
+  tolerance_abs: 0.05
+
+---
+frame_id: A-010
+category: aleatory
+question: |
+  I draw three balls without replacement from an urn containing 5
+  white and 5 black balls. What is the probability of exactly 2 white?
+answer_format: numeric
+answer_choices: null
+gold_answer: 0.41667
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: probability
+  tolerance_rel: 0.02
+  tolerance_abs: 0.005
+
+# ============================================================================
+# CB — Calibration Probes (30 items, varied difficulty, well-defined)
+# ============================================================================
+
+# CB-001 to CB-010 — easy
+---
+frame_id: CB-001
+category: calibration-probe
+question: "What is 12 + 17?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 29
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: arithmetic
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-002
+category: calibration-probe
+question: "What is 144 divided by 12?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 12
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: arithmetic
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-003
+category: calibration-probe
+question: "What is the square root of 196?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 14
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: arithmetic
+  tolerance_rel: 0.001
+  tolerance_abs: 0.001
+
+---
+frame_id: CB-004
+category: calibration-probe
+question: "What is 2^10?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 1024
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: arithmetic
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-005
+category: calibration-probe
+question: "How many degrees are in the interior angles of a triangle?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 180
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: geometry
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-006
+category: calibration-probe
+question: "What is the smallest prime greater than 20?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 23
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: number-theory
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-007
+category: calibration-probe
+question: |
+  If a rectangle has length 8 and width 3, what is its perimeter?
+answer_format: numeric
+answer_choices: null
+gold_answer: 22
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: geometry
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-008
+category: calibration-probe
+question: "What is 7! (7 factorial)?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 5040
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: combinatorics
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-009
+category: calibration-probe
+question: |
+  If x = 5 and y = 3, what is x^2 + y^2?
+answer_format: numeric
+answer_choices: null
+gold_answer: 34
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: algebra
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-010
+category: calibration-probe
+question: "How many faces does a cube have?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 6
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: geometry
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+# CB-011 to CB-020 — medium
+---
+frame_id: CB-011
+category: calibration-probe
+question: "What is the volume of a sphere of radius 3? (Use V = (4/3)*pi*r^3.)"
+answer_format: numeric
+answer_choices: null
+gold_answer: 113.097
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: geometry
+  tolerance_rel: 0.005
+  tolerance_abs: 0.5
+
+---
+frame_id: CB-012
+category: calibration-probe
+question: |
+  Solve for x: 3x^2 - 12x + 9 = 0. Provide the smaller of the two
+  roots.
+answer_format: numeric
+answer_choices: null
+gold_answer: 1
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: algebra
+  tolerance_rel: 0.001
+  tolerance_abs: 0.001
+
+---
+frame_id: CB-013
+category: calibration-probe
+question: |
+  How many distinct ways can 5 books be arranged on a shelf?
+answer_format: numeric
+answer_choices: null
+gold_answer: 120
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: combinatorics
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-014
+category: calibration-probe
+question: |
+  A triangle has sides 5, 12, and 13. What is its area?
+answer_format: numeric
+answer_choices: null
+gold_answer: 30
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: geometry
+  tolerance_rel: 0.005
+  tolerance_abs: 0.1
+
+---
+frame_id: CB-015
+category: calibration-probe
+question: |
+  What is the sum of the first 10 positive even integers?
+answer_format: numeric
+answer_choices: null
+gold_answer: 110
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: arithmetic
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-016
+category: calibration-probe
+question: |
+  How many degrees does the hour hand of a clock travel from 3:00 to
+  7:30?
+answer_format: numeric
+answer_choices: null
+gold_answer: 135
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: geometry-clock
+  tolerance_rel: 0.005
+  tolerance_abs: 0.1
+
+---
+frame_id: CB-017
+category: calibration-probe
+question: "What is log base 2 of 64?"
+answer_format: numeric
+answer_choices: null
+gold_answer: 6
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: algebra
+  tolerance_rel: 0.001
+  tolerance_abs: 0.001
+
+---
+frame_id: CB-018
+category: calibration-probe
+question: |
+  Three workers can complete a job in 4 hours. How long would it take
+  6 workers to complete the same job at the same rate?
+answer_format: numeric
+answer_choices: null
+gold_answer: 2
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: rate-work
+  tolerance_rel: 0.005
+  tolerance_abs: 0.05
+
+---
+frame_id: CB-019
+category: calibration-probe
+question: |
+  What is the greatest common divisor of 84 and 56?
+answer_format: numeric
+answer_choices: null
+gold_answer: 28
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: number-theory
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-020
+category: calibration-probe
+question: |
+  A car travels 60 km in the first hour and 90 km in the second hour.
+  What is its average speed over the two hours?
+answer_format: numeric
+answer_choices: null
+gold_answer: 75
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: rate
+  tolerance_rel: 0.005
+  tolerance_abs: 0.5
+
+# CB-021 to CB-030 — hard
+---
+frame_id: CB-021
+category: calibration-probe
+question: |
+  What is the smallest positive integer n such that n! has at least
+  20 trailing zeros?
+answer_format: numeric
+answer_choices: null
+gold_answer: 85
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: number-theory
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-022
+category: calibration-probe
+question: |
+  How many positive integers less than 1000 are divisible by 3 but
+  not by 5?
+answer_format: numeric
+answer_choices: null
+gold_answer: 267
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: number-theory
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-023
+category: calibration-probe
+question: |
+  Evaluate the integral of x^2 from x = 0 to x = 3.
+answer_format: numeric
+answer_choices: null
+gold_answer: 9
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: calculus
+  tolerance_rel: 0.001
+  tolerance_abs: 0.01
+
+---
+frame_id: CB-024
+category: calibration-probe
+question: |
+  What is the determinant of the 2x2 matrix [[3, 4], [2, 5]]?
+answer_format: numeric
+answer_choices: null
+gold_answer: 7
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 2
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: linear-algebra
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-025
+category: calibration-probe
+question: |
+  How many ways can 7 distinct people be seated around a round table,
+  where rotations are considered equivalent?
+answer_format: numeric
+answer_choices: null
+gold_answer: 720
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: combinatorics
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-026
+category: calibration-probe
+question: |
+  Find the sum of all positive divisors of 100.
+answer_format: numeric
+answer_choices: null
+gold_answer: 217
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: number-theory
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-027
+category: calibration-probe
+question: |
+  Evaluate the limit, as x approaches 0, of (sin(2x)) / x.
+answer_format: numeric
+answer_choices: null
+gold_answer: 2
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: calculus
+  tolerance_rel: 0.001
+  tolerance_abs: 0.001
+
+---
+frame_id: CB-028
+category: calibration-probe
+question: |
+  A right circular cone has radius 4 and height 6. What is its volume?
+  (Use V = (1/3)*pi*r^2*h.)
+answer_format: numeric
+answer_choices: null
+gold_answer: 100.531
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: geometry
+  tolerance_rel: 0.005
+  tolerance_abs: 0.5
+
+---
+frame_id: CB-029
+category: calibration-probe
+question: |
+  How many distinct prime factors does 360 have?
+answer_format: numeric
+answer_choices: null
+gold_answer: 3
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: number-theory
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0
+
+---
+frame_id: CB-030
+category: calibration-probe
+question: |
+  The function f(n) gives the number of trailing zeros of n!. Find
+  f(125).
+answer_format: numeric
+answer_choices: null
+gold_answer: 31
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: number-theory
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0

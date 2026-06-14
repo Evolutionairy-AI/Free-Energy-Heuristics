@@ -1,0 +1,59 @@
+REFIT2 START 13:01:26
+[refit] primary ITT, sampler={'draws': 4000, 'tune': 4000, 'chains': 4, 'target_accept': 0.99}
+g++ not available, if using conda: `conda install gxx`
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 4_000 tune and 4_000 draw iterations (16_000 + 16_000 draws total) took 3235 seconds.
+[persist] idata -> _refit_idata.pkl
+[debug] summary columns: ['mean', 'sd', 'eti89_lb', 'eti89_ub', 'ess_bulk', 'ess_tail', 'r_hat', 'mcse_mean', 'mcse_sd']
+[per-parameter diagnostics]
+           mean     sd  ess_bulk  ess_tail r_hat
+b0         2.13   0.53      2379      3589  1.00
+b1       -0.184   0.28      3572      5292  1.00
+b2        -0.37   0.51      1692      2356  1.01
+b3       -0.691  0.176      7699      8620  1.00
+sigma_a    0.85  0.271      4336      5881  1.00
+sigma_g   0.623  0.226      4006      6237  1.00
+sigma_u   1.504  0.168      1999      3044  1.00
+[summary] {
+  "sampler": {
+    "draws": 4000,
+    "tune": 4000,
+    "chains": 4,
+    "target_accept": 0.99
+  },
+  "verdict": "confirmed",
+  "p_b3_neg": 1.0,
+  "b3_median": -0.6917139959276499,
+  "b3_rhat": 1.0,
+  "b3_ess_bulk": 7699.0,
+  "robust_pp_drop_median": 17.30019507761844,
+  "robust_pp_drop_ci": [
+    7.6821999090684905,
+    25.547539744805654
+  ],
+  "rhat_max": 1.01,
+  "ess_min": 1692.0,
+  "converged": false,
+  "per_param_rhat": {
+    "b0": 1.0,
+    "b1": 1.0,
+    "b2": 1.01,
+    "b3": 1.0,
+    "sigma_a": 1.0,
+    "sigma_g": 1.0,
+    "sigma_u": 1.0
+  },
+  "per_param_ess_bulk": {
+    "b0": 2379.0,
+    "b1": 3572.0,
+    "b2": 1692.0,
+    "b3": 7699.0,
+    "sigma_a": 4336.0,
+    "sigma_g": 4006.0,
+    "sigma_u": 1999.0
+  }
+}
+[done] wrote _refit_convergence_result.json + _refit_idata.pkl
+REFIT2 DONE 13:55:27

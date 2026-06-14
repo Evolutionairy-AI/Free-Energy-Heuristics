@@ -1,0 +1,221 @@
+[
+  {
+    "frame_id": "K1-005",
+    "category": "non-recurrent-forecasting",
+    "question": "By the end of 2032, the FIRST formal bilateral AI-safety treaty\nbetween two of {United States, China, European Union, India,\nRussia, United Kingdom} that includes binding compliance\nmechanisms (not just declarations or memoranda of understanding)\nwill be signed between which two parties: (a) US and China, (b)\nUS and EU, (c) US and India, (d) China and Russia, (e) China and\nEU, (f) EU and India, or (g) no such treaty will be signed by the\nend of 2032?",
+    "answer_choices": [
+      "us-china",
+      "us-eu",
+      "us-india",
+      "china-russia",
+      "china-eu",
+      "eu-india",
+      "no-treaty-by-2032"
+    ],
+    "n_seeds": 5,
+    "cells": [
+      {
+        "provider": "claude",
+        "seed": 1,
+        "raw": "I need to assess the likelihood of formal bilateral AI safety treaties with binding compliance mechanisms between major powers by end of 2032.\n\nKey considerations:\n\n1. **US-China**: Despite being AI superpowers with mutual concerns, geopolitical tensions, tech competition, and trust deficits make binding agreements difficult. However, existential AI risks could motivate cooperation.\n\n2. **US-EU**: Strong existing alliance, shared democratic values, and regulatory alignment (EU AI Act). Most natural partnership but EU may prefer multilateral approaches.\n\n3. **US-India**: Growing partnership, shared democratic values, but India's AI capabilities are less advanced. Lower priority for binding treaty.\n\n4. **China-Russia**: Strategic partnership exists but neither leads in AI safety research. Less likely to pioneer such treaties.\n\n5. **China-EU**: EU seeks strategic autonomy but maintains economic ties with China. Possible but complicated by US-EU alignment.\n\n6. **EU-India**: Weaker relationship, lower urgency.\n\n7. **No treaty**: Given complexity of binding mechanisms, verification challenges, and current geopolitical climate, this is quite plausible.\n\nTimeline considerations: 2032 is 8 years away. AI safety concerns are growing but binding treaties typically take years to negotiate. Current trajectory shows more soft commitments than binding treaties.\n\nThe US-EU pairing has the strongest foundation (trust, alignment, existing cooperation frameworks), but the urgency and mutual threat perception of US-China could drive breakthrough cooperation despite tensions, especially as AI capabilities advance.\n\nGiven geopolitical realities and the difficulty of achieving binding compliance mechanisms, \"no treaty\" seems most likely, but if one occurs, US-EU is most probable.\n\nFinal answer: no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 12.94,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 2,
+        "raw": "I need to consider the likelihood of formal bilateral AI safety treaties with binding compliance mechanisms between major powers by 2032.\n\nKey factors to consider:\n- Current geopolitical tensions and cooperation patterns\n- AI development leadership and concerns\n- Historical precedent for binding international agreements\n- Timeline (only ~8 years away)\n\nAnalysis:\n\n**US-China**: Despite being the two AI leaders, geopolitical tensions, trade conflicts, and strategic competition make binding agreements difficult. Trust issues would complicate compliance mechanisms.\n\n**US-EU**: Strong existing alliance, shared democratic values, similar regulatory approaches (though EU more aggressive). However, EU acts through member states in foreign policy, complicating bilateral treaties. More likely to have coordination frameworks than formal treaties.\n\n**US-India**: Growing partnership but India is less advanced in AI. Less urgency for formal treaty.\n\n**China-Russia**: Some cooperation but neither prioritizes AI safety cooperation bilaterally in this way.\n\n**China-EU**: Significant tensions over values, human rights, and strategic autonomy make binding agreements unlikely.\n\n**EU-India**: Limited AI development overlap and strategic priority.\n\n**No treaty**: Given:\n- The difficulty of negotiating binding compliance mechanisms in 8 years\n- Current geopolitical fragmentation\n- Lack of precedent for such AI safety treaties\n- The specific requirement for \"binding compliance mechanisms\" (very high bar)\n- AI safety governance is still nascent internationally\n\nThe most realistic outcome is that by 2032, we'll see various declarations, working groups, and MOUs, but not a formal bilateral treaty with binding compliance mechanisms.\n\nFinal answer: no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 12.45,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 3,
+        "raw": "I need to assess which bilateral AI safety treaty is most likely by end of 2032.\n\nKey considerations:\n\n1. **US-China**: Despite tensions, AI safety is an existential issue where cooperation is critical. However, geopolitical rivalry, technology competition, and trust deficits make binding treaties difficult.\n\n2. **US-EU**: Strong existing alliance, shared democratic values, similar regulatory approaches (though EU more precautionary). High trust enables binding commitments. Both are AI leaders concerned about safety.\n\n3. **US-India**: Growing partnership but India's AI capabilities still developing. Less urgent need for bilateral treaty.\n\n4. **China-Russia**: Limited AI safety focus from Russia; more tactical alignment than deep cooperation on technical standards.\n\n5. **China-EU**: EU seeks strategic autonomy but has economic ties with China. Possible but less trust than US-EU.\n\n6. **EU-India**: Both developing AI strategies but lower urgency for bilateral treaty.\n\n7. **No treaty**: Possible given difficulty of binding international agreements, but growing AI risks may force action.\n\nThe US-EU pairing has the strongest foundation: existing deep cooperation, shared values, mutual trust, both are AI leaders, and both have strong AI safety research communities. The EU's AI Act shows willingness for binding rules, and the US would likely find the EU the most acceptable partner for binding commitments given alignment on values and lower sovereignty concerns than with China.\n\nFinal answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 11.36,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 4,
+        "raw": "I need to consider the likelihood of formal bilateral AI-safety treaties with binding compliance mechanisms between major powers by 2032.\n\nKey factors to consider:\n- Current geopolitical relationships and trust levels\n- Existing AI cooperation frameworks\n- Incentives for binding agreements\n- Technical and political feasibility of compliance mechanisms\n\nAnalysis by pairing:\n\n**US-China**: Despite being AI leaders, relations are strained. Trust is low, making binding compliance mechanisms difficult. However, existential AI risks might create incentives similar to nuclear arms control.\n\n**US-EU**: Strong alliance, shared values, existing regulatory cooperation (though EU is ahead on AI regulation). High trust makes binding mechanisms more feasible. The EU AI Act provides a regulatory foundation.\n\n**US-India**: Growing partnership but India is less advanced in AI development. Less urgent need for bilateral treaty.\n\n**China-Russia**: Some cooperation but both are less transparent. Lower priority for formal safety treaties.\n\n**China-EU**: Moderate relations but significant trade ties. EU might pursue this for market access reasons.\n\n**EU-India**: Possible but both are not the top AI powers, making this less urgent.\n\n**No treaty**: Given the difficulty of achieving binding compliance mechanisms in just 8 years, and historical precedent (international agreements take time), this is plausible.\n\nThe US-EU pairing seems most likely because:\n1. Strongest existing alliance and trust\n2. Shared democratic values and transparency norms\n3. Both are major AI powers\n4. EU's regulatory leadership (AI Act) provides framework\n5. Compliance mechanisms are more feasible between allies\n\nFinal answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 13.45,
+        "error": null
+      },
+      {
+        "provider": "claude",
+        "seed": 5,
+        "raw": "I need to analyze the likelihood of formal bilateral AI-safety treaties with binding compliance mechanisms between major powers by 2032.\n\nKey considerations:\n\n1. **US-China**: Despite being AI superpowers with mutual concerns, geopolitical tensions, strategic competition, and trust deficits make binding treaties difficult. However, existential AI risks could motivate cooperation.\n\n2. **US-EU**: Strong existing alliance, shared democratic values, and aligned AI governance approaches. The EU already has comprehensive AI regulation (AI Act). A binding treaty is plausible but may be redundant given existing cooperation frameworks.\n\n3. **US-India**: Growing partnership, but India's AI capabilities are less advanced. Less urgent need for bilateral AI safety treaty specifically.\n\n4. **China-Russia**: Strategic alignment but both have limited transparency cultures. Less likely to pioneer binding international AI safety mechanisms.\n\n5. **China-EU**: Significant economic ties but political tensions. EU's regulatory approach vs China's state-directed model creates friction.\n\n6. **EU-India**: Possible but lower priority given India's developing AI sector.\n\n7. **No treaty**: Given the difficulty of negotiating binding compliance mechanisms, sovereignty concerns, verification challenges, and the early stage of AI safety governance, this seems most likely.\n\nThe most probable scenarios are US-EU (due to alignment) or no treaty (due to difficulty of binding mechanisms). However, binding compliance mechanisms are particularly challenging - they require verification, enforcement, and sovereignty concessions that nations are reluctant to make, especially by 2032 (only 8 years away).\n\nGiven the short timeframe and unprecedented nature of such treaties, \"no treaty\" seems most likely.\n\nFinal answer: no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 11.47,
+        "error": null
+      },
+      {
+        "provider": "gemini",
+        "seed": 1,
+        "raw": "us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 11.82,
+        "error": null
+      },
+      {
+        "provider": "gemini",
+        "seed": 2,
+        "raw": "Final answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 10.61,
+        "error": null
+      },
+      {
+        "provider": "gemini",
+        "seed": 3,
+        "raw": "us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 11.95,
+        "error": null
+      },
+      {
+        "provider": "gemini",
+        "seed": 4,
+        "raw": "us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 11.96,
+        "error": null
+      },
+      {
+        "provider": "gemini",
+        "seed": 5,
+        "raw": "no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 11.99,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 1,
+        "raw": "Final answer: no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 1.04,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 2,
+        "raw": "Final answer: no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 1.51,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 3,
+        "raw": "Final answer: no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 1.2,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 4,
+        "raw": "Final answer: no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 1.07,
+        "error": null
+      },
+      {
+        "provider": "gpt4",
+        "seed": 5,
+        "raw": "Final answer: no-treaty-by-2032",
+        "extracted": "no-treaty-by-2032",
+        "normalized": "no-treaty-by-2032",
+        "latency_s": 1.1,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 1,
+        "raw": "Final answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 1.08,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 2,
+        "raw": "Final answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 0.84,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 3,
+        "raw": "Final answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 0.84,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 4,
+        "raw": "Final answer: us-eu",
+        "extracted": "us-eu",
+        "normalized": "us-eu",
+        "latency_s": 0.98,
+        "error": null
+      },
+      {
+        "provider": "mistral",
+        "seed": 5,
+        "raw": "",
+        "extracted": "",
+        "normalized": "",
+        "latency_s": 67.67,
+        "error": "HTTPError: 429 retryable; attempt 6/6"
+      }
+    ],
+    "per_provider_modal": {
+      "claude": "no-treaty-by-2032",
+      "gemini": "us-eu",
+      "gpt4": "no-treaty-by-2032",
+      "mistral": "us-eu"
+    },
+    "verdict": "K2-pass-disagreement",
+    "n_total": 19,
+    "n_cbd": 0,
+    "n_substantive": 19,
+    "cbd_frac": 0.0,
+    "modal_substantive": "us-eu",
+    "modal_substantive_count": 10,
+    "modal_substantive_frac": 0.526,
+    "unique_substantive": [
+      "no-treaty-by-2032",
+      "us-eu"
+    ],
+    "substantive_distribution": {
+      "no-treaty-by-2032": 9,
+      "us-eu": 10
+    }
+  }
+]

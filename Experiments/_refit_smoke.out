@@ -1,0 +1,62 @@
+SMOKE START 12:59:13
+[refit] primary ITT, sampler={'draws': 300, 'tune': 300, 'chains': 2, 'target_accept': 0.9}
+g++ not available, if using conda: `conda install gxx`
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 2 chains for 300 tune and 300 draw iterations (600 + 600 draws total) took 60 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[persist] WARNING could not save idata: ValueError: cannot write NetCDF files with format='NETCDF4' because none of the suitable backend libraries (netCDF4, h5netcdf) are installed
+[debug] summary columns: ['mean', 'sd', 'eti89_lb', 'eti89_ub', 'ess_bulk', 'ess_tail', 'r_hat', 'mcse_mean', 'mcse_sd']
+[per-parameter diagnostics]
+          mean    sd  ess_bulk  ess_tail r_hat
+b0         2.2  0.53        66        92  1.01
+b1       -0.17  0.27       146       162  1.02
+b2        -0.4   0.5        49        86  1.01
+b3       -0.69  0.19       390       327  1.00
+sigma_a   0.82  0.25       130       185  1.00
+sigma_g   0.62  0.23       149       166  1.02
+sigma_u   1.55  0.18        72        88  1.04
+[summary] {
+  "sampler": {
+    "draws": 300,
+    "tune": 300,
+    "chains": 2,
+    "target_accept": 0.9
+  },
+  "verdict": "confirmed",
+  "p_b3_neg": 1.0,
+  "b3_median": -0.6922578658976475,
+  "b3_rhat": 1.0,
+  "b3_ess_bulk": 390.0,
+  "robust_pp_drop_median": 17.168047441170494,
+  "robust_pp_drop_ci": [
+    7.987450106663021,
+    23.764906349399993
+  ],
+  "rhat_max": 1.04,
+  "ess_min": 49.0,
+  "converged": false,
+  "per_param_rhat": {
+    "b0": 1.01,
+    "b1": 1.02,
+    "b2": 1.01,
+    "b3": 1.0,
+    "sigma_a": 1.0,
+    "sigma_g": 1.02,
+    "sigma_u": 1.04
+  },
+  "per_param_ess_bulk": {
+    "b0": 66.0,
+    "b1": 146.0,
+    "b2": 49.0,
+    "b3": 390.0,
+    "sigma_a": 130.0,
+    "sigma_g": 149.0,
+    "sigma_u": 72.0
+  }
+}
+[done] wrote _refit_convergence_result.json + _refit_idata.nc
+SMOKE OK 13:00:20

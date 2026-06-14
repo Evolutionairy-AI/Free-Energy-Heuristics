@@ -1,0 +1,17 @@
+DIAG START 15:02:05
+g++ not available, if using conda: `conda install gxx`
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (4 chains in 1 job)
+NUTS: [b0, b2, b1, b3, sigma_a, sigma_g, z_a, z_g, sigma_u, z_u]
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 855 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+  b0       rhat=1.006641  ess_bulk=    1069
+  b1       rhat=1.001674  ess_bulk=    1885
+  b2       rhat=1.012802  ess_bulk=     902
+  b3       rhat=1.000428  ess_bulk=    3998   <-- H1 coeff
+  sigma_a  rhat=1.002118  ess_bulk=    2098
+  sigma_g  rhat=1.000835  ess_bulk=    1736
+  sigma_u  rhat=1.005051  ess_bulk=    1302
+REGISTERED rhat_max = 1.012802 (param b2);  b3 rhat = 1.000428
+[done] wrote _diag_registered_rhat.json + _registered_idata.pkl
+DIAG DONE 15:16:24

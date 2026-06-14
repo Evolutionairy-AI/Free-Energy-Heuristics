@@ -1,0 +1,221 @@
+# Frame Template — FEH-79 Item Pool
+#
+# YAML schema for items in the FEH-79 benchmark. Each item is one YAML document
+# (separated by `---`). Required fields are unmarked; optional fields are
+# annotated with `# optional`.
+#
+# Categories:
+#   non-recurrent-forecasting — Knightian Cat. 1 (§4.4.1)
+#   novel-synthetic           — Knightian Cat. 2 (§4.4.2)
+#   open-ended-dilemma        — Knightian Cat. 3 (§4.4.3)
+#   strategic-uncertainty     — Knightian Cat. 4 (§4.4.4)
+#   reference                 — control (§4.5.1)
+#   aleatory                  — control (§4.5.2)
+#   calibration-probe         — control (§4.5.3)
+
+# -------------------------------------------------------------------
+# Example 1 — Knightian category 1 (non-recurrent forecasting)
+# -------------------------------------------------------------------
+frame_id: K1-001
+category: non-recurrent-forecasting
+question: |
+  By 2030, will the African Continental Free Trade Area's intra-Africa trade
+  exceed 30% of total African trade?
+answer_format: categorical   # binary | categorical | numeric | short-open
+answer_choices: [yes, no, cannot-be-determined]
+gold_answer: null             # null for Knightian; specified for controls
+grading_method: auto-string-match   # auto-string-match | auto-numeric | expert-coherence
+synonyms:                     # optional, for auto-string-match grading
+  yes: [yes, true, will, likely-yes]
+  no: [no, false, will-not, unlikely, likely-no]
+  cannot-be-determined: [cannot-be-determined, unknown, uncertain, unclear, cant-tell]
+metadata:
+  source: metaculus           # synthetic | metaculus | good-judgment | bbh | mmlu | other
+  source_url: null            # optional, for re-curation provenance
+  difficulty_estimate: 4      # subjective 1-5
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low     # low | medium | high
+  domain: economic-policy
+  resolution_year: 2030
+  notes: |
+    Forecasting question, resolution beyond plausible training cutoff.
+    No reliable base rate for intra-Africa trade share trajectories under
+    AfCFTA. Cross-model disagreement expected.
+
+---
+# -------------------------------------------------------------------
+# Example 2 — Knightian category 2 (novel/synthetic scenario)
+# -------------------------------------------------------------------
+frame_id: K2-001
+category: novel-synthetic
+question: |
+  In the Quogard people's social structure, a custom called *sintering* is
+  performed before any major communal decision. A visiting anthropologist
+  must decide whether to participate in sintering to gain community trust,
+  or to refuse in order to maintain methodological neutrality. Which is
+  the wiser professional choice?
+answer_format: categorical
+answer_choices: [participate, refuse]
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic
+  source_url: null
+  difficulty_estimate: 3
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: applied-ethics-fictional
+  resolution_year: null
+  notes: |
+    Quogard and sintering are author-coined. Google-result floor verified
+    at zero. The question has no determinate answer; tests coherence of
+    LLM reasoning about contested professional ethics in a stipulated
+    cultural context.
+
+---
+# -------------------------------------------------------------------
+# Example 3 — Knightian category 3 (open-ended dilemma)
+# -------------------------------------------------------------------
+frame_id: K3-001
+category: open-ended-dilemma
+question: |
+  A hospital ICU must allocate one ventilator between two patients with
+  identical clinical profiles. Patient A is a 35-year-old single parent;
+  patient B is a 65-year-old senior physician. What's the most ethically
+  defensible decision procedure?
+answer_format: short-open
+answer_choices: null
+gold_answer: null
+grading_method: expert-coherence
+synonyms: null
+metadata:
+  source: synthetic           # informed by contested medical-ethics literature
+  source_url: null
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2]   # K3 partial (literature exists but contested)
+  contamination_risk: medium  # medical-ethics literature is plausibly indexed
+  domain: medical-ethics
+  resolution_year: null
+  notes: |
+    Triage allocation under tied clinical priors. Tests value-framework
+    meta-uncertainty: utilitarian, deontological, virtue-ethical, and
+    procedural-justice frameworks give different answers. No settled
+    answer in the applied-ethics literature.
+
+---
+# -------------------------------------------------------------------
+# Example 4 — Knightian category 4 (strategic uncertainty)
+# -------------------------------------------------------------------
+frame_id: K4-001
+category: strategic-uncertainty
+question: |
+  You are negotiating a contract with an unknown counterparty. Their type —
+  cooperative or adversarial — is uniformly distributed in your prior.
+  Should your opening offer signal openness (revealing your reservation
+  price) or maintain strategic ambiguity?
+answer_format: categorical
+answer_choices: [signal, ambiguity, cannot-be-determined]
+gold_answer: null
+grading_method: auto-string-match
+synonyms:
+  signal: [signal, signal-openness, openness, reveal, transparent]
+  ambiguity: [ambiguity, strategic-ambiguity, hold, conceal, withhold]
+  cannot-be-determined: [cannot-be-determined, unknown, depends, conditional]
+metadata:
+  source: synthetic
+  source_url: null
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: [K1, K2, K3]
+  contamination_risk: low
+  domain: game-theory
+  resolution_year: null
+  notes: |
+    Information-economics literature contains arguments on both sides;
+    no settled position under uniform-prior opponent type.
+
+---
+# -------------------------------------------------------------------
+# Example 5 — Reference control item
+# -------------------------------------------------------------------
+frame_id: R-001
+category: reference
+question: |
+  What is 47 × 83?
+answer_format: numeric
+answer_choices: null
+gold_answer: 3901
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  source_url: null
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []       # NOT Knightian by design
+  contamination_risk: low
+  domain: arithmetic
+  resolution_year: null
+  notes: |
+    Used in §4.5.1 reference set. Expected unanimous correct answer
+    across modern LLMs. Used to detect base-rate prompt-sensitivity
+    contamination of signature (a) of the regime score (per §8.1 of
+    the pre-registration).
+  tolerance_rel: 0.001
+  tolerance_abs: 0.001
+
+---
+# -------------------------------------------------------------------
+# Example 6 — Aleatory control item
+# -------------------------------------------------------------------
+frame_id: A-001
+category: aleatory
+question: |
+  If I flip a fair coin once, what is the probability of heads?
+answer_format: numeric
+answer_choices: null
+gold_answer: 0.5
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  source_url: null
+  difficulty_estimate: 1
+  knightian_criteria_satisfied: []       # NOT Knightian by design
+  contamination_risk: low
+  domain: probability
+  resolution_year: null
+  notes: |
+    Used in §4.5.2 aleatory set. Item has well-defined ground truth
+    distribution. Used to detect aleatory-variance contamination of
+    signature (b) of the regime score (per §8.2 of the pre-registration).
+  tolerance_rel: 0.01
+  tolerance_abs: 0.005
+
+---
+# -------------------------------------------------------------------
+# Example 7 — Calibration probe item
+# -------------------------------------------------------------------
+frame_id: CB-001
+category: calibration-probe
+question: |
+  What is the smallest positive integer n such that n! has at least 20
+  trailing zeros?
+answer_format: numeric
+answer_choices: null
+gold_answer: 85
+grading_method: auto-numeric
+synonyms: null
+metadata:
+  source: synthetic
+  source_url: null
+  difficulty_estimate: 4
+  knightian_criteria_satisfied: []
+  contamination_risk: low
+  domain: number-theory
+  resolution_year: null
+  notes: |
+    Used in §4.5.3 calibration probe set. Well-defined ground truth,
+    high difficulty (used in computing per-model calibration baselines
+    for hard items).
+  tolerance_rel: 0.0
+  tolerance_abs: 0.0

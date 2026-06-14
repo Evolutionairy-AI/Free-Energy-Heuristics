@@ -4,6 +4,10 @@
 
 Alex Bogdan — EvolutionAIry AI Inc., Toronto, Canada
 
+<!-- ARXIV: replace the line below with the badge/link once the arXiv ID is assigned, e.g.
+     **Preprint:** [arXiv:2506.XXXXX](https://arxiv.org/abs/2506.XXXXX) -->
+**Preprint:** arXiv:XXXX.XXXXX — *to be assigned (placeholder; will be updated on submission).*
+
 This repository provides public access to the code, benchmark, experimental data,
 and analysis behind the *Free Energy Heuristics* (FEH) paper. The confirmatory
 study was pre-registered on OSF ([osf.io/9dvzb](https://osf.io/9dvzb)) before any

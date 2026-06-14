@@ -3430,6 +3430,14 @@ analysis contains no missing-data pattern or imputation. Data collection
 ran model by model, local panel first and frontier last, with no interim
 analysis of the hypothesis at any point.
 
+**Data and code availability.** All code, the FEH-79 item pool, the
+complete response dataset (the 7,875 scored cells), the registered
+analysis and robustness scripts, and the figure-generation code are
+openly available at
+<https://github.com/Evolutionairy-AI/Free-Energy-Heuristics>. Every
+result and figure in this paper reproduces from the released data without
+any model or API access.
+
 ## §5.6 Deviations from the pre-registration
 
 A pre-registered study earns its credibility partly by reporting where
